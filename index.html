@@ -31,6 +31,26 @@
             position: relative;
             left: 10px;
         }
+
+        #profileImg{
+            position: absolute;
+            right: 0;
+            top: 8px;
+
+            background-image: url("assets/img/headerImg/profileImg.jpg");
+            background-position: right;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+            width: 65px;
+            aspect-ratio: 1/1;
+
+            border-radius: 100%;
+            border: 5px solid darkblue;
+
+            transform: rotate(-32deg);
+        }
+
     </style>
 </head>
 
@@ -49,8 +69,8 @@
                  </ul>
             </nav>
 
-            <div>
-                <img src="assets/img/headerImg/profileImg.jpg" alt = "profile photo" title = "Ramesh" width="35px" height="35px">
+            <div id="profileImg">
+<!--                <img src="assets/img/headerImg/profileImg.jpg" alt = "profile photo" title = "Ramesh">-->
             </div>
         </header>
         <main>
