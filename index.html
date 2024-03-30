@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Hi! I'm ramesh layan.This is my web profile.If you want to know about me, come to my website.">
-    <meta name="ramesh , ramesh layan , Ramesh , Ramesh Layan , Ramesh layan , R , r , L , l , layan , Layan , rameshlayan " content="kavindu akash software engineer fullstack developer programming">
+    <meta name="ramesh , ramesh layan , Ramesh , Ramesh Layan , Ramesh layan , R , r , L , l , layan , Layan , rameshlayan " content="ramesh layan software engineer fullstack developer programming">
     <meta name="author" content="Ramesh Layan">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ramesh layan</title>
@@ -11,389 +11,126 @@
     <link rel="stylesheet" href="assets/styleSheet/normalize.css">
 
     <style>
+        /* header-nav bar */
 
-        main>section>section{
+        #header{
+            width:1366px;
+            height: 90px;
 
-        }
-
-        #navBar{
             background-color: #1E8BFA;
-            width: 100vw;
-            height: 15vh;
         }
 
-        header>nav>ul>li{
-            display: inline-block;
-            position: relative;
-            left: 36%;
-            top: -88px;
-            margin: 15px;
-
-            font-size: 20px;
+        #unOrderList{
+            margin-top: 0;
+            width: fit-content;
         }
 
-        header>nav>ul>li:first-child{
-            position: relative;
-            left: 10px;
-        }
-
-        #profileImg{
-            position: absolute;
-            right: 0;
-            top: 8px;
-
-            background-image: url("assets/img/headerImg/profileImg.jpg");
-            background-position: right;
-            background-size: cover;
-            background-repeat: no-repeat;
-
+        #profileImage{
             width: 65px;
             aspect-ratio: 1/1;
 
             border-radius: 100%;
-            border: 5px solid darkblue;
-
-            transform: rotate(-32deg);
-        }
-
-        #backgroundImg{
-            background-image: url("assets/img/galleryImg/standard/background.jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-
-            width: 100vw;
-            height: 958px;
+            border: 3px solid darkblue;
 
             position: absolute;
-            top: 90px;
+            right: 15px;
+            top: 10px;
+
+            transform: rotate(-35deg);
         }
 
-        #followBtn{
-            position: absolute;
-            right: 102px;
-            top: 150px;
+        header>nav>div>ul>li{
 
-            width: 120px;
-            height: 40px;
-
-            border-radius: 50px;
-            border: 0;
-            background-color: #1E8BFA;
         }
 
-        #likeImg{
-            background-image: url("assets/img/footerImg/likeButtonBlue.png");
-            background-repeat: no-repeat;
-            background-size: cover;
+        .headerList{
+            display: inline-block;
+            width: fit-content;
 
-            width: 44px;
-            aspect-ratio: 1/1;
-
-            position: absolute;
-            top: 147px;
-            right: 45px;
-        }
-
-        #socialMedia{
-            position: absolute;
-            top: 140vh;
-            left: 5vw;
-        }
-
-        .socialMediaPosition{
             position: relative;
-            top: -15px;
-            margin: 8px;
+            top: 34px;
+
+            -webkit-text-fill-color: white;
+            font-weight: bold;
+
+            font-size: 20px;
+            margin-right: 60px;
         }
 
-       #facebook{
-           position: relative;
-           left: 2px;
-           top: -7px;
+        header>nav>div>ul>li:first-child{
+            margin-right: 240px;
+        }
 
-           width: 67px;
-           aspect-ratio: 1/1;
-       }
+        .dropdown{
+            position: relative;
+            display: inline-block;
+        }
 
-       #github{
-           width: 53px;
-           aspect-ratio: 1/1;
-       }
+        .dropdown-content{
+            display: none;
+            position: absolute;
+            top: 55px;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            padding: 12px 16px;
+            z-index: 1;
+        }
 
-       /*full stack developer h2 tag css*/
-       main>section>section:nth-child(2)>h2{
-           position: absolute;
-           right: 5vw;
-           top: 158vh;
-       }
-
-       /*about me paragraph*/
-       main>section>section:nth-child(2) p{
-           position: absolute;
-           top: 175vh;
-           left: 145px;
-       }
-
-       #contactMe{
-           position: absolute;
-           top: 185vh;
-           left: 78.5vw;
-
-           width: 125px;
-           height: 40px;
-
-           border-radius: 20px;
-           border: 0;
-
-           background-color: #1E8BFA;
-
-
-       }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
     </style>
 </head>
-
 <body>
-        <header>
-            <nav>
-                <div id="navBar"></div>
-                 <ul>
-                    <li>Home</li>
-                    <li>Education</li>
-                    <li>Skills</li>
-                    <li>Works</li>
-                    <li>Activities</li>
-                    <li>Gallery</li>
-                    <li>About me</li>
-                 </ul>
-            </nav>
+    <header>
+        <nav>
+            <div id="header">
+                <ul id="unOrderList">
+                    <li class="headerList"><a>Home</a></li>
 
-            <div id="profileImg"></div>
-        </header>
-
-        <main>
-            <section>
-                <section>
-                    <div id="backgroundImg">
-<!--                            <picture>-->
-<!--                                <img src="assets/img/galleryImg/standard/background.jpg" alt = "background image" title="background image">-->
-<!--                            </picture>-->
-                    </div>
-
-                        <button id="followBtn">Follow + </button>
-
-                    <div id="likeImg">
-<!--                        <img src="assets/img/footerImg/likeButtonBlue.png" alt = "like Button" title = "like" width="35" height="35">-->
-                    </div>
-
-                    <div id="socialMedia">
-                        <a href="https://www.facebook.com/ramesh.layan.7?mibextid=ZbWKwL">
-                            <img id="facebook" class="socialMediaPosition" src="assets/img/socialMedia/icons8-facebook-64.png" alt = "facebook" title = "facebook.lk">
-                        </a>
-
-                        <a href="https://www.linkedin.com/in/ramesh-layan-522618212?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BpozVIf6sQ3anxGcma8ZXpg%3D%3D">
-                            <img id="linkedin" class="socialMediaPosition" src="assets/img/socialMedia/icons8-linkedin-50.png" alt = "linkedin" title = "linkedin.lk">
-                        </a>
-
-                        <a href="https://whatsapp.com/dl/code=OuuVxdLcg6">
-                            <img id="whatsApp" class="socialMediaPosition" src="assets/img/socialMedia/icons8-whatsapp-50.png" alt = "whatsapp" title = "whatsapp.lk">
-                        </a>
-
-                        <a href="https://www.instagram.com/rameshlayan?igsh=dGZreGM2OGR6eWJt">
-                            <img id="instagram" class="socialMediaPosition" src="assets/img/socialMedia/icons8-instagram-50.png" alt = "instagram" title = "instagram.lk">
-                        </a>
-
-                        <a href="https://telegram.org/dl">
-                            <img id="telegram" class="socialMediaPosition" src="assets/img/socialMedia/icons8-telegram-50.png" alt = "telegram" title = "telegram.lk">
-                        </a>
-
-                        <a href="https://github.com/LRlayan">
-                            <img id="github" class="socialMediaPosition" src="assets/img/socialMedia/icons8-github-48.png" alt = "github" title = "github.lk">
-                        </a>
-                    </div>
-                </section>
-
-                <section>
-                    <h2>Fullstack Software Developer</h2>
-
-                    <p>I am <b>Ramesh Layan</b>. I am currently living in Beruwala. Currently I am doing a diploma
-                        in software engineering from IJSE - Institute of Software Engineering.</p>
-
-                    <button id="contactMe">Contact me</button>
-                </section>
-
-                <section>
-                    <h2>Education</h2>
-                    <div>
-                        <a href="https://www.facebook.com/aryansberu?mibextid=ZbWKwL">
-                            <img src="assets/img/educationImg/araiyawansha.jpeg" alt = "ariyawansha school logo" title="ariyawansha school" width="60" height="60">
-                        </a>
-
-                        <a href="https://www.facebook.com/groups/281483435341457/?ref=share&mibextid=NSMWBT">
-                            <img src="assets/img/educationImg/dsLogo.jpeg" alt = "ds senanayake scool logo" title="ds senanayake scool" width="60" height="60">
-                        </a>
-
-                        <a href="https://edccitycentre.business.site/">
-                            <img src="assets/img/educationImg/edc.png" alt = "EDC logo" title="EDC city center" width="60" height="60">
-                        </a>
-
-                        <a href="https://www.ijse.lk/#">
-                            <img src="assets/img/educationImg/IJSE.png" alt = "IJSE Logo" title="Ijse institute" width="60" height="60">
-                        </a>
-                        <br>
-
-                        <div>
-                            <p>Ariyawansha MV <br>2006 - 2016</p>
-                            <p>2017 - 2019 <br>DS Senanayake <br> National School</p>
-                            <p>Education Development <br> Center <br> 2020 - 2021</p>
-                            <p> 2023 - 2025<br>Institute Of Software<br>Engineering </p>
+                    <div class="dropdown">
+                        <li class="headerList"><a>Education</a></li>
+                        <div class="dropdown-content">
+                            <p>Certificate</p>
                         </div>
                     </div>
-                </section>
 
-                <section>
+                    <li class="headerList"><a>Skills</a></li>
 
-                    <h2>Certificate</h2>
-                    <div>
-                        <label>Sport</label>
-                        <label>Software Engineering</label>
-                        <label>It Competition</label>
-                    </div>
-
-                </section>
-
-                <section>
-                    <h2>Skills</h2>
-                    <div>
-                        <img src="assets/img/skillsImg/htmlPng.png" alt = "html Icon" title="HTML" width="60" height="60">
-                        <img src="assets/img/skillsImg/figmaLogo.png" alt = "figma Icon" title="figma" width="57" height="57">
-                        <img src="assets/img/skillsImg/mySqlPng.png" alt = "mySql Icon" title="mySql" width="69" height="57">
-                        <img src="assets/img/skillsImg/githubPng.png" alt = "gitHub Icon" title="gitHub" width="129" height="74">
-                        <img src="assets/img/skillsImg/cssLogo.webp" alt = "css Icon" title="css" width="60" height="60">
-                        <img src="assets/img/skillsImg/javaLogo.png" alt = "java Icon" title="java" width="72" height="72">
-                        <img src="assets/img/skillsImg/linux.png" alt = "linux icon" title="linux" width="57" height="57">
-                    </div>
-                </section>
-
-                <section>
-                    <h2>Projects</h2>
-                    <div>
-                        <a href=""><img src="assets/img/projectImg/ChatApplication.png" alt="chat App Project" title="chat App" width="400" height="268"></a>
-                        <a href=""><img src="assets/img/projectImg/Connect4Game.png" alt="Connect 4 Game Project" title="connect 4 game" width="400" height="268"></a>
-                        <a href=""><img src="assets/img/projectImg/hotburgerShop.png" alt="hot Burger Project" title="hot burgers" width="400" height="268"></a>
-                    </div>
-                </section>
-
-                <section>
-                    <h2>Assignments</h2>
-                    <div>
-                        <label>PRF</label>
-                        <label>DBMS</label>
-                        <label>INP</label>
-
-                        <div>
-                            <button type="button">Show more</button>
+                    <div class="dropdown">
+                        <li class="headerList"><a>Works</a></li>
+                        <div class="dropdown-content">
+                            <p>Project</p>
+                            <p>Assignment</p>
                         </div>
                     </div>
-                </section>
 
-                <section>
-                    <h2>Activities</h2>
-                    <div>
-                        <label>Art</label>
-                        <label>Photography</label>
-                    </div>
-                </section>
-
-                <section>
-                    <h2>Gallery</h2>
-                    <div>
-                        <img src="assets/img/galleryImg/standard/my.jpg" alt="my photo" title="photo" width="338" height="250">
-                        <img src="assets/img/galleryImg/standard/my1.jpg" alt="my photo" title="photo" width="338" height="250">
-                        <img src="assets/img/galleryImg/standard/my2.jpg" alt="my photo" title="photo" width="338" height="250">
-                        <img src="assets/img/galleryImg/standard/my3.jpg" alt="my photo" title="photo" width="200" height="250">
-
-                        <div>
-                            <button type="button">Show more</button>
+                    <div class="dropdown">
+                        <li class="headerList"><a>Activity</a></li>
+                        <div class="dropdown-content">
+                            <p>Art</p>
+                            <p>Photography</p>
                         </div>
                     </div>
-                </section>
-            </section>
-        </main>
-            <footer>
-                <section>
-                    <h1>Have a any Question? Contact me</h1>
-                    <div>
-                        <form>
-                            <input type="text" placeholder="Email" id="email">
-                            <input type="text" placeholder="Enter your name" id = "name">
-                            <br><br>
-                            <textarea>message</textarea><br>
-                            <button>Submit</button>
-                        </form>
+                    <li class="headerList"><a>Gallery</a></li>
+
+                    <div class="dropdown">
+                        <li class="headerList"><a>About me</a></li>
+                        <div class="dropdown-content">
+                            <p>Contact me</p>
+                        </div>
                     </div>
-                </section>
+                    <img id="profileImage" src="assets/img/headerImg/profileImg.jpg" alt="profile photo" title="my profile">
+                </ul>
+            </div>
+        </nav>
+    </header>
 
-                <section>
-                    <div>
-                        <h3>About me</h3>
-                        <em>Email &nbsp;&nbsp;:</em>
-                        <em>rameshlayan4@gmail.com</em>&nbsp;<br>
-                        <em>Phone :</em>
-                        <em>+94 76 5937705 <br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            +94 75 7980223</em><br>
-                    </div>
+    <main>
+        <section>
 
-                    <div>
-                        <h3>Social media</h3><br>
-
-                        <a href="https://www.facebook.com/ramesh.layan.7?mibextid=ZbWKwL">
-                            <img src="assets/img/socialMedia/icons8-facebook-64.png" alt = "facebook" title = "facebook.lk" width="50" height="50">
-                        </a>
-
-                        <a href="https://www.linkedin.com/in/ramesh-layan-522618212?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BpozVIf6sQ3anxGcma8ZXpg%3D%3D">
-                            <img src="assets/img/socialMedia/icons8-linkedin-50.png" alt = "linkedin" title = "linkedin.lk" width="50" height="50">
-                        </a>
-
-                        <a href="https://whatsapp.com/dl/code=OuuVxdLcg6">
-                            <img src="assets/img/socialMedia/icons8-whatsapp-50.png" alt = "whatsapp" title = "whatsapp.lk" width="50" height="50">
-                        </a>
-
-                        <a href="https://www.instagram.com/rameshlayan?igsh=dGZreGM2OGR6eWJt">
-                            <img src="assets/img/socialMedia/icons8-instagram-50.png" alt = "instagram" title = "instagram.lk" width="50" height="50">
-                        </a>
-
-                        <a href="https://telegram.org/dl">
-                            <img src="assets/img/socialMedia/icons8-telegram-50.png" alt = "telegram" title = "telegram.lk" width="50" height="50">
-                        </a>
-
-                        <a href="https://github.com/LRlayan">
-                            <img src="assets/img/socialMedia/icons8-github-48.png" alt = "github" title = "github.lk" width="50" height="50">
-                        </a>
-
-                        <a href="https://telegram.org/dl">
-                            <img src="assets/img/headerImg/profileImg.jpg" alt = "github" title = "github.lk" width="50" height="50">
-                        </a>
-                    </div>
-
-                    <button>Download Cv</button>
-                </section>
-
-                <section>
-                    <h1>Thank you</h1>
-                    <h4>For Your Time and Your Appreciation</h4>
-                </section>
-
-                <section>
-                    <img src="assets/img/footerImg/likeButtonBlue.png" alt ="Blue like icon" title = "Blue like button" width="50" height="50">
-
-                    <h1>My Personal Website</h1>
-
-                    <img src="assets/img/footerImg/likeButtonGray.png" alt ="like icon" title = "like button" width="25" height="25">
-                    <img src="assets/img/footerImg/eyeIconGray.png" alt ="like icon" title = "like button" width="56" height="33">
-                    <h5>All Rights Reserved Ramesh 2024</h5>
-                </section>
-            </footer>
-    </body>
+        </section>
+    </main>
+</body>
 </html>
