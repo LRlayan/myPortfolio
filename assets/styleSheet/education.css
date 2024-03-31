@@ -10,5 +10,14 @@
 }
 
 #educationLevels{
+    background-color: #1E8BFA;
+    position: absolute;
+    top: 14rem;
+    left: 10rem;
 
+    width: 75vw;
+    height: 50vh;
+
+    opacity: 40%;
+    border-radius: 20px;
 }
