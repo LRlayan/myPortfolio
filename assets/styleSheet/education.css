@@ -24,7 +24,7 @@
 }
 
 .image{
-    margin-left: 125px;
+    margin-left: 80px;
     position: relative;
     top: 26px;
     bottom: 20px;
@@ -36,24 +36,13 @@
 }
 
 .allLevels{
-    text-align: justify;
     -webkit-text-fill-color: black;
-    font-size: 15px;
+    font-size: 20px;
+
+    width: 256px;
 }
 
-#1stLevel{
-
-}
-
-#2ndLevel{
-
-}
-
-#3rdLevel{
-
-}
-
-#4thLevel{
+.text-Align{
 
 }
 
@@ -63,7 +52,7 @@
 
 #ds{
     position: relative;
-    top: 176px;
+    top: 28px;
 }
 
 #edc{
@@ -72,5 +61,29 @@
 
 #ijse{
     position: relative;
-    top: 176px;
+    top: 28px;
+}
+
+.firstDesc{
+    margin-top: 76px;
+    position: relative;
+    left: 62px;
+}
+
+.secondDesc{
+    margin-top: 60px;
+    position: relative;
+    left: 68px;
+}
+
+.thirdDesc{
+    margin-top: 76px;
+    position: relative;
+    left: 37px;
+}
+
+.forthDesc{
+    margin-top: 60px;
+    position: relative;
+    left: 42px;
 }
