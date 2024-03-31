@@ -10,7 +10,9 @@
 }
 
 #educationLevels{
-    background-color: #1E8BFA;
+    display: flex;
+
+    background-color: #A2DDFF;
     position: absolute;
     top: 14rem;
     left: 10rem;
@@ -18,6 +20,56 @@
     width: 75vw;
     height: 50vh;
 
-    opacity: 40%;
     border-radius: 20px;
+}
+
+.image{
+    margin-left: 125px;
+    position: relative;
+    top: 20px;
+    bottom: 20px;
+
+    border-radius: 100%;
+}
+
+.allLevels{
+    text-align: justify;
+    -webkit-text-fill-color: black;
+    font-size: 15px;
+}
+
+#1stLevel{
+
+}
+
+#2ndLevel{
+
+}
+
+#3rdLevel{
+
+}
+
+#4thLevel{
+
+}
+
+#ariyawansha{
+    width: 100px;
+    height: 100px;
+}
+
+#ds{
+    width: 100px;
+    height: 100px;
+}
+
+#edc{
+    width: 100px;
+    height: 100px;
+}
+
+#ijse{
+    width: 100px;
+    height: 100px;
 }
