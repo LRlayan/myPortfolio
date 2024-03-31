@@ -83,13 +83,16 @@
 
 #h2Label{
     position: absolute;
-    right: 10rem;
+    left: 50rem;
     top: 1rem;
+
+    font-size: 30px;
 }
 
 #descP{
     position: absolute;
     top: 8rem;
+    left: 2rem;
     padding: 20px 80px 0 80px;
     width: 1280px;
 
