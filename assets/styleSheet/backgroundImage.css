@@ -96,3 +96,18 @@
 #bold{
     font-weight: bold;
 }
+
+#contactMeBtn{
+    background-color: #1E8BFA;
+    -webkit-text-fill-color: #f9f9f9;
+
+    border-radius: 20px;
+    border: 0;
+
+    width: 120px;
+    height: 30px;
+
+    position: absolute;
+    top: 15rem;
+    right: 88px;
+}
