@@ -26,10 +26,13 @@
 .image{
     margin-left: 125px;
     position: relative;
-    top: 20px;
+    top: 26px;
     bottom: 20px;
 
     border-radius: 100%;
+
+    width: 100px;
+    height: 100px;
 }
 
 .allLevels{
@@ -55,21 +58,19 @@
 }
 
 #ariyawansha{
-    width: 100px;
-    height: 100px;
+
 }
 
 #ds{
-    width: 100px;
-    height: 100px;
+    position: relative;
+    top: 176px;
 }
 
 #edc{
-    width: 100px;
-    height: 100px;
+
 }
 
 #ijse{
-    width: 100px;
-    height: 100px;
+    position: relative;
+    top: 176px;
 }
