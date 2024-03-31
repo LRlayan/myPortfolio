@@ -3,3 +3,33 @@
     width: 1349px;
     height: 980px;
 }
+
+
+#socialMedia{
+    position: absolute;
+    top: 140vh;
+    left: 5vw;
+}
+
+.socialMediaPosition{
+    position: relative;
+    top: -8px;
+    left: 20px;
+    margin: 8px;
+}
+
+#facebook{
+    position: relative;
+    left: 29px;
+    top: -2px;
+
+    width: 67px;
+    aspect-ratio: 1/1;
+
+    margin-left: 15px;
+}
+
+#github{
+    width: 53px;
+    aspect-ratio: 1/1;
+}
