@@ -1,10 +1,32 @@
 .lines{
+    background-color: gray;
+    width: 80px;
+    height: 10px;
+
+    border-radius: 10px;
+}
+
+#mainLine{
+    background-color: gray;
+    width: 1000px;
+    height: 10px;
+
+    border-radius: 10px;
+    position: absolute;
+    top: 280px;
+    left: 120px;
+}
+
+.subLines{
 
 }
 
 #skillsArea{
     position: relative;
-    top: 250px;
+    top: 50rem;
+    left: 3rem;
+
+    width: 1285px;
 }
 
 #skillsIcons{
