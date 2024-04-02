@@ -24,7 +24,7 @@
     justify-content: center;
     text-align:center;
     background-color: #f9f9f9;
-    width: 23%;
+    width: 100%;
     height: 320px;
 
     padding: 10px;
@@ -49,6 +49,16 @@
 
 .card:hover img{
     height: 250px;
+}
+
+#projectImageArea{
+    max-height: 1200px; /* Set the maximum height of the container */
+    overflow-x: auto; /* Enable horizontal scrolling */
+}
+
+#projectImageArea{
+    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-x: scroll;
 }
 
 #chatApp{
