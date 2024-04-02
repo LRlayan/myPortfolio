@@ -1,9 +1,5 @@
 .lines{
-    background-color: gray;
-    width: 80px;
-    height: 10px;
-
-    border-radius: 10px;
+   position: relative;
 }
 
 #mainLine{
@@ -18,7 +14,57 @@
 }
 
 .subLines{
+    background-color: gray;
+    width: 80px;
+    height: 10px;
 
+    border-radius: 10px;
+    position: relative;
+    top: 250px;
+
+    transform: rotate(90deg);
+}
+
+#line1{
+    position: absolute;
+    top: 15rem;
+    left: 13rem;
+}
+
+#line2{
+    position: absolute;
+    top: 15rem;
+    left: 28rem;
+}
+
+#line3{
+    position: absolute;
+    top: 15rem;
+    left: 44rem;
+}
+
+#line4{
+    position: absolute;
+    top: 15rem;
+    left: 59.5rem;
+}
+
+#line5{
+    position: absolute;
+    top: 20rem;
+    left: 20.5rem;
+}
+
+#line6{
+    position: absolute;
+    top: 20rem;
+    left: 36rem;
+}
+
+#line7{
+    position: absolute;
+    top: 20rem;
+    left: 52rem;
 }
 
 #skillsArea{
