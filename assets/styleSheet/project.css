@@ -1,0 +1,72 @@
+#projectArea{
+    position: relative;
+    top: 75rem;
+    width: 1300px;
+}
+
+#projectsTitle{
+    position: absolute;
+    left: 50px;
+}
+
+#projectImageArea{
+    position: absolute;
+    top: 6rem;
+    left: 3rem;
+    width: 1265px;
+
+    display: flex;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;
+    background-color: #f9f9f9;
+    width: 23%;
+    height: 320px;
+
+    padding: 10px;
+    margin: 10px;
+
+    border: 3px solid #007EFF;
+    border-radius: 20px;
+
+    box-shadow: dimgray 2px 2px 20px 0;
+}
+
+.card h2,p {
+    padding: 15px;
+}
+
+.card img {
+    transition: height .7s;
+    width: 90%;
+    height: 0;
+    padding-left: 10px;
+}
+
+.card:hover img{
+    height: 250px;
+}
+
+#chatApp{
+
+}
+
+#connect4Game{
+
+}
+
+#burgerApp{
+
+}
+
+#library{
+
+}
+
+#GroStore{
+
+}
