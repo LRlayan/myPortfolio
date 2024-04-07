@@ -75,17 +75,18 @@
 .thirdDesc{
     margin-top: 76px;
     position: relative;
-    left: 37px;
+    left: 25px;
 }
 
 .forthDesc{
     margin-top: 60px;
     position: relative;
     left: 42px;
+    width: 150px;
 }
 
 .forthLevel{
-    width: 100px;
+    width: 300px;
     -webkit-text-fill-color: black;
     font-size: 16px;
 }
