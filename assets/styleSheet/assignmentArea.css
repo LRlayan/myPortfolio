@@ -74,7 +74,7 @@
 /*---------------------------------------------------------------------------------------------------*/
 /*animation*/
 
-.btn-14:after {
+.allCards:after {
     position: absolute;
     content: "";
     width: 100%;
@@ -90,15 +90,15 @@
     4px 4px 5px 0px rgba(0,0,0,.1);
     transition: all 1s ease;
 }
-.btn-14:hover {
+.allCards:hover {
     color: #000000;
 }
-.btn-14:hover:after {
+.allCards:hover:after {
     top: auto;
     bottom: 0;
     height: 100%;
 }
-.btn-14:active {
+.allCards:active {
     top: 2px;
 }
 
