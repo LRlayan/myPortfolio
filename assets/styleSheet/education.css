@@ -84,6 +84,11 @@
     left: 42px;
 }
 
+.forthLevel{
+    width: 100px;
+    -webkit-text-fill-color: black;
+    font-size: 16px;
+}
 
 /*Certificate area*/
 
