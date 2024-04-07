@@ -14,6 +14,8 @@
     background-color: #1E8BFA;
 
     border-radius: 10px;
+    border: none;
+    z-index: 1;
 }
 
 .assignmentShortTitle{
@@ -39,4 +41,42 @@
     position: relative;
     top: 125px;
     text-align: center;
+}
+
+
+/*---------------------------------------------------------------------------------------------------*/
+/*animation*/
+
+.allCards:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 5px;
+    background-color: #eaf818;
+    background-image: linear-gradient(315deg, #eaf818 0%, #f6fc9c 74%);
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+    transition: all 2s ease;
+}
+.allCards:hover {
+    color: #000000;
+}
+.allCards:hover:after {
+    top: auto;
+    bottom: 0;
+    height: 100%;
+}
+.allCards:active {
+    top: 2px;
+}
+
+.longTextDiv:hover{
+    height: 155px;
+    opacity: 100%;
+    transition: ease-in 1s;
 }
