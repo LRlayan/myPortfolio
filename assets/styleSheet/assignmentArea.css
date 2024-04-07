@@ -7,11 +7,21 @@
 }
 
 .cards{
+    position: relative;
     margin: 10px;
     width: 200px;
     height: 200px;
     background-color: #1E8BFA;
 
     border-radius: 10px;
+}
 
+.subCards{
+
+}
+
+.assignmentShortTitle{
+    text-align: center;
+    position: relative;
+    top: 70px;
 }
