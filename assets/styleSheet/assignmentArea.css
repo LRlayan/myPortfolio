@@ -1,6 +1,11 @@
+#mainTitle{
+    position: absolute;
+    top: -110px;
+}
+
 #assignmentArea{
     position: relative;
-    top: 108rem;
+    top: 115rem;
     left: 45px;
 
     width: 1150px;
