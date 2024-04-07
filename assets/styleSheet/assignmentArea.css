@@ -48,7 +48,8 @@
 }
 
 #int{
-
+    position: absolute;
+    left: 21px;
 }
 
 #oop{
