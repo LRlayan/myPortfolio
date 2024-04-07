@@ -29,10 +29,10 @@
     position: absolute;
     top: -10px;
     left: -10px;
-    background-color: yellow;
+    /*background-color: yellow;*/
 
     width: 172px;
-    opacity: 100%;
+    opacity: 0%;
 }
 
 .longText{
