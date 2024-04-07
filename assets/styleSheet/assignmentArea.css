@@ -41,9 +41,6 @@
     width: 190px;
     aspect-ratio: 1/1;
     opacity: 0%;
-
-
-    /*background-color: red;*/
 }
 
 .longText{
@@ -80,6 +77,30 @@
 #swe{
 
 }
+
+.mainLine{
+    background-color: #eaf818;
+
+    width: 100px;
+    height: 4px;
+    border-radius: 4px;
+
+    position: absolute;
+    top: 22px;
+    left: 45px;
+}
+
+.line{
+    width: 100px;
+    height: 4px;
+    background-color: #007EFF;
+    border-radius: 4px;
+
+    position: absolute;
+    top: 15px;
+    left: 55px;
+}
+
 /*---------------------------------------------------------------------------------------------------*/
 /*animation*/
 
@@ -97,7 +118,7 @@
     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
     7px 7px 20px 0px rgba(0,0,0,.1),
     4px 4px 5px 0px rgba(0,0,0,.1);
-    transition: all 1s ease;
+    transition: all 1.5s ease;
 }
 .allCards:hover {
     color: #000000;
@@ -115,4 +136,15 @@
     height: 193px;
     opacity: 100%;
     transition: ease-in 2s;
+}
+
+/*--------------------------------------------------------------*/
+
+@keyframes moveAssignmentTitle {
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(-45px);
+    }
 }
