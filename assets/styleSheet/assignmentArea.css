@@ -17,7 +17,13 @@
 }
 
 .subCards{
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    background-color: yellow;
 
+    width: 172px;
+    opacity: 100%;
 }
 
 .assignmentShortTitle{
