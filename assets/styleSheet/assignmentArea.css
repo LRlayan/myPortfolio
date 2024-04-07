@@ -1,6 +1,7 @@
 #mainTitle{
     position: absolute;
-    top: -110px;
+    top: 209rem;
+    left: 50px;
 }
 
 #assignmentArea{
@@ -141,15 +142,4 @@
     height: 193px;
     opacity: 100%;
     transition: ease-in 2s;
-}
-
-/*--------------------------------------------------------------*/
-
-@keyframes moveAssignmentTitle {
-    from{
-        transform: translateY(0);
-    }
-    to{
-        transform: translateY(-45px);
-    }
 }
