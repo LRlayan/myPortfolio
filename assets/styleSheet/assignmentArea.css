@@ -8,8 +8,13 @@
     top: 115rem;
     left: 45px;
 
-    width: 1150px;
+    width: 1272px;
     display: flex;
+}
+
+#assignmentArea{
+    max-width: 1280px;
+    overflow-x: auto;
 }
 
 .cards{
