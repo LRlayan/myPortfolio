@@ -30,7 +30,7 @@
 
 .subCards{
     position: relative;
-    top: -67px;
+    top: -60px;
     left: -10px;
 
     width: 190px;
@@ -47,9 +47,13 @@
     text-align: center;
 }
 
-#int{
+.leftLongText{
     position: absolute;
     left: 21px;
+}
+
+#int{
+
 }
 
 #oop{
