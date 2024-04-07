@@ -2,10 +2,16 @@
     position: relative;
     top: 108rem;
 
-    width: 100px;
+    width: 1150px;
+    display: flex;
 }
 
-/*.card{*/
-/*    display: flex;*/
-/*    */
-/*}*/
+.cards{
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    background-color: #1E8BFA;
+
+    border-radius: 10px;
+
+}
