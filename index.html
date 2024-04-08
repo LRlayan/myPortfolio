@@ -2059,6 +2059,150 @@
                 top: 600px;
                 right: 627px;
             }
+
+            /*  ---------------------------------------------------------------------------------------------------  */
+            /*  assignment area  */
+            #mainTitle{
+                position: absolute;
+                top: 163rem;
+                left: 50px;
+            }
+
+            #assignmentArea{
+                position: relative;
+                top: 124rem;
+                left: 56px;
+
+                width: 400px;
+                display: flex;
+            }
+
+            #assignmentArea{
+                max-width: 320px;
+                overflow-x: auto;
+            }
+
+            .cards{
+                position: relative;
+                margin: 5px;
+                width: 150px;
+                height: 150px;
+                background-color: #1E8BFA;
+
+                border-radius: 10px;
+                border: none;
+                z-index: 1;
+            }
+
+            .assignmentShortTitle{
+                text-align: center;
+                position: relative;
+                top: 48px;
+            }
+
+            /*sub cards*/
+            .subCards{
+                position: relative;
+                top: -60px;
+                left: -10px;
+
+                width: 150px;
+                aspect-ratio: 1/1;
+                opacity: 0%;
+            }
+
+            .longText{
+                position: absolute;
+                bottom:33px;
+                text-align: center;
+            }
+
+            .leftLongText{
+                position: absolute;
+                left: 21px;
+            }
+
+            #int{
+
+            }
+
+            #oop{
+
+            }
+
+            #prf{
+
+            }
+
+            #dbms{
+
+            }
+
+            #inp{
+
+            }
+
+            #swe{
+
+            }
+
+            .mainLine{
+                background-color: #eaf818;
+
+                width: 70px;
+                height: 4px;
+                border-radius: 4px;
+
+                position: absolute;
+                top: 22px;
+                left: 40px;
+            }
+
+            .line{
+                width: 70px;
+                height: 4px;
+                background-color: #007EFF;
+                border-radius: 4px;
+
+                position: absolute;
+                top: 15px;
+                left: 50px;
+            }
+
+            /*animation*/
+            .allCards:after {
+                position: absolute;
+                content: "";
+                width: 100%;
+                height: 0;
+                top: 0;
+                left: 0;
+                z-index: -1;
+                border-radius: 5px;
+                background-color: #eaf818;
+                background-image: linear-gradient(315deg, #eaf818 0%, #f6fc9c 74%);
+                box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+                7px 7px 20px 0px rgba(0,0,0,.1),
+                4px 4px 5px 0px rgba(0,0,0,.1);
+                transition: all 1.5s ease;
+            }
+            .allCards:hover {
+                color: #000000;
+            }
+            .allCards:hover:after {
+                top: auto;
+                bottom: 0;
+                height: 100%;
+            }
+            .allCards:active {
+                top: 2px;
+            }
+
+            .subCards:hover{
+                height: 193px;
+                opacity: 100%;
+                transition: ease-in 2s;
+            }
         }
 
         /* Styles for Tablet (426px to 768px) */
