@@ -1,5 +1,19 @@
 #galleryArea{
     position: relative;
     top: 140rem;
-    left: 50px;
+}
+
+.container-general .gallery-wrap {
+    display: flex;
+    height: 63vh;
+}
+.container-general .gallery-wrap .item {
+    flex: 1;
+    background-position: center;
+    background-size: cover;
+    transition: all ease-in .3s
+}
+
+.container-general .gallery-wrap .item:hover {
+    flex: 3;
 }
