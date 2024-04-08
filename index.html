@@ -48,7 +48,7 @@
                 border: 3px solid darkblue;
 
                 position: absolute;
-                right: -320px;
+                left: 23rem;
                 top: 10px;
 
                 transform: rotate(-35deg);
@@ -207,8 +207,9 @@
 
             #h2Label{
                 position: absolute;
-                right: -19rem;
+                left: 250px;
                 top: 9rem;
+                width: 220px;
 
                 font-size: 16px;
             }
@@ -239,8 +240,8 @@
                 height: 30px;
 
                 position: absolute;
-                top: 29rem;
-                right: -13rem;
+                top: 30rem;
+                left: 18rem;
             }
 
             /*----------------------------------------------------------------------------------------------------*/
@@ -642,54 +643,6 @@
                 /*overflow-x: scroll;*/
             }
 
-            #chatApp{
-
-            }
-
-            #connect4Game{
-
-            }
-
-            #burgerApp{
-
-            }
-
-            #library{
-
-            }
-
-            #GroStore{
-
-            }
-
-            #chatApp{
-
-            }
-
-            #connect4Game{
-
-            }
-
-            #burgerApp{
-
-            }
-
-            #library{
-
-            }
-
-            #GroStore{
-
-            }
-
-            #card1{
-
-            }
-
-            #card2{
-
-            }
-
             #card3{
                 position: relative;
                 top: 300px;
@@ -719,7 +672,7 @@
             #assignmentArea{
                 position: relative;
                 top: 124rem;
-                left: 56px;
+                left: 74px;
 
                 width: 400px;
                 display: flex;
@@ -770,30 +723,6 @@
                 left: 21px;
             }
 
-            #int{
-
-            }
-
-            #oop{
-
-            }
-
-            #prf{
-
-            }
-
-            #dbms{
-
-            }
-
-            #inp{
-
-            }
-
-            #swe{
-
-            }
-
             .mainLine{
                 background-color: #eaf818;
 
@@ -834,14 +763,17 @@
                 4px 4px 5px 0px rgba(0,0,0,.1);
                 transition: all 1.5s ease;
             }
+
             .allCards:hover {
                 color: #000000;
             }
+
             .allCards:hover:after {
                 top: auto;
                 bottom: 0;
                 height: 100%;
             }
+
             .allCards:active {
                 top: 2px;
             }
@@ -850,6 +782,117 @@
                 height: 193px;
                 opacity: 100%;
                 transition: ease-in 2s;
+            }
+
+            /*  ---------------------------------------------------------------------------------------------------  */
+            /*activity area*/
+
+            #activitiesArea{
+                position: relative;
+                top: 126rem;
+                left: 50px;
+                width: 350px;
+            }
+
+            .activitiesParent{
+                position: relative;
+                top: -2rem;
+                left: -21rem;
+                width: 350px;
+            }
+
+            .activities{
+                width: 140px;
+                aspect-ratio: 1/1;
+
+                position: absolute;
+                top: 40px;
+                left: 20rem;
+
+                border-radius: 100%;
+                opacity: 0%;
+            }
+
+            #artDiv{
+                position: relative;
+                left: 21.99rem;
+            }
+
+            #photographyDiv{
+                position: relative;
+                left: 45rem;
+            }
+
+            #artTitle{
+                position: relative;
+                left: 26rem;
+                top: 1.5rem;
+                width: fit-content;
+            }
+
+            #photographyTitle{
+                position: relative;
+                left: 33.6rem;
+                top: -1.5rem;
+                width: fit-content;
+            }
+
+            .activityImage{
+                width: 140px;
+                height: 140px;
+                border-radius: 100%;
+            }
+
+            #artImage{
+                position: absolute;
+                top: 55px;
+                left: 22.96rem;
+            }
+
+            #artDiv{
+                content: "";
+                border: 10px solid white;
+                border-radius: 100%;
+                border-top-color: red;
+            }
+
+            #artDiv{
+                content: "";
+                border: 15px solid white;
+                border-radius: 100%;
+                border-top-color: red;
+                border-bottom-color: red;
+            }
+
+            #artDiv:hover{
+                opacity: 100%;
+                rotate: 360deg;
+                transition-duration: 5s;
+            }
+
+            #photographyImage{
+                position: absolute;
+                top: 55px;
+                left: 33.45rem;
+            }
+
+            #photographyDiv{
+                content: "";
+                border: 15px solid white;
+                border-radius: 100%;
+                border-top-color: red;
+                border-bottom-color: red;
+            }
+
+            #photographyDiv{
+                position: absolute;
+                left: 520px;
+            }
+
+            #photographyDiv:hover{
+                opacity: 100%;
+                rotate: 360deg;
+                transition-duration: 5s;
             }
         }
 
