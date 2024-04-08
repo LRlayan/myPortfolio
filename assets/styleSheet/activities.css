@@ -37,11 +37,15 @@
 }
 
 #artTitle{
-
+    position: relative;
+    left: 27.5rem;
+    top: 4rem;
 }
 
 #photographyTitle{
-
+    position: relative;
+    left: 48.8rem;
+    top: 1.5rem;
 }
 
 .activityImage{
@@ -68,6 +72,7 @@
         border: 15px solid white;
         border-radius: 100%;
         border-top-color: red;
+        border-bottom-color: red;
 }
 
 #artDiv:hover{
@@ -88,6 +93,7 @@
     border: 15px solid white;
     border-radius: 100%;
     border-top-color: red;
+    border-bottom-color: red;
 }
 
 #photographyDiv{
