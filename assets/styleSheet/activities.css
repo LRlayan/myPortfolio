@@ -28,3 +28,22 @@
     position: absolute;
     left: 42rem;
 }
+
+.titlePosition{
+    position: relative;
+    top: 95px;
+    text-align: center;
+}
+
+#artTitle{
+
+}
+
+#photographyTitle{
+
+}
+
+.activityImage{
+    width: 250px;
+    height: 250px;
+}
