@@ -18,6 +18,7 @@
 
     border-radius: 100%;
     /*background-color: #007EFF;*/
+    opacity: 0%;
 }
 
 #artDiv{
@@ -46,26 +47,56 @@
 .activityImage{
     width: 250px;
     height: 250px;
-
     border-radius: 100%;
 }
 
-.activityImage:hover{
-    animation-name: imageAnimation;
-    animation-iteration-count: initial;
-    animation-duration: 2s;
+#artImage{
+    position: absolute;
+    top: 55px;
+    left: 20.95rem;
 }
 
-@keyframes imageAnimation {
-    0%{
-        width: 250px;
-        height: 250px;
-    }
+#artDiv{
+        content: "";
+        border: 10px solid white;
+        border-radius: 100%;
+        border-top-color: red;
+}
 
-    100%{
-        width: 280px;
-        height: 280px;
+#artDiv{
+        content: "";
+        border: 15px solid white;
+        border-radius: 100%;
+        border-top-color: red;
+}
 
-        border-radius: 20px;
-    }
+#artDiv:hover{
+    opacity: 100%;
+    rotate: 360deg;
+    transition-duration: 5s;
+}
+
+#photographyImage{
+    position: absolute;
+    top: 55px;
+    left: 45rem;
+}
+
+
+#photographyDiv{
+    content: "";
+    border: 15px solid white;
+    border-radius: 100%;
+    border-top-color: red;
+}
+
+#photographyDiv{
+   position: absolute;
+    left: 705px;
+}
+
+#photographyDiv:hover{
+    opacity: 100%;
+    rotate: 360deg;
+    transition-duration: 5s;
 }
