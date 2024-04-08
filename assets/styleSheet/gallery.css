@@ -2,6 +2,11 @@
     position: relative;
     top: 140rem;
     left: 50px;
+    width: 1300px;
+}
+
+#imagesController{
+    width: 1250px;
 }
 
 .container-general .gallery-wrap {
