@@ -49,3 +49,23 @@
 
     border-radius: 100%;
 }
+
+.activityImage:hover{
+    animation-name: imageAnimation;
+    animation-iteration-count: initial;
+    animation-duration: 2s;
+}
+
+@keyframes imageAnimation {
+    0%{
+        width: 250px;
+        height: 250px;
+    }
+
+    100%{
+        width: 280px;
+        height: 280px;
+
+        border-radius: 20px;
+    }
+}
