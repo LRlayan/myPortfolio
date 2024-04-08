@@ -3,3 +3,28 @@
     top: 118rem;
     left: 50px;
 }
+
+.activitiesParent{
+    position: relative;
+}
+
+.activities{
+    width: 250px;
+    aspect-ratio: 1/1;
+
+    position: absolute;
+    top: 40px;
+    left: 20rem;
+
+    border-radius: 100%;
+    background-color: #007EFF;
+}
+
+#artDiv{
+
+}
+
+#photographyDiv{
+    position: absolute;
+    left: 42rem;
+}
