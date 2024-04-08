@@ -1,6 +1,7 @@
 #galleryArea{
     position: relative;
     top: 140rem;
+    left: 50px;
 }
 
 .container-general .gallery-wrap {
