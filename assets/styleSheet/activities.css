@@ -2,6 +2,7 @@
     position: relative;
     top: 118rem;
     left: 50px;
+    width: 1200px;
 }
 
 .activitiesParent{
@@ -39,13 +40,15 @@
 #artTitle{
     position: relative;
     left: 27.5rem;
-    top: 4rem;
+    top: 20rem;
+    width: fit-content;
 }
 
 #photographyTitle{
     position: relative;
     left: 48.8rem;
-    top: 1.5rem;
+    top: 17rem;
+    width: fit-content;
 }
 
 .activityImage{
