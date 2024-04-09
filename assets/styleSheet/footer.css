@@ -15,16 +15,16 @@
 }
 
 .inputFields{
-    width: 350px;
+    width: 455px;
     height: 40px;
 
     position: absolute;
-    left: 18.6rem;
+    left: 12.3rem;
 }
 
 #nameInput{
     position: absolute;
-    left: 43.5rem;
+    left: 43.3rem;
 }
 
 .textArea{
