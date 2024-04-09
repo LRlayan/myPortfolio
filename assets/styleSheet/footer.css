@@ -88,3 +88,25 @@
     position: relative;
     top: 15px;
 }
+
+.socialMedia{
+    position: absolute;
+
+}
+
+#socialMediaParent{
+    position: relative;
+    top: 25.75rem;
+}
+
+.socialMediaTitle{
+    position: absolute;
+    top: -20px;
+    left: 64.6rem;
+}
+
+.socialMedia{
+    position: absolute;
+    left: 45rem;
+    top: 37px;
+}
