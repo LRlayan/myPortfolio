@@ -38,3 +38,8 @@
     right: 0;
     margin: auto;
 }
+
+.inputFields{
+    border: none;
+    border-radius: 20px;
+}
