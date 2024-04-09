@@ -19,7 +19,8 @@
     height: 40px;
 
     position: absolute;
-    left: 12.3rem;
+    left: 11.9rem;
+    padding: 5px;
 }
 
 #nameInput{
@@ -37,6 +38,7 @@
     left: 0;
     right: 0;
     margin: auto;
+    padding: 10px;
 }
 
 .inputFields{
