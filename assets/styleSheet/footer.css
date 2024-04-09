@@ -13,3 +13,28 @@
     padding-top: 30px;
     text-align: center;
 }
+
+.inputFields{
+    width: 350px;
+    height: 40px;
+
+    position: absolute;
+    left: 18.6rem;
+}
+
+#nameInput{
+    position: absolute;
+    left: 43.5rem;
+}
+
+.textArea{
+    display: block;
+    width: 750px;
+    height: 200px;
+
+    position: absolute;
+    top: 10rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
