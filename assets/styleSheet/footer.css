@@ -64,3 +64,27 @@
     right: 0;
     margin: auto;
 }
+
+#aboutMeTitle{
+    position: absolute;
+    top: 30rem;
+    left: 11.9rem;
+    margin-bottom: 10px;
+}
+
+.aboutMeParent{
+    position: absolute;
+    top: 32rem;
+    left: 11.9rem;
+}
+
+.aboutMeDetails{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+}
+
+.aboutMeDetails{
+    position: relative;
+    top: 15px;
+}
