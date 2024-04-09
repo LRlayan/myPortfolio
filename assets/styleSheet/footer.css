@@ -191,3 +191,47 @@
     text-align: center;
     font-size: 40px;
 }
+
+/*--------------------------------------------------------------------------------------------------------------*/
+/*third div*/
+
+.thirdDiv{
+    background-color: #001B37;
+    width: 1349px;
+    height: 420px;
+
+    position: relative;
+    top: -36px;
+}
+
+.wrap-1{
+    position: absolute;
+    top: 20px;
+    left: 38rem;
+}
+
+.wrap-1Like{
+    width: 150px;
+    aspect-ratio: 1/1;
+}
+
+.wrap1-text{
+    -webkit-text-fill-color: #f9f9f9;
+    font-size: 54px;
+
+    position: absolute;
+    left: -170px;
+    width: 490px;
+}
+
+.wrap-2{
+    position: absolute;
+}
+
+.likeAndViews{
+
+}
+
+.developedBy{
+
+}
