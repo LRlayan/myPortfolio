@@ -4418,6 +4418,34 @@
                 rotate: 360deg;
                 transition-duration: 5s;
             }
+
+            /*  ----------------------------------------------------------------------------------------------------  */
+            /*gallery area*/
+            #galleryArea{
+                position: relative;
+                top: 140rem;
+                left: 50px;
+                width: 880px;
+            }
+
+            #imagesController{
+                width: 924px;
+            }
+
+            .container-general .gallery-wrap {
+                display: flex;
+                height: 67vh;
+            }
+            .container-general .gallery-wrap .item {
+                flex: 1;
+                background-position: center;
+                background-size: cover;
+                transition: all ease-in .3s
+            }
+
+            .container-general .gallery-wrap .item:hover {
+                flex: 4;
+            }
         }
 
         /* Styles for Laptop Large (1025px to 1366px) */
@@ -5229,7 +5257,6 @@
             .container-general .gallery-wrap .item:hover {
                 flex: 3;
             }
-
         }
 
         /* Styles for Laptop Large (1367px to 1440px) */
