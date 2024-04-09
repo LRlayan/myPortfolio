@@ -40,6 +40,25 @@
 }
 
 .inputFields{
+    margin-top: 20px;
     border: none;
     border-radius: 20px;
+}
+
+.button{
+    width: 170px;
+    height: 40px;
+    background-color: #003973;
+
+    border: none;
+    border-radius: 20px;
+    -webkit-text-fill-color: #f9f9f9;
+}
+
+.button{
+    position: absolute;
+    top: 26rem;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
