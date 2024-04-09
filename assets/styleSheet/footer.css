@@ -6,7 +6,7 @@
 .firstDiv{
     background-color: #7DBEFF;
     width: 1349px;
-    height: 600px;
+    height: 700px;
 }
 
 .footerTitle{
@@ -109,4 +109,37 @@
     position: absolute;
     left: 45rem;
     top: 37px;
+}
+
+#fb{
+    position: relative;
+    top: 2px;
+    margin-right: 2px;
+
+    width: 70px;
+    aspect-ratio: 1/1;
+}
+
+#ln{
+    width: 51px;
+    aspect-ratio: 1/1;
+    top: -8px;
+}
+
+#wa{
+
+}
+
+#in{
+
+}
+
+#tele{
+
+}
+
+#git{
+    width: 55px;
+    aspect-ratio: 1/1;
+    top: -6px;
 }
