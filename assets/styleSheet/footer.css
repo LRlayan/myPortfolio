@@ -147,3 +147,22 @@
 .socialMedia a{
     text-decoration: none;
 }
+
+#lastDiv{
+    position: relative;
+    top: 35rem;
+}
+
+.upArrow{
+    width: 50px;
+    aspect-ratio: 1/1;
+
+    position: absolute;
+    left: 61rem;
+}
+
+#CVButton{
+    position: absolute;
+    top: 0;
+    left: -45rem;
+}
