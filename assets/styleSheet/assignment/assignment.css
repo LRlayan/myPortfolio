@@ -23,4 +23,9 @@
     text-align: center;
     position: relative;
     top: 40px;
+    color: black;
+}
+
+.assignmentParent a:link{
+    text-decoration: none;
 }
