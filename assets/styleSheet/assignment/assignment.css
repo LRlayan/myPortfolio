@@ -3,6 +3,7 @@
 }
 
 .card{
+    position: relative;
     width: 183px;
     aspect-ratio: 1/1;
     margin: 15px;
@@ -16,4 +17,10 @@
 
 .margin-left{
     margin-left: 15px;
+}
+
+.card-detail{
+    text-align: center;
+    position: relative;
+    top: 40px;
 }
