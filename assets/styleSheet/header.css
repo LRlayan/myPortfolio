@@ -67,6 +67,18 @@ header>nav>div>ul>li:first-child{
     position: relative;
     top: -50px;
     left: 20px;
+    width: 56px;
+    height: 33px;
+
+    border: none;
+    border-radius: 10px;
+}
+
+#menuBtn span{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
 }
 
 #menuBtnParent{
