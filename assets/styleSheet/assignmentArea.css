@@ -1,3 +1,11 @@
+#assignmentArea a:link{
+    text-decoration: none;
+}
+
+#assignmentArea a:visited{
+    -webkit-text-fill-color: black;
+}
+
 #mainTitle{
     position: absolute;
     top: 209rem;
@@ -24,6 +32,7 @@
     width: 190px;
     height: 190px;
     background-color: #1E8BFA;
+    color: black;
 
     border-radius: 10px;
     border: none;
