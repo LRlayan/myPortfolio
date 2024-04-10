@@ -22,8 +22,9 @@
 }
 
 #assignmentArea{
-    max-width: 1280px;
-    overflow-x: auto;
+    max-width: 1350px;
+    overflow-x: scroll;
+    overflow-y: hidden;
 }
 
 .cards{
@@ -67,30 +68,6 @@
 .leftLongText{
     position: absolute;
     left: 21px;
-}
-
-#int{
-
-}
-
-#oop{
-
-}
-
-#prf{
-
-}
-
-#dbms{
-
-}
-
-#inp{
-
-}
-
-#swe{
-
 }
 
 .mainLine{
