@@ -29,22 +29,6 @@
     margin-left: 15px;
 }
 
-#linkedin{
-
-}
-
-#whatsApp{
-
-}
-
-#instagram{
-
-}
-
-#telegram{
-
-}
-
 #github{
     width: 53px;
     aspect-ratio: 1/1;
@@ -116,4 +100,6 @@
     position: absolute;
     top: 18rem;
     right: 105px;
+
+    cursor: inherit;
 }
