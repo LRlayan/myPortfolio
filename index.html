@@ -40,6 +40,19 @@
 
         /* Styles for Mobile Small (up to 320px) */
         @media all and (max-width: 320px) {
+
+            section{
+                max-height: 220vh;
+                overflow: scroll;
+                scroll-behavior: smooth;
+            }
+
+            main{
+                position: fixed;
+                top: 90px;
+                z-index: -1;
+            }
+
             #menuBtn{
                 position: relative;
                 top: -8px;
@@ -118,8 +131,8 @@
             }
 
             #socialMedia{
-                position: absolute;
-                top: 14rem;
+                position: relative;
+                top: -15rem;
                 left: 5vw;
 
                 width: 115px;
@@ -187,15 +200,16 @@
             }
 
             #likeAndFollow{
-                position: absolute;
-                top: 7rem;
-                left: 27rem;
+                position: relative;
+                top: -19.5rem;
+                left: 15rem;
+                width: 50px;
             }
 
             .likeIcon{
                 position: relative;
                 top: 41px;
-                right: 2rem;
+                left: 11.5rem;
                 width: 34px;
                 aspect-ratio: 1/1;
             }
@@ -203,7 +217,7 @@
             #followBtn{
                 position: absolute;
                 top: 4px;
-                right: 2px;
+                left: 8rem;
 
                 width: 90px;
                 height: 30px;
@@ -226,7 +240,7 @@
             #h2Label{
                 position: absolute;
                 left: 250px;
-                top: 9rem;
+                top: 4rem;
                 width: 220px;
 
                 font-size: 16px;
@@ -234,7 +248,7 @@
 
             #descP{
                 position: absolute;
-                top: 10rem;
+                top: 6rem;
                 padding: 20px 37px 0 8px;
                 font-size: 22px;
                 margin-left: 15px;
@@ -258,7 +272,7 @@
                 height: 30px;
 
                 position: absolute;
-                top: 30rem;
+                top: 26rem;
                 left: 18rem;
             }
 
@@ -1000,7 +1014,7 @@
 
                 position: absolute;
                 top: 10.4rem;
-                left: 5.8rem;
+                left: 0rem;
                 margin: auto;
                 padding: 10px;
             }
@@ -1024,7 +1038,7 @@
             .button{
                 position: absolute;
                 top: 26rem;
-                left: 9.7rem;
+                left: 0rem;
             }
 
             #aboutMeTitle{
