@@ -12,7 +12,7 @@
 
     animation-name: card-animation;
     animation-duration: 2s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: initial;
 }
 
 .margin-top{
