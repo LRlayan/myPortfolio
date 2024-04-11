@@ -95,6 +95,11 @@ header>nav>div>ul>li:first-child{
     padding: 0;
 }
 
-#menuBtnParent{
+.scroll-line{
+    width: 1349px;
+    height: 5px;
+    background-color: #eaf818;
 
+    position: relative;
+    top: 90px;
 }
