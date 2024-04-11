@@ -1,0 +1,17 @@
+
+.hidden{
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 2s;
+}
+
+.upToDown{
+    opacity: 0;
+    transform: translateY(-50px);
+    transition: all 2s;
+}
+
+.show{
+    opacity: 1;
+    transform: translateY(0);
+}
