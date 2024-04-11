@@ -22,6 +22,16 @@
 
     <style>
 
+        main{
+            position: fixed;
+            top: 89px;
+        }
+
+        section{
+            max-height: 100vh;
+            overflow: scroll;
+        }
+
         html{
             scroll-behavior: smooth;
         }
@@ -5865,6 +5875,10 @@
         /* Styles for Laptop Large (1025px to 1366px) */
         @media all and (min-width: 1025px) and (max-width: 1366px) {
 
+            #navBar{
+                position: fixed;
+            }
+
             #header a:link{
                 text-decoration: none;
             }
@@ -5948,8 +5962,8 @@
 
 
             #socialMedia{
-                position: absolute;
-                top: 142vh;
+                position: relative;
+                top: -240px;
                 left: 5vw;
             }
 
@@ -8184,7 +8198,7 @@
             </div>
         </nav>
     </header>
-
+<section>
     <main>
         <section>
             <div id="backgroundImageArea">
@@ -8518,5 +8532,6 @@
             </div>
         </section>
     </main>
+</section>
 </body>
 </html>
