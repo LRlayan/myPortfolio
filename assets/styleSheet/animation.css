@@ -8,7 +8,18 @@
 .upToDown{
     opacity: 0;
     transform: translateY(-50px);
-    transition: all 2s;
+    transition: all 1s;
+}
+
+.rightToLeft{
+    opacity: 0;
+    transform: translateX(150px);
+    transition: all 1s;
+}
+
+.show{
+    opacity: 1;
+    transform: translateX(0);
 }
 
 .show{

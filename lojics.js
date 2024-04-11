@@ -17,3 +17,6 @@
 
     const  upToDown = document.querySelectorAll('.upToDown');
     upToDown.forEach((el) => obServer.observe(el))
+
+    const  rightToLeft = document.querySelectorAll('.rightToLeft');
+    rightToLeft.forEach((el) => obServer.observe(el))
