@@ -11,3 +11,6 @@
 
     const  hiddenElements = document.querySelectorAll('.hidden');
     hiddenElements.forEach((el) => obServer.observe(el))
+
+    const  hiddenMainTitle = document.querySelectorAll('.hiddenMainTitle');
+    hiddenMainTitle.forEach((el) => obServer.observe(el))
