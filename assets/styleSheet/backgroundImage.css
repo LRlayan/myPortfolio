@@ -1,4 +1,21 @@
 /*Background image*/
+
+.hidden{
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 2s;
+}
+
+.show{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.hiddenTitle{
+    opacity: 0;
+    transform: translateY(50px);
+}
+
 #backgroundImg{
     width: 1349px;
     height: 980px;
