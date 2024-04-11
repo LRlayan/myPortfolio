@@ -1249,6 +1249,19 @@
 
         /* Styles for Mobile Medium (321px to 375px) */
         @media all and (min-width: 321px) and (max-width: 375px) {
+
+            section{
+                max-height: 126vh;
+                overflow: scroll;
+                scroll-behavior: smooth;
+            }
+
+            main{
+                position: fixed;
+                top: 60px;
+                z-index: -1;
+            }
+
             #menuBtn{
                 position: relative;
                 top: -23px;
@@ -1340,9 +1353,9 @@
             }
 
             #socialMedia{
-                position: absolute;
-                top: 5rem;
-                left: 5vw;
+                position: relative;
+                top: -23rem;
+                left: 0vw;
 
                 width: 60px;
                 height: 100px;
@@ -1385,15 +1398,16 @@
             }
 
             #likeAndFollow{
-                position: absolute;
-                top: 5rem;
-                left: 25rem;
+                position: relative;
+                top: -20.5rem;
+                left:22rem;
+                width: 50px;
             }
 
             .likeIcon{
                 position: relative;
                 top: 41px;
-                right: -1rem;
+                right: -4rem;
                 width: 34px;
                 aspect-ratio: 1/1;
             }
@@ -1423,15 +1437,15 @@
 
             #h2Label{
                 position: absolute;
-                right: -5rem;
-                top: 9rem;
+                right: 1rem;
+                top: 0rem;
 
                 font-size: 16px;
             }
 
             #descP{
                 position: absolute;
-                top: 10rem;
+                top: 3rem;
                 padding: 20px 37px 0 10px;
                 font-size: 22px;
                 margin-left: 20px;
@@ -1455,7 +1469,7 @@
                 height: 30px;
 
                 position: absolute;
-                top: 30rem;
+                top: 24rem;
                 left: 18.4rem;
             }
 
@@ -1463,7 +1477,7 @@
             /*education area*/
             #educationArea{
                 position: relative;
-                top: 1rem;
+                top: 0rem;
             }
 
             #title{
@@ -2186,7 +2200,7 @@
 
                 position: absolute;
                 top: 10.4rem;
-                left: 5.8rem;
+                left: 0rem;
                 margin: auto;
                 padding: 10px;
             }
@@ -2210,7 +2224,7 @@
             .button{
                 position: absolute;
                 top: 26rem;
-                left: 7.5rem;
+                left: 0rem;
             }
 
             #aboutMeTitle{
@@ -2362,6 +2376,8 @@
             }
 
             .wrap-1Like{
+                position: relative;
+                left: 1rem;
                 width: 100px;
                 aspect-ratio: 1/1;
             }
@@ -2371,14 +2387,14 @@
                 font-size: 28px;
 
                 position: absolute;
-                left: -80px;
+                left: -70px;
                 width: 300px;
             }
 
             .wrap-2{
                 position: absolute;
                 top: 10rem;
-                left: 8.5rem;
+                left: 9rem;
 
                 height: 100px;
             }
