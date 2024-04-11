@@ -1,10 +1,29 @@
 /* header-nav bar */
-#header a:link{
+
+#header a{
     text-decoration: none;
+    position: relative;
 }
 
-#header a:visited{
-    -webkit-text-fill-color: #ffffff;
+.mainLink:after{
+    content: "";
+    width: 0%;
+    height: 4px;
+    position: absolute;
+    left: -6px;
+    top: -10px;
+    background-color: #f9f9f9;
+    padding: 0;
+    border-radius: 10px;
+}
+
+.mainLink:hover:after{
+    width: 115%;
+    transition: 0.5s;
+}
+
+.mainLink:hover{
+    color: #f9f9f9;
 }
 
 #header{
@@ -39,7 +58,7 @@
     position: relative;
     top: 10px;
 
-    -webkit-text-fill-color: white;
+    -webkit-text-fill-color: #bfdbff;
 
     font-size: 20px;
     margin-right: 60px;
@@ -94,3 +113,4 @@ header>nav>div>ul>li:first-child{
     margin: 0;
     padding: 0;
 }
+
