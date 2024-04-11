@@ -58,6 +58,17 @@
     background-color: #1E8BFA;
 
     -webkit-text-fill-color: #f9f9f9;
+
+    animation-name: buttonAnimation;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    transition: 2s;
+}
+
+#followBtn:hover{
+    animation-name: buttonAnimation;
+    animation-iteration-count: inherit;
 }
 
 #description{
@@ -102,4 +113,22 @@
     right: 105px;
 
     cursor: inherit;
+}
+
+@keyframes buttonAnimation {
+    0%{
+        transform: translateY(0);
+    }
+    25%{
+        transform: translateY(-5px);
+    }
+    50%{
+        transform: translateY(0);
+    }
+    75%{
+        transform: translateY(5px);
+    }
+    100%{
+        transform: translateY(0);
+    }
 }
