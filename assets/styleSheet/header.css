@@ -94,12 +94,3 @@ header>nav>div>ul>li:first-child{
     margin: 0;
     padding: 0;
 }
-
-.scroll-line{
-    width: 1349px;
-    height: 5px;
-    background-color: #eaf818;
-
-    position: relative;
-    top: 90px;
-}

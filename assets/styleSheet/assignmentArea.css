@@ -7,8 +7,8 @@
 }
 
 #mainTitle{
-    position: absolute;
-    top: 209rem;
+    position: relative;
+    top: 0rem;
     left: 50px;
 }
 
