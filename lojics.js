@@ -14,3 +14,6 @@
 
     const  hiddenMainTitle = document.querySelectorAll('.hiddenMainTitle');
     hiddenMainTitle.forEach((el) => obServer.observe(el))
+
+    const  upToDown = document.querySelectorAll('.upToDown');
+    upToDown.forEach((el) => obServer.observe(el))
