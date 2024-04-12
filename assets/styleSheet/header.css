@@ -97,14 +97,7 @@ header>nav>div>ul>li:first-child{
 }
 
 #menuBtn{
-    position: relative;
-    top: -50px;
-    left: 20px;
-    width: 56px;
-    height: 33px;
-
-    border: none;
-    border-radius: 10px;
+display: none;
 }
 
 #menuBtn span{
