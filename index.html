@@ -5949,12 +5949,30 @@
                 position: fixed;
             }
 
-            #header a:link{
+            #header a{
+                -webkit-text-fill-color: #ffffff;
                 text-decoration: none;
             }
 
-            #header a{
-                -webkit-text-fill-color: #ffffff;
+            .mainLink:after{
+                content: "";
+                width: 0%;
+                height: 4px;
+                position: absolute;
+                left: -6px;
+                top: -10px;
+                background-color: #f9f9f9;
+                padding: 0;
+                border-radius: 10px;
+            }
+
+            .mainLink:hover:after{
+                width: 115%;
+                transition: 0.5s;
+            }
+
+            .mainLink:hover{
+                color: #f9f9f9;
             }
 
             #menuBtn{
@@ -6099,7 +6117,7 @@
                 left: 54rem;
                 top: -7rem;
 
-                width: 550px;
+                width: 400px;
                 font-size: 28px;
             }
 
@@ -8318,7 +8336,7 @@
             </div>
 
             <div id="description">
-                <h2 id="h2Label" class="hiddenMainTitle">Full stack Software Developer </h2>
+                <h2 id="h2Label" class="hidden">Full stack Software Developer </h2>
                 <div id="descP" class="hidden">
                     <p>I am <span id="bold">Ramesh Layan.</span> I am currently settled in Beruwala. Currently I am doing Diploma in Software Engineering from IJSE - Institute of Software Engineering. I studied in Ariyawansa Maha Vidyalaya in the ordinary level. Later I went to DS Senanayake National School for advanced level. I like drawing and photography as a hobby.</p>
                 </div>
@@ -8575,7 +8593,7 @@
                                 <img id="wa" class="hidden socialMediaPosition" src="assets/img/socialMedia/icons8-whatsapp-50.png" alt = "whatsapp" title = "whatsapp.lk">
                             </a>
 
-                            <a" href="https://www.instagram.com/rameshlayan?igsh=dGZreGM2OGR6eWJt">
+                            <a href="https://www.instagram.com/rameshlayan?igsh=dGZreGM2OGR6eWJt">
                                 <img id="in" class="upToDown socialMediaPosition" src="assets/img/socialMedia/icons8-instagram-50.png" alt = "instagram" title = "instagram.lk">
                             </a>
 
