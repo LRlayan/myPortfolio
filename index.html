@@ -6567,6 +6567,14 @@
         /*  ---------------------------------------------------------------------------------------------------  */
         /*  assignment area  */
 
+            #assignmentArea a:link{
+                text-decoration: none;
+            }
+
+            #assignmentArea a:visited{
+                -webkit-text-fill-color: black;
+            }
+
             #mainTitle{
                 position: relative;
                 width: 200px;
@@ -6584,8 +6592,9 @@
             }
 
             #assignmentArea{
-                max-width: 1280px;
-                overflow-x: auto;
+                max-width: 1350px;
+                overflow-x: scroll;
+                overflow-y: hidden;
             }
 
             .cards{
@@ -6594,6 +6603,7 @@
                 width: 190px;
                 height: 190px;
                 background-color: #1E8BFA;
+                color: black;
 
                 border-radius: 10px;
                 border: none;
@@ -6615,6 +6625,7 @@
                 width: 190px;
                 aspect-ratio: 1/1;
                 opacity: 0%;
+                color: black;
             }
 
             .longText{
