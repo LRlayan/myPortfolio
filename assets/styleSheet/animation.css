@@ -7,14 +7,36 @@
 
 .upToDown{
     opacity: 0;
+    filter: blur(50);
     transform: translateY(-50px);
     transition: all 1s;
 }
 
 .rightToLeft{
     opacity: 0;
+    filter: blur(0);
     transform: translateX(150px);
     transition: all 1s;
+}
+
+#projectImageArea>a:first-child{
+    transition-delay: 100ms;
+}
+
+#projectImageArea>a:nth-child(2){
+    transition-delay: 200ms;
+}
+
+#projectImageArea>a:nth-child(3){
+    transition-delay: 300ms;
+}
+
+#projectImageArea>a:nth-child(4){
+    transition-delay: 400ms;
+}
+
+#projectImageArea>a:nth-child(5){
+    transition-delay: 500ms;
 }
 
 .show{
