@@ -1,7 +1,7 @@
 
 .hidden{
     opacity: 0;
-    transform: translateY(50px);
+    transform: translateY(100px);
     transition: all 2s;
 }
 
@@ -9,7 +9,7 @@
     opacity: 0;
     filter: blur(50);
     transform: translateY(-50px);
-    transition: all 1s;
+    transition: 1s;
 }
 
 .rightToLeft{
@@ -40,23 +40,49 @@
 }
 
 #assignmentArea>div:first-child{
-    transition-delay: 100ms;
-}
-
-#assignmentArea>div:nth-child(2){
     transition-delay: 200ms;
 }
 
-#assignmentArea>div:nth-child(3){
-    transition-delay: 300ms;
-}
-
-#assignmentArea>div:nth-child(4){
+#assignmentArea>div:nth-child(2){
     transition-delay: 400ms;
 }
 
+#assignmentArea>div:nth-child(3){
+    transition-delay: 600ms;
+}
+
+#assignmentArea>div:nth-child(4){
+    transition-delay: 800ms;
+}
+
 #assignmentArea>div:nth-child(5){
-    transition-delay: 500ms;
+    transition-delay: 1000ms;
+}
+
+/*--------------------------------------------------- gallery ------------------------------------------------------*/
+
+#imagesController>div:first-child{
+    transition-delay: 70ms;
+}
+
+#imagesController>div:nth-child(2){
+    transition-delay: 140ms;
+}
+
+#imagesController>div:nth-child(3){
+    transition-delay: 210ms;
+}
+
+#imagesController>div:nth-child(4){
+    transition-delay: 280ms;
+}
+
+#imagesController>div:nth-child(5){
+    transition-delay: 350ms;
+}
+
+#imagesController>div:nth-child(6){
+    transition-delay: 410ms;
 }
 
 .show{
