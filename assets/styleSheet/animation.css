@@ -8,7 +8,7 @@
 .upToDown{
     opacity: 0;
     filter: blur(50);
-    transform: translateY(-50px);
+    transform: translateY(-100px);
     transition: 1s;
 }
 
