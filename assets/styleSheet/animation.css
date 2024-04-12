@@ -39,6 +39,26 @@
     transition-delay: 500ms;
 }
 
+#assignmentArea>div:first-child{
+    transition-delay: 100ms;
+}
+
+#assignmentArea>div:nth-child(2){
+    transition-delay: 200ms;
+}
+
+#assignmentArea>div:nth-child(3){
+    transition-delay: 300ms;
+}
+
+#assignmentArea>div:nth-child(4){
+    transition-delay: 400ms;
+}
+
+#assignmentArea>div:nth-child(5){
+    transition-delay: 500ms;
+}
+
 .show{
     opacity: 1;
     transform: translateX(0);
