@@ -2468,14 +2468,32 @@
 
         /* Styles for Mobile Large (376px to 425px) */
         @media all and (min-width: 376px) and (max-width: 425px) {
+            body{
+                overflow-x: hidden;
+            }
+
+            #assignmentArea{
+                z-index: -1;
+            }
+
+            #backgroundImageArea{
+                position: relative;
+                top: 90px;
+            }
+
+            #navBar{
+                position: fixed;
+                z-index: 1;
+            }
 
             #menuBtn{
                 display: initial;
                 position: relative;
-                top: 0px;
+                top: 17px;
                 left: 20px;
                 border: 0;
                 border-radius: 5px;
+                width: 70px;
             }
 
             #header a{
@@ -2484,7 +2502,7 @@
             }
 
             #header{
-                width:450px;
+                width:600px;
                 height: 90px;
 
                 background-color: #1E8BFA;
@@ -2503,7 +2521,7 @@
                 border: 3px solid darkblue;
 
                 position: absolute;
-                left: 22rem;
+                left: 32rem;
                 top: 10px;
 
                 transform: rotate(-35deg);
@@ -2556,13 +2574,13 @@
 
             /*  background image section  */
             #backgroundImg{
-                width: 450px;
-                height: 320px;
+                width: 600px;
+                height: 420px;
             }
 
             #socialMedia{
                 position: relative;
-                top: -22.3rem;
+                top: -26.3rem;
                 left: -10px;
 
                 width: 60px;
@@ -2614,8 +2632,8 @@
 
             #likeAndFollow{
                 position: relative;
-                top: -19rem;
-                left: 24.5rem;
+                top: -24rem;
+                left: 32.5rem;
                 width: 50px;
             }
 
@@ -2653,8 +2671,8 @@
 
             #h2Label{
                 position: absolute;
-                left: 14.7rem;
-                top: 0rem;
+                left: 22.7rem;
+                top: 4rem;
                 width: 210px;
 
                 font-size: 16px;
@@ -2662,12 +2680,12 @@
 
             #descP{
                 position: absolute;
-                top: 4rem;
+                top: 8rem;
                 padding: 20px 37px 0 5px;
                 font-size: 22px;
                 margin-left: 10px;
 
-                width: 350px;
+                width: 497px;
                 text-align: justify;
             }
 
@@ -2679,15 +2697,15 @@
                 background-color: #1E8BFA;
                 -webkit-text-fill-color: #f9f9f9;
 
-                border-radius: 20px;
+                border-radius: 30px;
                 border: 0;
 
-                width: 120px;
-                height: 30px;
+                width: 160px;
+                height: 50px;
 
                 position: absolute;
-                top: 25rem;
-                left: 16.5rem;
+                top: 24rem;
+                left: 23.5rem;
             }
 
             /*----------------------------------------------------------------------------------------------------*/
@@ -2709,7 +2727,7 @@
                 background-color: #A2DDFF;
                 position: absolute;
                 top: 24rem;
-                left: 3.9rem;
+                left: 8.5rem;
 
                 width: 320px;
                 height: 430px;
@@ -2818,9 +2836,9 @@
                 overflow: hidden;
                 position: relative;
                 top: 85px;
-                left: 39px;
+                left: 109px;
 
-                width: 275px;
+                width: 285px;
                 height: 200px;
             }
 
@@ -2839,9 +2857,9 @@
             .quickViewBtn{
                 position: absolute;
                 top: 285px;
-                left: 39px;
+                left: 109px;
 
-                width: 275px;
+                width: 285px;
                 height: 25px;
 
                 -webkit-text-fill-color: #f9f9f9;
@@ -2856,7 +2874,7 @@
 
             #imgAndLinesParentDiv{
                 position: relative;
-                top: 18rem;
+                top: 17rem;
                 left: -24rem;
                 width: 680px;
 
@@ -2866,14 +2884,15 @@
             #skillsArea{
                 position: relative;
                 top: 50rem;
-                left: 3rem;
+                left: 8rem;
 
                 width: 300px;
             }
 
             #skillTitle{
                 position: absolute;
-                top: 13rem;
+                top: 11rem;
+                left: -5rem;
             }
 
             #mainLine{
@@ -3044,7 +3063,7 @@
                 position: absolute;
                 top: 6rem;
                 left: 3.9rem;
-                width: 310px;
+                width: 510px;
 
                 display: flex;
             }
@@ -3092,23 +3111,23 @@
                 overflow-x: scroll;
             }
 
-            #card3{
-                position: relative;
-                top: 300px;
-                right: 312px;
-            }
+            /*#card3{*/
+            /*    position: relative;*/
+            /*    top: 300px;*/
+            /*    right: 312px;*/
+            /*}*/
 
-            #card4{
-                position: relative;
-                top: 300px;
-                right: 312px;
-            }
+            /*#card4{*/
+            /*    position: relative;*/
+            /*    top: 300px;*/
+            /*    right: 312px;*/
+            /*}*/
 
-            #card5{
-                position: relative;
-                top: 600px;
-                right: 627px;
-            }
+            /*#card5{*/
+            /*    position: relative;*/
+            /*    top: 600px;*/
+            /*    right: 627px;*/
+            /*}*/
 
             /*  ---------------------------------------------------------------------------------------------------  */
             /*  assignment area  */
@@ -3124,12 +3143,12 @@
                 top: 122rem;
                 left: 60px;
 
-                width: 400px;
+                width: 480px;
                 display: flex;
             }
 
             #assignmentArea{
-                max-width: 320px;
+                max-width: 480px;
                 overflow-x: auto;
             }
 
@@ -3247,7 +3266,7 @@
             .activitiesParent{
                 position: relative;
                 top: -2rem;
-                left: -21.8rem;
+                left: -15.8rem;
                 width: 400px;
             }
 
@@ -3275,7 +3294,7 @@
 
             #artTitle{
                 position: relative;
-                left: 26rem;
+                left: 23.7rem;
                 top: 1.5rem;
                 width: fit-content;
             }
@@ -3296,7 +3315,7 @@
             #artImage{
                 position: absolute;
                 top: 55px;
-                left: 22.96rem;
+                left: 20.50rem;
             }
 
             #artDiv{
@@ -3355,12 +3374,12 @@
             }
 
             #imagesController{
-                width: 350px;
+                width: 498px;
             }
 
             .container-general .gallery-wrap {
                 display: flex;
-                height: 18vh;
+                height: 20vh;
             }
 
             .container-general .gallery-wrap .item {
@@ -3386,7 +3405,7 @@
 
             .firstDiv{
                 background-color: #7DBEFF;
-                width: 450px;
+                width: 600px;
                 height: 850px;
             }
 
@@ -3401,13 +3420,13 @@
                 height: 35px;
 
                 position: absolute;
-                left: 5rem;
+                left: 9rem;
                 padding: 5px;
             }
 
             #nameInput{
                 position: absolute;
-                left: 5rem;
+                left: 9rem;
                 top: 7.3rem;
             }
 
@@ -3417,8 +3436,8 @@
                 height: 200px;
 
                 position: absolute;
-                top: 10.4rem;
-                left: 0rem;
+                top: 10.5rem;
+                left: 9rem;
                 margin: auto;
                 padding: 10px;
             }
@@ -3442,20 +3461,20 @@
             .button{
                 position: absolute;
                 top: 26rem;
-                left: 0rem;
+                left: 11rem;
             }
 
             #aboutMeTitle{
                 position: absolute;
                 top: 30rem;
-                left: 10.8rem;
+                left: 15rem;
                 margin-bottom: 10px;
             }
 
             .aboutMeParent{
                 position: absolute;
                 top: 32rem;
-                left: 9.4rem;
+                left: 14rem;
                 width: 200px;
             }
 
@@ -3485,13 +3504,13 @@
             .socialMediaTitle{
                 position: absolute;
                 top: 8.6rem;
-                left: 10.5rem;
+                left: 14.5rem;
                 font-size: 22px;
             }
 
             .socialMedia{
                 position: absolute;
-                left: 1.2rem;
+                left: 5.2rem;
                 top: 12rem;
                 width: 400px;
             }
@@ -3541,7 +3560,7 @@
                 aspect-ratio: 1/1;
 
                 position: absolute;
-                left: 21.8rem;
+                left: 26rem;
                 top: 1.5rem;
             }
 
@@ -3559,7 +3578,7 @@
                 top: -34px;
 
                 background-color: #007EFF;
-                width: 450px;
+                width: 600px;
                 height: 215px;
                 margin: 0;
             }
@@ -3581,7 +3600,7 @@
 
             .thirdDiv{
                 background-color: #001B37;
-                width: 450px;
+                width: 600px;
                 height: 280px;
 
                 position: relative;
@@ -3591,7 +3610,7 @@
             .wrap-1{
                 position: absolute;
                 top: 20px;
-                left: 11rem;
+                left: 16rem;
             }
 
             .wrap-1Like{
@@ -3611,7 +3630,7 @@
             .wrap-2{
                 position: absolute;
                 top: 10rem;
-                left: 8.5rem;
+                left: 14rem;
 
                 height: 100px;
             }
@@ -3654,7 +3673,7 @@
             .developedBy{
                 -webkit-text-fill-color: #f9f9f9;
                 position: relative;
-                left: -20px;
+                left: -29px;
                 top: -30px;
                 margin: 0;
                 padding: 0;
