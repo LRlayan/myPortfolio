@@ -2469,13 +2469,6 @@
         /* Styles for Mobile Large (376px to 425px) */
         @media all and (min-width: 376px) and (max-width: 425px) {
 
-            /*section{*/
-            /*    max-height: 97vh;*/
-            /*    overflow-y: scroll;*/
-            /*    overflow-x: hidden;*/
-            /*    scroll-behavior: smooth;*/
-            /*}*/
-
             #menuBtn{
                 display: initial;
                 position: relative;
@@ -3670,13 +3663,23 @@
 
         /* Styles for Tablet (426px to 768px) */
         @media all and (min-width: 426px) and (max-width: 768px) {
+            body{
+                overflow-x: hidden;
+            }
 
-            /*section{*/
-            /*    max-height: 180%;*/
-            /*    overflow: scroll;*/
-            /*    overflow-x: hidden;*/
-            /*    scroll-behavior: smooth;*/
-            /*}*/
+            #assignmentArea{
+                z-index: -1;
+            }
+
+            #backgroundImageArea{
+                position: relative;
+                top: 90px;
+            }
+
+            #navBar{
+                position: fixed;
+                z-index: 1;
+            }
 
             #menuBtn{
                 display: none;
@@ -3688,7 +3691,7 @@
             }
 
             #header{
-                width:773px;
+                width:930px;
                 height: 90px;
 
                 background-color: #1E8BFA;
@@ -3707,7 +3710,7 @@
                 border: 3px solid darkblue;
 
                 position: absolute;
-                left:686px;
+                left:820px;
                 top: 10px;
 
                 transform: rotate(-35deg);
@@ -3731,7 +3734,7 @@
             }
 
             header>nav>div>ul>li:first-child{
-                margin-right: 90px;
+                margin-right: 120px;
             }
 
             .dropdown{
@@ -3758,8 +3761,8 @@
 
             /*  background image section  */
             #backgroundImg{
-                width: 773px;
-                height: 558px;
+                width: 930px;
+                height: 670px;
             }
 
             #socialMedia{
@@ -3815,8 +3818,8 @@
 
             #likeAndFollow{
                 position: relative;
-                top: -33rem;
-                left: 700px;
+                top: -39rem;
+                left: 825px;
                 width: 50px;
             }
 
@@ -3853,8 +3856,8 @@
 
             #h2Label{
                 position: absolute;
-                left: 25rem;
-                top: -1rem;
+                left: 33rem;
+                top: 3rem;
 
                 font-size: 20px;
                 width: 300px;
@@ -3863,12 +3866,12 @@
 
             #descP{
                 position: absolute;
-                top: 2rem;
+                top: 5rem;
                 padding: 20px 37px 0 8px;
                 font-size: 22px;
                 margin-left: 20px;
 
-                width: 645px;
+                width: 812px;
                 text-align: justify;
             }
 
@@ -3880,15 +3883,15 @@
                 background-color: #1E8BFA;
                 -webkit-text-fill-color: #f9f9f9;
 
-                border-radius: 20px;
+                border-radius: 25px;
                 border: 0;
 
-                width: 120px;
-                height: 30px;
+                width: 160px;
+                height: 50px;
 
                 position: absolute;
-                top: 16rem;
-                left: 35.5rem;
+                top: 17rem;
+                left: 43.5rem;
             }
 
             /*----------------------------------------------------------------------------------------------------*/
@@ -3910,7 +3913,7 @@
                 background-color: #A2DDFF;
                 position: absolute;
                 top: 14rem;
-                left: 4.7rem;
+                left: 9rem;
 
                 width: 620px;
                 height: 257px;
@@ -4020,7 +4023,7 @@
                 overflow: hidden;
                 position: relative;
                 top: 110px;
-                left: 68px;
+                left: 140px;
 
                 width: 570px;
                 height: 400px;
@@ -4029,7 +4032,7 @@
             .slider figure {
                 position: relative;
                 width:700px;
-                height: 300px;
+                height: 400px;
                 margin: 0;
                 left:0;
 
@@ -4041,7 +4044,7 @@
             .quickViewBtn{
                 position: absolute;
                 top: 509px;
-                left: 68px;
+                left: 140px;
 
                 width: 570.2px;
                 height: 40px;
@@ -4064,8 +4067,8 @@
 
             #skillsArea{
                 position: relative;
-                top: 50rem;
-                left: 3rem;
+                top: 51rem;
+                left: 8rem;
 
                 width: 700px;
             }
@@ -4146,6 +4149,7 @@
             #skillTitle{
                 position: absolute;
                 top: 0;
+                left: -80px;
             }
 
             #htmlIcon{
@@ -4227,9 +4231,9 @@
 
             #projectImageArea{
                 position: absolute;
-                top: 6rem;
-                left: 7.2rem;
-                width: 558px;
+                top: 7rem;
+                left: 5.5rem;
+                width: 750px;
 
                 display: flex;
             }
@@ -4241,7 +4245,7 @@
                 text-align:center;
                 background-color: #f9f9f9;
                 width: 140px;
-                height: 255px;
+                height: 295px;
 
                 padding: 10px;
                 margin: 10px;
@@ -4277,17 +4281,17 @@
                 overflow-x: scroll;
             }
 
-            #card4{
-                position: relative;
-                top: 300px;
-                right: 558px;
-            }
+            /*#card4{*/
+            /*    position: relative;*/
+            /*    top: 300px;*/
+            /*    right: 558px;*/
+            /*}*/
 
-            #card5{
-                position: relative;
-                top: 300px;
-                right: 559px;
-            }
+            /*#card5{*/
+            /*    position: relative;*/
+            /*    top: 300px;*/
+            /*    right: 559px;*/
+            /*}*/
 
             /*  ---------------------------------------------------------------------------------------------------  */
             /*  assignment area  */
@@ -4301,14 +4305,14 @@
             #assignmentArea{
                 position: relative;
                 top: 100rem;
-                left: 87px;
+                left: 60px;
 
-                width: 600px;
+                width: 800px;
                 display: flex;
             }
 
             #assignmentArea{
-                max-width: 600px;
+                max-width: 796px;
                 overflow-x: auto;
             }
 
@@ -4425,7 +4429,7 @@
 
             .activitiesParent{
                 position: relative;
-                left: -21.6rem;
+                left: -16rem;
                 width: 600px;
             }
 
@@ -4443,17 +4447,17 @@
 
             #artDiv{
                 position: relative;
-                left: 23.65rem;
+                left: 21.65rem;
             }
 
             #photographyDiv{
                 position: relative;
-                left: 45rem;
+                left: 48rem;
             }
 
             #artTitle{
                 position: relative;
-                left: 31rem;
+                left: 29.3rem;
                 top: 1.5rem;
                 width: fit-content;
             }
@@ -4474,7 +4478,7 @@
             #artImage{
                 position: absolute;
                 top: 55px;
-                left: 24.6rem;
+                left: 22.57rem;
             }
 
             #artDiv{
@@ -4528,17 +4532,17 @@
             #galleryArea{
                 position: relative;
                 top: 110rem;
-                left: 50px;
+                left: 60px;
                 width: 580px;
             }
 
             #imagesController{
-                width: 668px;
+                width: 798px;
             }
 
             .container-general .gallery-wrap {
                 display: flex;
-                height: 35vh;
+                height: 38vh;
             }
 
             .container-general .gallery-wrap .item {
@@ -4564,7 +4568,7 @@
 
             .firstDiv{
                 background-color: #7DBEFF;
-                width: 773px;
+                width: 930px;
                 height: 725px;
             }
 
@@ -4579,13 +4583,13 @@
                 height: 40px;
 
                 position: absolute;
-                left: 8rem;
+                left: 13rem;
                 padding: 5px;
             }
 
             #nameInput{
                 position: absolute;
-                left: 25rem;
+                left: 30rem;
             }
 
             .textArea{
@@ -4595,7 +4599,7 @@
 
                 position: absolute;
                 top: 10rem;
-                left: 0rem;
+                left:13rem;
                 margin: auto;
                 padding: 10px;
             }
@@ -4619,7 +4623,7 @@
             .button{
                 position: absolute;
                 top: 26rem;
-                left: 0rem;
+                left: 21.5rem;
             }
 
             #aboutMeTitle{
@@ -4660,12 +4664,12 @@
             .socialMediaTitle{
                 position: absolute;
                 top: -20px;
-                left: 32.5rem;
+                left: 37rem;
             }
 
             .socialMedia{
                 position: absolute;
-                left: 27rem;
+                left: 31.5rem;
                 top: 37px;
                 width: 250px;
             }
@@ -4715,14 +4719,14 @@
                 aspect-ratio: 1/1;
 
                 position: absolute;
-                left: 33.5rem;
+                left: 38rem;
                 top: 2rem;
             }
 
             #CVButton{
                 position: absolute;
                 top: 2rem;
-                left: -21.3rem;
+                left: -32rem;
             }
 
             /*-----------------------------------------------------------------------------------------------------------*/
@@ -4730,10 +4734,10 @@
 
             .secondDiv{
                 position: relative;
-                top: -38px;
+                top: -36px;
 
                 background-color: #007EFF;
-                width: 773px;
+                width: 930px;
                 height: 290px;
                 margin: 0;
             }
@@ -4755,7 +4759,7 @@
 
             .thirdDiv{
                 background-color: #001B37;
-                width: 773px;
+                width: 930px;
                 height: 450px;
 
                 position: relative;
@@ -4765,7 +4769,7 @@
             .wrap-1{
                 position: absolute;
                 top: 20px;
-                left: 20rem;
+                left: 25rem;
             }
 
             .wrap-1Like{
@@ -4775,17 +4779,17 @@
 
             .wrap1-text{
                 -webkit-text-fill-color: #f9f9f9;
-                font-size: 54px;
+                font-size: 45px;
 
                 position: absolute;
-                left: -170px;
+                left: -140px;
                 width: 490px;
             }
 
             .wrap-2{
                 position: absolute;
                 top: 18rem;
-                left: 18rem;
+                left: 23rem;
 
                 height: 150px;
             }
@@ -7163,14 +7167,24 @@
 
         /* Styles for Laptop Large (1367px to 1440px) */
         @media all and (min-width: 1367px) and (max-width: 1440px) {
-            /* header-nav bar */
 
-            /*section{*/
-            /*    max-height: 86vh;*/
-            /*    overflow: scroll;*/
-            /*    overflow-x: hidden;*/
-            /*    scroll-behavior: smooth;*/
-            /*}*/
+            body{
+                overflow-x: hidden;
+            }
+
+            #navBar{
+                position: fixed;
+                z-index: 1;
+            }
+
+            #assignmentArea{
+                z-index: -1;
+            }
+
+            #backgroundImageArea{
+                position: relative;
+                top: 90px;
+            }
 
             #menuBtn{
                 display: none;
@@ -7182,7 +7196,7 @@
             }
 
             #header{
-                width:1440px;
+                width:1590px;
                 height: 90px;
 
                 background-color: #1E8BFA;
