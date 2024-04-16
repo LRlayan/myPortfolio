@@ -34,12 +34,36 @@
         /* Styles for Mobile Small (up to 320px) */
         @media all and (max-width: 320px) {
 
+            body{
+                overflow-x: hidden;
+            }
+
+            main{
+                overflow-x: hidden;
+                overflow-x: hidden;
+            }
+
+            #assignmentArea{
+                z-index: -1;
+            }
+
+            #navBar{
+                position: fixed;
+                z-index: 1;
+            }
+
+            #backgroundImageArea{
+                position: relative;
+                top: 60px;
+            }
+
             #menuBtn{
                 display: initial;
                 position: relative;
-                top: -2px;
+                top: 0px;
                 left: 20px;
                 border-radius: 7px;
+                border: none;
             }
 
             #header a{
@@ -48,8 +72,8 @@
             }
 
             #header{
-                width:470px;
-                height: 90px;
+                width:200px;
+                height: 60px;
 
                 background-color: #1E8BFA;
             }
@@ -60,17 +84,7 @@
             }
 
             #profileImage{
-                width: 65px;
-                aspect-ratio: 1/1;
-
-                border-radius: 100%;
-                border: 3px solid darkblue;
-
-                position: absolute;
-                left: 23rem;
-                top: 10px;
-
-                transform: rotate(-35deg);
+               display: none;
             }
 
             .text-decoration{
@@ -78,16 +92,7 @@
             }
 
             .headerList{
-                display: inline-block;
-                width: fit-content;
-
-                position: relative;
-                top: -35px;
-
-                -webkit-text-fill-color: white;
-
-                font-size: 14px;
-                margin-right: 18px;
+                display: none;
             }
 
             header>nav>div>ul>li:first-child{
@@ -102,13 +107,13 @@
             .dropdown-content{
                 display: none;
                 position: absolute;
-                top: 55px;
+                top: 43px;
                 background-color: #f9f9f9;
                 min-width: 50px;
                 box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
                 padding: 6px 8px;
                 z-index: 1;
-                width: 155px;
+                width: 115px;
             }
 
             .dropdown:hover .dropdown-content {
@@ -118,17 +123,19 @@
             /*-------------------------------------------------------------------------------------------------------*/
             /*  background image section  */
             #backgroundImg{
-                width: 470px;
-                height: 320px;
+                width: 200px;
+                height: 160px;
             }
 
             #socialMedia{
-                position: relative;
-                top: -15rem;
-                left: 5vw;
+                /*position: relative;*/
+                /*top: -15rem;*/
+                /*left: 5vw;*/
 
-                width: 115px;
-                height: 30px;
+                /*width: 115px;*/
+                /*height: 30px;*/
+
+                display: none;
             }
 
             .socialMediaPosition{
@@ -231,21 +238,21 @@
 
             #h2Label{
                 position: absolute;
-                left: 250px;
-                top: 4rem;
+                left: 2.2rem;
+                top: 12.5rem;
                 width: 220px;
 
-                font-size: 16px;
+                font-size: 10px;
             }
 
             #descP{
                 position: absolute;
-                top: 6rem;
+                top: 13rem;
                 padding: 20px 37px 0 8px;
-                font-size: 22px;
-                margin-left: 15px;
+                font-size: 10px;
+                margin-left: -19px;
 
-                width: 358px;
+                width: 160px;
                 text-align: justify;
             }
 
@@ -260,12 +267,12 @@
                 border-radius: 20px;
                 border: 0;
 
-                width: 120px;
-                height: 30px;
+                width: 90px;
+                height: 25px;
 
                 position: absolute;
-                top: 26rem;
-                left: 18rem;
+                top: 23rem;
+                left: 3.3rem;
             }
 
             /*----------------------------------------------------------------------------------------------------*/
@@ -277,7 +284,7 @@
 
             #title{
                 position: absolute;
-                top: 280px;
+                top: 200px;
                 left: 30px;
             }
 
@@ -286,30 +293,30 @@
 
                 background-color: #A2DDFF;
                 position: absolute;
-                top: 24rem;
-                left: 5.4rem;
+                top: 18rem;
+                left: 1rem;
 
-                width: 296px;
-                height: 430px;
+                width: 170px;
+                height: 345px;
 
                 border-radius: 20px;
             }
 
             .image{
-                margin-left: 48px;
+                margin-left: 20px;
                 position: relative;
                 top: 26px;
                 bottom: 20px;
 
                 border-radius: 100%;
 
-                width: 65px;
+                width: 45px;
                 aspect-ratio: 1/1;
             }
 
             .allLevels{
                 -webkit-text-fill-color: black;
-                font-size: 16px;
+                font-size: 10px;
 
                 width: 315px;
                 height: 10px;
@@ -322,26 +329,26 @@
             #ds{
                 position: relative;
                 top: 5px;
-                left: 134px;
+                left: 84px;
             }
 
             #edc{
                 position: relative;
-                top: 175px;
+                top: 128px;
                 left: -2px;
             }
 
             #ijse{
                 position: relative;
-                top: 145px;
-                left: 138px;
+                top: 94px;
+                left: 84px;
             }
 
             .firstDesc{
                 margin-top: 76px;
                 position: relative;
-                left: 140px;
-                top: -98px;
+                left: 80px;
+                top: -90px;
 
                 width: 150px;
             }
@@ -349,15 +356,15 @@
             .secondDesc{
                 margin-top: 40px;
                 position: relative;
-                left: 46px;
-                top: 85px;
+                left: 15px;
+                top: 58px;
             }
 
             .thirdDesc{
                 margin-top: 76px;
                 position: relative;
-                left: 120px;
-                top: 35px;
+                left: 65px;
+                top: 8px;
 
                 width: 195px;
             }
@@ -365,18 +372,21 @@
             .forthDesc{
                 margin-top: 55px;
                 position: relative;
-                left: 30px;
-                top: 220px;
+                left: 10px;
+                top: 145px;
 
                 width: 180px;
+                font-size: 10px;
             }
 
+            /*------------------------------------------------------------------------------------------------*/
+            /*certificate*/
             .relative{
                 position: relative;
-                top: 54rem;
+                top: 42rem;
                 left: 34px;
 
-                width: 350px;
+                width: 200px;
             }
 
             #titleCertificate{
@@ -385,24 +395,24 @@
             }
 
             main>section>div:nth-child(4)>div>figure>img{
-                width: 275px;
-                height: 200px;
+                width: 190px;
+                height: 110px;
             }
 
             .slider{
                 overflow: hidden;
                 position: relative;
                 top: 85px;
-                left: 65px;
+                left: -24px;
 
-                width: 275px;
-                height: 200px;
+                width: 178px;
+                height: 125px;
             }
 
             .slider figure {
                 position: relative;
-                width:280px;
-                height: 200px;
+                width:170px;
+                height: 125px;
                 margin: 0;
                 left:0;
 
@@ -413,10 +423,10 @@
 
             .quickViewBtn{
                 position: absolute;
-                top: 285px;
-                left: 65px;
+                top: 210px;
+                left: -24px;
 
-                width: 275px;
+                width: 178px;
                 height: 25px;
 
                 -webkit-text-fill-color: #f9f9f9;
@@ -432,7 +442,7 @@
             #imgAndLinesParentDiv{
                 position: relative;
                 top: 18rem;
-                left: -22.5rem;
+                left: -29.2rem;
                 width: 680px;
 
                 transform: rotate(-90deg);
@@ -440,8 +450,8 @@
 
             #skillsArea{
                 position: relative;
-                top: 50rem;
-                left: 3rem;
+                top: 37rem;
+                left: 2rem;
 
                 width: 300px;
             }
@@ -449,154 +459,157 @@
             #skillTitle{
                 position: absolute;
                 top: 13rem;
+                left: 2rem;
             }
 
             #mainLine{
-                background-color: gray;
-                width: 420px;
-                height: 10px;
+                /*background-color: gray;*/
+                /*width: 420px;*/
+                /*height: 7px;*/
 
-                border-radius: 10px;
-                position: absolute;
-                top: 260px;
-                left: -3.3rem;
+                /*border-radius: 10px;*/
+                /*position: absolute;*/
+                /*top: 231px;*/
+                /*left: -3.3rem;*/
+                display: none;
             }
 
-            .lines{
-                position: relative;
-            }
+            /*.lines{*/
+            /*    position: relative;*/
+            /*}*/
 
             .subLines{
-                background-color: gray;
-                width: 50px;
-                height: 10px;
+                /*background-color: gray;*/
+                /*width: 25px;*/
+                /*height: 8px;*/
 
-                border-radius: 10px;
-                position: relative;
-                top: 250px;
+                /*border-radius: 10px;*/
+                /*position: relative;*/
+                /*top: 238px;*/
 
-                transform: rotate(90deg);
+                /*transform: rotate(90deg);*/
+                display: none;
             }
 
-            #line1{
-                position: absolute;
-                top: 15rem;
-                left: -2.5rem;
-            }
+            /*#line1{*/
+            /*    position: absolute;*/
+            /*    top: 13.8rem;*/
+            /*    left: -1.7rem;*/
+            /*}*/
 
-            #line2{
-                position: absolute;
-                top: 15rem;
-                left: 5rem;
-            }
+            /*#line2{*/
+            /*    position: absolute;*/
+            /*    top: 13.8rem;*/
+            /*    left: 5.5rem;*/
+            /*}*/
 
-            #line3{
-                position: absolute;
-                top: 15rem;
-                left: 12rem;
-            }
+            /*#line3{*/
+            /*    position: absolute;*/
+            /*    top: 13.8rem;*/
+            /*    left: 12.5rem;*/
+            /*}*/
 
-            #line4{
-                position: absolute;
-                top: 15rem;
-                left: 19rem;
-            }
+            /*#line4{*/
+            /*    position: absolute;*/
+            /*    top: 13.8rem;*/
+            /*    left: 19.7rem;*/
+            /*}*/
 
-            #line5{
-                position: absolute;
-                top: 17.7rem;
-                left: 1rem;
-            }
+            /*#line5{*/
+            /*    position: absolute;*/
+            /*    top: 15.7rem;*/
+            /*    left:1.8rem;*/
+            /*}*/
 
-            #line6{
-                position: absolute;
-                top: 17.7rem;
-                left: 8.4rem;
-            }
+            /*#line6{*/
+            /*    position: absolute;*/
+            /*    top: 15.7rem;*/
+            /*    left: 9rem;*/
+            /*}*/
 
-            #line7{
-                position: absolute;
-                top: 17.7rem;
-                left: 15.5rem;
-            }
+            /*#line7{*/
+            /*    position: absolute;*/
+            /*    top: 15.7rem;*/
+            /*    left: 16rem;*/
+            /*}*/
 
             #skillsIcons{
                 position: relative;
             }
 
             #htmlIcon{
-                width: 89px;
+                width: 64px;
                 aspect-ratio: 1/1;
 
                 position: relative;
-                top: 6.8rem;
-                left: 18rem;
+                top: 9.2rem;
+                left: 18.6rem;
 
                 transform: rotate(90deg);
             }
 
             #cssIcon{
-                width: 89px;
+                width: 64px;
                 aspect-ratio: 1/1;
 
                 position: relative;
-                top: 19.4rem;
-                left: 8.4rem;
+                top: 14.8rem;
+                left: 14.4rem;
 
                 transform: rotate(90deg);
             }
 
             #figmaIcon{
-                width: 80px;
+                width: 59px;
                 aspect-ratio: 1/1;
 
                 position: relative;
-                top: 6.5rem;
-                left: -0.5rem;
+                top: 9rem;
+                left: 6rem;
 
                 transform: rotate(90deg);
             }
 
             #javaIcon{
-                width: 103px;
+                width: 77px;
                 aspect-ratio: 1/1;
 
                 position: relative;
-                top: 19.7rem;
-                left: -10.7rem;
+                top: 15.2rem;
+                left: 1.5rem;
 
                 transform: rotate(90deg);
             }
 
             #mySqlIcon{
-                width: 98px;
-                height: 80px;
+                width: 73px;
+                height: 60px;
 
                 position: relative;
-                top: 6.5rem;
-                left: -20rem;
+                top: 9.1rem;
+                left: -7.9rem;
 
                 transform: rotate(90deg);
             }
 
             #linuxIcon{
-                width: 80px;
+                width: 59px;
                 aspect-ratio: 1/1;
 
                 position: relative;
-                top: 19rem;
-                left: -30.5rem;
+                top: 14.6rem;
+                left: -12.2rem;
 
                 transform: rotate(90deg);
             }
 
             #githubIcon{
                 position: absolute;
-                top: 7.1rem;
-                left: -6.8rem;
+                top: 9.5rem;
+                left: 3.1rem;
 
-                width: 192px;
-                height: 105px;
+                width: 145px;
+                height: 80px;
 
                 transform: rotate(90deg);
             }
@@ -606,7 +619,7 @@
 
             #projectArea{
                 position: relative;
-                top: 92rem;
+                top: 69rem;
                 width: 310px;
             }
 
@@ -618,8 +631,8 @@
             #projectImageArea{
                 position: absolute;
                 top: 6rem;
-                left: 4.7rem;
-                width: 310px;
+                left: 1.5rem;
+                width: 150px;
 
                 display: flex;
             }
@@ -658,31 +671,8 @@
             }
 
             #projectImageArea{
-                max-height: 300px; /* Set the maximum height of the container */
-                /*overflow-x: auto; !* Enable horizontal scrolling *!*/
-            }
-
-            #projectImageArea{
-                overflow-y: auto; /* Enable vertical scrolling */
-                /*overflow-x: scroll;*/
-            }
-
-            #card3{
-                position: relative;
-                top: 300px;
-                right: 312px;
-            }
-
-            #card4{
-                position: relative;
-                top: 300px;
-                right: 312px;
-            }
-
-            #card5{
-                position: relative;
-                top: 600px;
-                right: 627px;
+                max-width: 200px; /* Set the maximum height of the container */
+                overflow-x: auto; /* Enable horizontal scrolling */
             }
 
             /*  ---------------------------------------------------------------------------------------------------  */
@@ -698,22 +688,22 @@
 
             #mainTitle{
                 position: relative;
-                top: 120rem;
-                left: 50px;
+                top: 95rem;
+                left: 20px;
                 width: 200px;
             }
 
             #assignmentArea{
                 position: relative;
-                top: 122rem;
-                left: 74px;
+                top: 96rem;
+                left: 22px;
 
-                width: 400px;
+                width: 200px;
                 display: flex;
             }
 
             #assignmentArea{
-                max-width: 320px;
+                max-width: 200px;
                 overflow-x: auto;
             }
 
@@ -824,15 +814,15 @@
 
             #activitiesArea{
                 position: relative;
-                top: 126rem;
-                left: 50px;
+                top: 97rem;
+                left: 35px;
                 width: 350px;
             }
 
             .activitiesParent{
                 position: relative;
                 top: -2rem;
-                left: -21rem;
+                left: -23.4rem;
                 width: 350px;
             }
 
@@ -842,7 +832,7 @@
 
                 position: absolute;
                 top: 40px;
-                left: 20rem;
+                left: 10rem;
 
                 border-radius: 100%;
                 opacity: 0%;
@@ -867,8 +857,8 @@
 
             #photographyTitle{
                 position: relative;
-                left: 33.6rem;
-                top: -1.5rem;
+                left: 23rem;
+                top: 12.2rem;
                 width: fit-content;
             }
 
@@ -907,8 +897,8 @@
 
             #photographyImage{
                 position: absolute;
-                top: 55px;
-                left: 33.45rem;
+                top: 270px;
+                left: 22.99rem;
             }
 
             #photographyDiv{
@@ -921,7 +911,8 @@
 
             #photographyDiv{
                 position: absolute;
-                left: 520px;
+                left: 353px;
+                top: 15.99rem;
             }
 
             #photographyDiv:hover{
@@ -933,31 +924,28 @@
             /*  ----------------------------------------------------------------------------------------------------  */
             /*gallery area*/
             #galleryArea{
-                position: relative;
-                top: 125rem;
-                left: 50px;
-                width: 200px;
+                display: none;
             }
 
-            #imagesController{
-                width: 370px;
-            }
+            /*#imagesController{*/
+            /*    width: 370px;*/
+            /*}*/
 
-            .container-general .gallery-wrap {
-                display: flex;
-                height: 18vh;
-            }
+            /*.container-general .gallery-wrap {*/
+            /*    display: flex;*/
+            /*    height: 18vh;*/
+            /*}*/
 
-            .container-general .gallery-wrap .item {
-                flex: 1;
-                background-position: center;
-                background-size: cover;
-                transition: all ease-in .3s
-            }
+            /*.container-general .gallery-wrap .item {*/
+            /*    flex: 1;*/
+            /*    background-position: center;*/
+            /*    background-size: cover;*/
+            /*    transition: all ease-in .3s*/
+            /*}*/
 
-            .container-general .gallery-wrap .item:hover {
-                flex: 4;
-            }
+            /*.container-general .gallery-wrap .item:hover {*/
+            /*    flex: 4;*/
+            /*}*/
 
             /*------------------------------------------------------------------------------------------------------*/
             /*footer*/
@@ -965,48 +953,45 @@
 
             #footerArea{
                 position: relative;
-                top: 126rem;
+                top: 110rem;
                 height: 1000px;
             }
 
             .firstDiv{
                 background-color: #7DBEFF;
-                width: 470px;
-                height: 850px;
+                width: 200px;
+                height: 650px;
             }
 
             .footerTitle{
-                padding-top: 30px;
+                padding-top: 20px;
                 text-align: center;
-                font-size: 20px;
-            }
-
-            .contact-wrap{
-
+                font-size: 12px;
             }
 
             .inputFields{
-                width: 280px;
-                height: 35px;
+                width: 150px;
+                height: 25px;
 
                 position: absolute;
-                left: 5.8rem;
+                left: 1.3rem;
                 padding: 5px;
+                font-size: 10px;
             }
 
             #nameInput{
                 position: absolute;
-                left: 5.8rem;
-                top: 7.3rem;
+                left: 1.3rem;
+                top: 5.3rem;
             }
 
             .textArea{
                 display: block;
-                width: 270px;
+                width: 150px;
                 height: 200px;
 
                 position: absolute;
-                top: 10.4rem;
+                top: 8rem;
                 left: 0rem;
                 margin: auto;
                 padding: 10px;
@@ -1019,8 +1004,8 @@
             }
 
             .button{
-                width: 170px;
-                height: 40px;
+                width: 100px;
+                height: 28px;
                 background-color: #003973;
 
                 border: none;
@@ -1030,14 +1015,14 @@
 
             .button{
                 position: absolute;
-                top: 26rem;
+                top: 24rem;
                 left: 0rem;
             }
 
             #aboutMeTitle{
                 position: absolute;
                 top: 29rem;
-                left: 12rem;
+                left: 3rem;
                 margin-bottom: 10px;
                 width: 110px;
             }
@@ -1056,9 +1041,9 @@
 
             .aboutMeDetails{
                 position: relative;
-                top: 25px;
-                left: -3.5rem;
-                font-size: 20px;
+                top: 17px;
+                left: -8.5rem;
+                font-size: 12px;
                 width: 300px;
             }
 
@@ -1067,62 +1052,61 @@
             }
 
             #socialMediaParent{
-                position: relative;
-                top: 25.75rem;
+              display: none;
             }
 
-            .socialMediaTitle{
-                position: absolute;
-                top: 8.6rem;
-                left: 11.4rem;
-                font-size: 22px;
-            }
+            /*.socialMediaTitle{*/
+            /*    position: absolute;*/
+            /*    top: 8.6rem;*/
+            /*    left: 11.4rem;*/
+            /*    font-size: 22px;*/
+            /*}*/
 
-            .socialMedia{
-                position: absolute;
-                left: 2rem;
-                top: 12rem;
-                width: 400px;
-            }
+            /*.socialMedia{*/
+            /*    position: absolute;*/
+            /*    left: -2rem;*/
+            /*    top: 12rem;*/
+            /*    width: 400px;*/
+            /*}*/
 
-            #fb{
-                position: relative;
-                top: 2px;
-                margin-right: 2px;
+            /*#fb{*/
+            /*    position: relative;*/
+            /*    top: 2px;*/
+            /*    margin-right: 2px;*/
 
-                width: 70px;
-                aspect-ratio: 1/1;
-            }
+            /*    width: 70px;*/
+            /*    aspect-ratio: 1/1;*/
+            /*}*/
 
-            #ln{
-                width: 51px;
-                aspect-ratio: 1/1;
-                top: -8px;
-                left: 18px;
-            }
+            /*#ln{*/
+            /*    width: 51px;*/
+            /*    aspect-ratio: 1/1;*/
+            /*    top: -8px;*/
+            /*    left: 18px;*/
+            /*}*/
 
-            #wa{
+            /*#wa{*/
 
-            }
+            /*}*/
 
-            #in{
-                left: 31px;
-            }
+            /*#in{*/
+            /*    left: 31px;*/
+            /*}*/
 
-            #tele{
-                left: 35px;
-            }
+            /*#tele{*/
+            /*    left: 35px;*/
+            /*}*/
 
-            #git{
-                width: 55px;
-                aspect-ratio: 1/1;
-                top: -6px;
-                left: 34px;
-            }
+            /*#git{*/
+            /*    width: 55px;*/
+            /*    aspect-ratio: 1/1;*/
+            /*    top: -6px;*/
+            /*    left: 34px;*/
+            /*}*/
 
-            .socialMedia a{
-                text-decoration: none;
-            }
+            /*.socialMedia a{*/
+            /*    text-decoration: none;*/
+            /*}*/
 
             #lastDiv{
                 position: relative;
@@ -1130,18 +1114,19 @@
             }
 
             .upArrow{
-                width: 50px;
+                width: 38px;
                 aspect-ratio: 1/1;
 
                 position: absolute;
-                left: 22.6rem;
-                top: 1.5rem;
+                left: 8.6rem;
+                top: -7.4rem;
             }
 
             #CVButton{
                 position: absolute;
-                top: 2rem;
-                left: -11rem;
+                top: -7rem;
+                left: -4rem;
+                font-size: 10px;
             }
 
             /*-----------------------------------------------------------------------------------------------------------*/
@@ -1152,7 +1137,7 @@
                 top: -27px;
 
                 background-color: #007EFF;
-                width: 470px;
+                width: 200px;
                 height: 215px;
                 margin: 0;
             }
@@ -1160,13 +1145,13 @@
             .text-1{
                 padding-top: 50px;
                 text-align: center;
-                font-size: 40px;
+                font-size: 30px;
             }
 
             .text-2{
                 padding-top: 10px;
                 text-align: center;
-                font-size: 24px;
+                font-size: 18px;
             }
 
             /*--------------------------------------------------------------------------------------------------------------*/
@@ -1174,8 +1159,8 @@
 
             .thirdDiv{
                 background-color: #001B37;
-                width: 470px;
-                height: 280px;
+                width: 200px;
+                height: 200px;
 
                 position: relative;
                 top: -38px;
@@ -1184,37 +1169,37 @@
             .wrap-1{
                 position: absolute;
                 top: 20px;
-                left: 11.8rem;
+                left: 3.8rem;
             }
 
             .wrap-1Like{
-                width: 100px;
+                width: 80px;
                 aspect-ratio: 1/1;
             }
 
             .wrap1-text{
                 -webkit-text-fill-color: #f9f9f9;
-                font-size: 28px;
+                font-size: 15px;
 
                 position: absolute;
-                left: -80px;
+                left: -27px;
                 width: 300px;
             }
 
             .wrap-2{
                 position: absolute;
-                top: 10rem;
-                left: 8.5rem;
+                top: 8rem;
+                left: 2.5rem;
 
-                height: 100px;
+                height: 10px;
             }
 
             .likeAndViews{
-                height: 120px;
+                height: 70px;
             }
 
             .wrap2-like{
-                width: 30px;
+                width: 20px;
                 aspect-ratio: 1/1;
 
                 position: relative;
@@ -1223,34 +1208,35 @@
             }
 
             .wrap2-views{
-                width: 93px;
+                width: 58px;
                 aspect-ratio: 1.8/1;
 
                 position: relative;
-                top: 21px;
+                top: 12px;
             }
 
             .count{
                 display: flex;
                 -webkit-text-fill-color: #f9f9f9;
-                font-size: 20px;
+                font-size: 15px;
 
                 position: relative;
-                top: -46px;
-                left: 55px;
+                top: -35px;
+                left: 32px;
             }
 
             .count-2{
-                margin-left: 80px;
+                margin-left: 65px;
             }
 
             .developedBy{
                 -webkit-text-fill-color: #f9f9f9;
                 position: relative;
-                left: -20px;
-                top: -30px;
+                left: 8px;
+                top: -16px;
                 margin: 0;
                 padding: 0;
+                font-size: 7px;
             }
         }
 
@@ -1269,15 +1255,20 @@
                 z-index: -1;
             }
 
+            #navBar{
+                position: fixed;
+                z-index: 1;
+            }
+
             #backgroundImageArea{
                 position: relative;
-                top: 0px;
+                top: 60px;
             }
 
             #menuBtn{
                 display: initial;
                 position: relative;
-                top: -15px;
+                top: 0px;
                 left: 20px;
 
                 width: 50px;
@@ -1295,7 +1286,7 @@
             }
 
             #header{
-                width:510px;
+                width:350px;
                 height: 60px;
 
                 background-color: #1E8BFA;
@@ -1314,7 +1305,7 @@
                 border: 3px solid darkblue;
 
                 position: absolute;
-                right: -136px;
+                right: 10px;
                 top: 5px;
 
                 transform: rotate(-35deg);
@@ -1326,16 +1317,7 @@
             }
 
             .headerList{
-                display: inline-block;
-                width: fit-content;
-
-                position: relative;
-                top: -35px;
-
-                -webkit-text-fill-color: white;
-
-                font-size: 14px;
-                margin-right: 18px;
+                display: none;
             }
 
             header>nav>div>ul>li:first-child{
@@ -1366,8 +1348,8 @@
             /*-----------------------------------------------------------------------------------------------------*/
             /*  background image section  */
             #backgroundImg{
-                width: 509px;
-                height: 345px;
+                width: 350px;
+                height: 280px;
             }
 
             .socialMediaPosition{
@@ -1379,7 +1361,7 @@
 
             #socialMedia{
                 position: relative;
-                top: -23rem;
+                top: -20.5rem;
                 left: 0vw;
 
                 width: 60px;
@@ -1424,8 +1406,8 @@
 
             #likeAndFollow{
                 position: relative;
-                top: -20.5rem;
-                left:24rem;
+                top: -16rem;
+                left:14rem;
                 width: 50px;
             }
 
@@ -1462,20 +1444,20 @@
 
             #h2Label{
                 position: absolute;
-                right: -8rem;
-                top: 0rem;
+                right: 1rem;
+                top: 4rem;
 
-                font-size: 16px;
+                font-size: 12px;
             }
 
             #descP{
                 position: absolute;
-                top: 3rem;
+                top: 5rem;
                 padding: 20px 37px 0 10px;
-                font-size: 22px;
-                margin-left: 28px;
+                font-size: 15px;
+                margin-left: 0px;
 
-                width: 358px;
+                width: 265px;
                 text-align: justify;
             }
 
@@ -1494,21 +1476,21 @@
                 height: 30px;
 
                 position: absolute;
-                top: 24rem;
-                left: 18.7rem;
+                top: 19rem;
+                left: 11.4rem;
             }
 
             /*----------------------------------------------------------------------------------------------------*/
             /*education area*/
             #educationArea{
                 position: relative;
-                top: 0rem;
+                top: -7rem;
             }
 
             #title{
                 position: absolute;
                 top: 280px;
-                left: 30px;
+                left: 110px;
             }
 
             #educationLevels{
@@ -1517,7 +1499,7 @@
                 background-color: #A2DDFF;
                 position: absolute;
                 top: 24rem;
-                left: 6rem;
+                left: 1rem;
 
                 width: 90vw;
                 height: 430px;
@@ -1602,8 +1584,8 @@
 
             .relative{
                 position: relative;
-                top: 54rem;
-                left: 34px;
+                top: 46rem;
+                left: 107px;
 
                 width: 350px;
             }
@@ -1622,7 +1604,7 @@
                 overflow: hidden;
                 position: relative;
                 top: 85px;
-                left: 75px;
+                left: -75px;
 
                 width: 285px;
                 height: 200px;
@@ -1643,7 +1625,7 @@
             .quickViewBtn{
                 position: absolute;
                 top: 285px;
-                left: 74px;
+                left: -75px;
 
                 width: 285px;
                 height: 25px;
@@ -1661,7 +1643,7 @@
             #imgAndLinesParentDiv{
                 position: relative;
                 top: 18rem;
-                left: -21.5rem;
+                left: -26.7rem;
                 width: 680px;
 
                 transform: rotate(-90deg);
@@ -1669,7 +1651,7 @@
 
             #skillsArea{
                 position: relative;
-                top: 50rem;
+                top: 42rem;
                 left: 3rem;
 
                 width: 300px;
@@ -1678,6 +1660,7 @@
             #skillTitle{
                 position: absolute;
                 top: 13rem;
+                left: 90px;
             }
 
             #mainLine{
@@ -1835,20 +1818,20 @@
 
             #projectArea{
                 position: relative;
-                top: 92rem;
-                width: 310px;
+                top: 83rem;
+                width: 340px;
             }
 
             #projectsTitle{
                 position: absolute;
-                left: 50px;
+                left: 115px;
             }
 
             #projectImageArea{
                 position: absolute;
                 top: 6rem;
-                left: 6rem;
-                width: 310px;
+                left: 1.2rem;
+                width: 340px;
 
                 display: flex;
             }
@@ -1887,34 +1870,23 @@
             }
 
             #projectImageArea{
-                max-height: 500px; /* Set the maximum height of the container */
-                /*overflow-x: auto; !* Enable horizontal scrolling *!*/
-            }
-
-            #projectImageArea{
-                overflow-y: auto; /* Enable vertical scrolling */
-                /*overflow-x: scroll;*/
-            }
-
-            #card3{
-                position: relative;
-                top: 300px;
-                right: 312px;
+                max-width: 310px; /* Set the maximum height of the container */
+                overflow-x: auto; /* Enable horizontal scrolling */
             }
 
             /*  ---------------------------------------------------------------------------------------------------  */
             /*  assignment area  */
             #mainTitle{
                 position: relative;
-                top: 120rem;
-                left: 50px;
+                top: 110rem;
+                left: 90px;
                 width: 200px;
             }
 
             #assignmentArea{
                 position: relative;
-                top: 122rem;
-                left: 90px;
+                top: 113rem;
+                left: 17px;
 
                 width: 400px;
                 display: flex;
@@ -1922,7 +1894,7 @@
 
             #assignmentArea{
                 max-width: 320px;
-                overflow-x: auto;
+                overflow-x: scroll;
             }
 
             .cards{
@@ -2031,15 +2003,15 @@
 
             #activitiesArea{
                 position: relative;
-                top: 126rem;
-                left: 65px;
+                top: 116rem;
+                left: 110px;
                 width: 350px;
             }
 
             .activitiesParent{
                 position: relative;
                 top: -2rem;
-                left: -21rem;
+                left: -28.5rem;
                 width: 350px;
             }
 
@@ -2141,13 +2113,15 @@
             /*gallery area*/
             #galleryArea{
                 position: relative;
-                top: 125rem;
-                left: 50px;
+                top: 115rem;
+                left: 125px;
                 width: 200px;
             }
 
             #imagesController{
-                width: 415px;
+                width: 290px;
+                position: absolute;
+                left: -6rem;
             }
 
             .container-general .gallery-wrap {
@@ -2172,13 +2146,13 @@
 
             #footerArea{
                 position: relative;
-                top: 126rem;
+                top: 123rem;
                 height: 1000px;
             }
 
             .firstDiv{
                 background-color: #7DBEFF;
-                width: 510px;
+                width: 350px;
                 height: 850px;
             }
 
@@ -2197,13 +2171,13 @@
                 height: 35px;
 
                 position: absolute;
-                left: 6.8rem;
+                left: 2rem;
                 padding: 5px;
             }
 
             #nameInput{
                 position: absolute;
-                left: 6.8rem;
+                left: 2rem;
                 top: 7.3rem;
             }
 
@@ -2214,7 +2188,7 @@
 
                 position: absolute;
                 top: 10.4rem;
-                left: 6.8rem;
+                left: 0rem;
                 margin: auto;
                 padding: 10px;
             }
@@ -2238,13 +2212,13 @@
             .button{
                 position: absolute;
                 top: 26rem;
-                left: 10rem;
+                left: 0rem;
             }
 
             #aboutMeTitle{
                 position: absolute;
                 top: 29rem;
-                left: 12.5rem;
+                left: 7.8rem;
                 margin-bottom: 10px;
             }
 
@@ -2263,7 +2237,7 @@
             .aboutMeDetails{
                 position: relative;
                 top: 25px;
-                left: -2rem;
+                left: -7.5rem;
                 font-size: 20px;
                 width: 300px;
             }
@@ -2280,13 +2254,13 @@
             .socialMediaTitle{
                 position: absolute;
                 top: 8.6rem;
-                left: 12rem;
+                left: 7.5rem;
                 font-size: 22px;
             }
 
             .socialMedia{
                 position: absolute;
-                left: 2.5rem;
+                left: -1.5rem;
                 top: 12rem;
                 width: 400px;
             }
@@ -2294,7 +2268,7 @@
             #fb{
                 position: relative;
                 top: 2px;
-                margin-right: 2px;
+                margin-right: 0px;
 
                 width: 70px;
                 aspect-ratio: 1/1;
@@ -2304,22 +2278,26 @@
                 width: 51px;
                 aspect-ratio: 1/1;
                 top: -8px;
+                left: 13px;
+            }
+
+            #wa{
                 left: 18px;
             }
 
             #in{
-                left: 31px;
+                left: 21px;
             }
 
             #tele{
-                left: 35px;
+                left: 24px;
             }
 
             #git{
                 width: 55px;
                 aspect-ratio: 1/1;
                 top: -6px;
-                left: 34px;
+                left: 24px;
             }
 
             .socialMedia a{
@@ -2336,14 +2314,14 @@
                 aspect-ratio: 1/1;
 
                 position: absolute;
-                left: 23rem;
+                left: 18rem;
                 top: 1.5rem;
             }
 
             #CVButton{
                 position: absolute;
                 top: 2rem;
-                left: -11rem;
+                left: -8rem;
             }
 
             /*-----------------------------------------------------------------------------------------------------------*/
@@ -2354,7 +2332,7 @@
                 top: -27px;
 
                 background-color: #007EFF;
-                width: 509px;
+                width: 350px;
                 height: 215px;
                 margin: 0;
             }
@@ -2362,13 +2340,13 @@
             .text-1{
                 padding-top: 50px;
                 text-align: center;
-                font-size: 40px;
+                font-size: 30px;
             }
 
             .text-2{
                 padding-top: 10px;
                 text-align: center;
-                font-size: 24px;
+                font-size: 20px;
             }
 
             /*--------------------------------------------------------------------------------------------------------------*/
@@ -2376,8 +2354,8 @@
 
             .thirdDiv{
                 background-color: #001B37;
-                width: 508px;
-                height: 280px;
+                width: 350px;
+                height: 288px;
 
                 position: relative;
                 top: -38px;
@@ -2386,7 +2364,7 @@
             .wrap-1{
                 position: absolute;
                 top: 20px;
-                left: 12rem;
+                left: 6.5rem;
             }
 
             .wrap-1Like{
@@ -2398,17 +2376,17 @@
 
             .wrap1-text{
                 -webkit-text-fill-color: #f9f9f9;
-                font-size: 28px;
+                font-size: 26px;
 
                 position: absolute;
-                left: -70px;
+                left: -50px;
                 width: 300px;
             }
 
             .wrap-2{
                 position: absolute;
                 top: 10rem;
-                left: 11rem;
+                left: 6rem;
 
                 height: 100px;
             }
