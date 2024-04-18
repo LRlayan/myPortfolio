@@ -4802,12 +4802,24 @@
 
         /* Styles for Laptop (769px to 1024px) */
         @media all and (min-width: 769px) and (max-width: 1024px) {
-            /*section{*/
-            /*    max-height: 98vh;*/
-            /*    overflow: scroll;*/
-            /*    overflow-x: hidden;*/
-            /*    scroll-behavior: smooth;*/
-            /*}*/
+
+            body{
+                overflow-x: hidden;
+            }
+
+            #assignmentArea{
+                z-index: -1;
+            }
+
+            #backgroundImageArea{
+                position: relative;
+                top: 90px;
+            }
+
+            #navBar{
+                position: fixed;
+                z-index: 1;
+            }
 
             #menuBtn{
                 display: none;
@@ -4838,7 +4850,7 @@
                 border: 3px solid darkblue;
 
                 position: absolute;
-                left: 930px;
+                left: 820px;
                 top: 10px;
 
                 transform: rotate(-35deg);
@@ -4854,11 +4866,11 @@
                 -webkit-text-fill-color: white;
 
                 font-size: 18px;
-                margin-right: 40px;
+                margin-right: 20px;
             }
 
             header>nav>div>ul>li:first-child{
-                margin-right: 150px;
+                margin-right: 130px;
             }
 
             .dropdown{
@@ -4888,14 +4900,14 @@
             /*  ---------------------------------------------------------------------------------------------------------  */
             /*  background image section  */
             #backgroundImg{
-                width: 1024px;
-                height: 800px;
+                width: 900px;
+                height: 700px;
             }
 
             #socialMedia{
                 position: relative;
-                top: -250px;
-                left: 3vw;
+                top: -240px;
+                left: 1vw;
                 width: 600px;
             }
 
@@ -4947,8 +4959,8 @@
 
             #likeAndFollow{
                 position: relative;
-                top: -48rem;
-                left: 810px;
+                top: -41rem;
+                left: 668px;
                 width: 50px;
             }
 
@@ -4986,8 +4998,8 @@
 
             #h2Label{
                 position: absolute;
-                left: 37rem;
-                top: -3rem;
+                left: 31.3rem;
+                top: 1rem;
 
                 font-size: 28px;
                 width: 400px;
@@ -4995,12 +5007,12 @@
 
             #descP{
                 position: absolute;
-                top: 2rem;
+                top: 5rem;
                 padding: 20px 37px 0 25px;
                 font-size: 22px;
-                margin-left: 20px;
+                margin-left: 12px;
 
-                width: 888px;
+                width: 760px;
                 text-align: justify;
             }
 
@@ -5019,8 +5031,8 @@
                 height: 40px;
 
                 position: absolute;
-                top: 15rem;
-                left: 49.9rem;
+                top: 17.5rem;
+                left: 40.9rem;
             }
 
             /*----------------------------------------------------------------------------------------------------*/
@@ -5042,7 +5054,7 @@
                 background-color: #A2DDFF;
                 position: absolute;
                 top: 14rem;
-                left: 8rem;
+                left: 4rem;
 
                 width:764px;
                 height: 302px;
@@ -5140,7 +5152,7 @@
                 overflow: hidden;
                 position: relative;
                 top: 110px;
-                left: 175px;
+                left: 120px;
 
                 width: 570px;
                 height: 400px;
@@ -5161,7 +5173,7 @@
             .quickViewBtn{
                 position: absolute;
                 top: 509px;
-                left: 175px;
+                left: 120px;
 
                 width: 570.2px;
                 height: 40px;
@@ -5254,7 +5266,7 @@
             #skillsArea{
                 position: relative;
                 top: 50rem;
-                left: 3rem;
+                left: -1rem;
 
                 width: 968px;
             }
@@ -5348,8 +5360,8 @@
             #projectImageArea{
                 position: absolute;
                 top: 6rem;
-                left: 3rem;
-                width: 950px;
+                left: 3.5rem;
+                width: 780px;
 
                 display: flex;
             }
@@ -5388,7 +5400,7 @@
             }
 
             #projectImageArea{
-                max-height: 800px; /* Set the maximum height of the container */
+                max-height: 600px; /* Set the maximum height of the container */
                 overflow-x: auto; /* Enable horizontal scrolling */
             }
 
@@ -5409,14 +5421,14 @@
             #assignmentArea{
                 position: relative;
                 top: 106rem;
-                left: 70px;
+                left: 120px;
 
-                width: 880px;
+                width: 672px;
                 display: flex;
             }
 
             #assignmentArea{
-                max-width: 880px;
+                max-width: 700px;
                 overflow-x: auto;
             }
 
@@ -5533,7 +5545,7 @@
 
             .activitiesParent{
                 position: relative;
-                left: -12rem;
+                left: -16rem;
             }
 
             .activities{
@@ -5635,11 +5647,11 @@
                 position: relative;
                 top: 130rem;
                 left: 50px;
-                width: 880px;
+                width: 700px;
             }
 
             #imagesController{
-                width: 924px;
+                width: 800px;
             }
 
             .container-general .gallery-wrap {
@@ -5683,13 +5695,13 @@
                 height: 40px;
 
                 position: absolute;
-                left: 9.5rem;
+                left: 5.5rem;
                 padding: 5px;
             }
 
             #nameInput{
                 position: absolute;
-                left: 33rem;
+                left: 29rem;
             }
 
             .textArea{
@@ -5730,7 +5742,7 @@
             #aboutMeTitle{
                 position: absolute;
                 top: 30rem;
-                left: 9.4rem;
+                left: 5.4rem;
                 margin-bottom: 10px;
             }
 
@@ -5749,6 +5761,7 @@
             .aboutMeDetails{
                 position: relative;
                 top: 15px;
+                left: -60px;
             }
 
             .socialMedia{
@@ -5764,12 +5777,12 @@
             .socialMediaTitle{
                 position: absolute;
                 top: -20px;
-                left: 46.5rem;
+                left: 42.5rem;
             }
 
             .socialMedia{
                 position: absolute;
-                left: 26.5rem;
+                left: 22.5rem;
                 top: 37px;
                 width: 600px;
             }
@@ -5809,13 +5822,13 @@
                 aspect-ratio: 1/1;
 
                 position: absolute;
-                left: 46.6rem;
+                left: 47.4rem;
             }
 
             #CVButton{
                 position: absolute;
                 top: 0;
-                left: -33rem;
+                left: -39.5rem;
             }
 
             /*-----------------------------------------------------------------------------------------------------------*/
@@ -5835,12 +5848,14 @@
                 padding-top: 50px;
                 text-align: center;
                 font-size: 54px;
+                margin-left: -110px;
             }
 
             .text-2{
                 padding-top: 30px;
                 text-align: center;
                 font-size: 40px;
+                margin-left: -130px;
             }
 
             /*--------------------------------------------------------------------------------------------------------------*/
@@ -5858,7 +5873,7 @@
             .wrap-1{
                 position: absolute;
                 top: 20px;
-                left: 28rem;
+                left: 24rem;
             }
 
             .wrap-1Like{
@@ -5878,7 +5893,7 @@
             .wrap-2{
                 position: absolute;
                 top: 18rem;
-                left: 26rem;
+                left: 22rem;
 
                 height: 150px;
             }
@@ -5930,6 +5945,10 @@
 
         /* Styles for Laptop Large (1025px to 1366px) */
         @media all and (min-width: 1025px) and (max-width: 1366px) {
+
+            body{
+                overflow-x: hidden;
+            }
 
             #navBar{
                 position: fixed;
