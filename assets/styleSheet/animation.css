@@ -20,7 +20,7 @@
 .rightToLeft{
     opacity: 0;
     filter: blur(0);
-    transform: translateX(150px);
+    transform: translateX(32px);
     transition: all 1s;
 }
 
