@@ -20,3 +20,6 @@
 
     const  rightToLeft = document.querySelectorAll('.rightToLeft');
     rightToLeft.forEach((el) => obServer.observe(el))
+
+    const  rightToLeftSm = document.querySelectorAll('.rightToLeftSm');
+    rightToLeftSm.forEach((el) => obServer.observe(el))
