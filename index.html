@@ -22,9 +22,22 @@
     <link rel="stylesheet" href="assets/styleSheet/animation.css">
 
     <style>
+        @import 'https://fonts.googleapis.com/css?family=Raleway';
 
         html{
             scroll-behavior: smooth;
+        }
+
+        .headerFonts{
+            font-family: "Calibri Light";
+        }
+
+        .desFonts{
+            font-family: "Bell MT";
+        }
+
+        .mainTitleFonts{
+            font-family: Calibri;
         }
 
         /* Styles for Mobile Small (up to 320px) */
@@ -6177,42 +6190,43 @@
             #ds{
                 position: relative;
                 top: 28px;
+                left: -30px;
             }
 
             #edc{
                 position: relative;
-                left: -10px;
+                left: -30px;
             }
 
             #ijse{
                 position: relative;
                 top: 28px;
-                left: -30px;
+                left: -50px;
             }
 
             .firstDesc{
                 margin-top: 76px;
                 position: relative;
-                left: 40px;
+                left: 35px;
             }
 
             .secondDesc{
                 margin-top: 60px;
                 position: relative;
-                left: 50px;
+                left: 25px;
             }
 
             .thirdDesc{
                 margin-top: 76px;
                 position: relative;
-                left: 15px;
+                left: -10px;
             }
 
             .forthDesc{
                 margin-top: 60px;
                 position: relative;
-                left: 0px;
-                width: 170px;
+                left: -25px;
+                width: 180px;
             }
 
             .forthLevel{
@@ -8265,38 +8279,38 @@
         <nav id="navBar">
             <div id="header">
                 <ul id="unOrderList">
-                    <li class="headerList"><a href="#backgroundImageArea" class="mainLink">Home</a></li>
+                    <li class="headerList"><a href="#backgroundImageArea" class="mainLink headerFonts">Home</a></li>
 
                     <div class="dropdown">
-                        <li class="headerList"><a class="mainLink" href="#educationArea">Education</a></li>
+                        <li class="headerList"><a class="mainLink headerFonts" href="#educationArea">Education</a></li>
                         <div class="dropdown-content">
-                            <p class="header-text"><a href="#titleCertificate">Certificate</a></p>
+                            <p class="header-text headerFonts"><a href="#titleCertificate">Certificate</a></p>
                         </div>
                     </div>
 
-                    <li class="headerList"><a class="mainLink" href="#skillTitle">Skills</a></li>
+                    <li class="headerList headerFonts"><a class="mainLink" href="#skillTitle">Skills</a></li>
 
                     <div class="dropdown">
-                        <li class="headerList" ><a class="mainLink">Works</a></li>
+                        <li class="headerList" ><a class="mainLink headerFonts">Works</a></li>
                         <div class="dropdown-content">
-                            <a href="#projectsTitle"><p class="header-text">Project</p></a>
-                            <a href="#mainTitle"><p class="header-text">Assignment</p></a>
+                            <a href="#projectsTitle"><p class="header-text headerFonts">Project</p></a>
+                            <a href="#mainTitle"><p class="header-text headerFonts">Assignment</p></a>
                         </div>
                     </div>
 
                     <div class="dropdown">
-                        <li class="headerList"><a class="mainLink">Activity</a></li>
+                        <li class="headerList"><a class="mainLink headerFonts">Activity</a></li>
                         <div class="dropdown-content">
-                            <a href="#activitiesArea"><p class="header-text">Art</p></a>
-                            <a href="#activitiesArea"><p class="header-text">Photography</p></a>
+                            <a href="#activitiesArea"><p class="header-text headerFonts">Art</p></a>
+                            <a href="#activitiesArea"><p class="header-text headerFonts">Photography</p></a>
                         </div>
                     </div>
-                    <li class="headerList"><a class="mainLink" href="#galleryArea">Gallery</a></li>
+                    <li class="headerList"><a class="mainLink headerFonts" href="#galleryArea">Gallery</a></li>
 
                     <div class="dropdown">
-                        <li class="headerList"><a class="mainLink" href="#aboutMeTitle">About me</a></li>
+                        <li class="headerList"><a class="mainLink headerFonts" href="#aboutMeTitle">About me</a></li>
                         <div class="dropdown-content">
-                            <a href="#contact"><p class="header-text">Contact me</p></a>
+                            <a href="#contact"><p class="header-text headerFonts">Contact me</p></a>
                         </div>
                     </div>
                     <img id="profileImage" src="assets/img/headerImg/profileImg.jpg" alt="profile photo" title="my profile">
@@ -8322,7 +8336,7 @@
                 <img id="backgroundImg" src="assets/img/galleryImg/standard/backgroundImage.jpg" alt="background photo" title="ramesh">
 
                 <div id="likeAndFollow">
-                    <button id="followBtn">Follow + </button>
+                    <button id="followBtn" class="headerFonts">Follow + </button>
                     <img class="likeIcon" src="assets/img/footerImg/likeButtonBlue.png" alt="like button" title="like icon">
                 </div>
 
@@ -8354,29 +8368,29 @@
             </div>
 
             <div id="description">
-                <h2 id="h2Label" class="hidden">Full stack Software Developer </h2>
-                <div id="descP" class="hidden">
+                <h2 id="h2Label" class="hidden mainTitleFonts">Full stack Software Developer </h2>
+                <div id="descP" class="hidden desFonts">
                     <p>I am <span id="bold">Ramesh Layan.</span> I am currently settled in Beruwala. Currently I am doing Diploma in Software Engineering from IJSE - Institute of Software Engineering. I studied in Ariyawansa Maha Vidyalaya in the ordinary level. Later I went to DS Senanayake National School for advanced level. I like drawing and photography as a hobby.</p>
                 </div>
 
                 <div>
-                    <a href="#contact"><button id="contactMeBtn" type="button"> Contact me </button></a>
+                    <a href="#contact"><button id="contactMeBtn" class="headerFonts" type="button"> Contact me </button></a>
                 </div>
             </div>
 
             <div id="educationArea">
-                <h1 id="title" class="hiddenMainTitle">Education</h1>
+                <h1 id="title" class="hiddenMainTitle mainTitleFonts">Education</h1>
                 <div id="educationLevels" class="rightToLeft rightToLeftSm">
                     <div class="allLevels">
                         <img id="ariyawansha" class="image" src="assets/img/educationImg/araiyawansha.jpeg" alt="ariyawansha school logo" title="ariyawansha school">
                         <div>
-                            <p class="text-Align firstDesc">Ariyawansha MV<br>&nbsp;&nbsp;&nbsp; 2006 - 2016</p>
+                            <p class="text-Align firstDesc desFonts">Ariyawansha MV<br>&nbsp;&nbsp;&nbsp; 2006 - 2016</p>
                         </div>
                     </div>
 
                     <div class="allLevels">
                         <div>
-                            <p class="text-Align secondDesc">&nbsp;&nbsp;&nbsp;2017 - 2019<br>DS Senanayake<br>National School</p>
+                            <p class="text-Align secondDesc desFonts">&nbsp;&nbsp;&nbsp;2017 - 2019<br>DS Senanayake<br>National School</p>
                         </div>
                         <img id="ds" class="image" src="assets/img/educationImg/dsLogo.jpeg" alt="DS Senanayake school logo" title="DS Senanayake school">
                     </div>
@@ -8384,7 +8398,7 @@
                     <div class="allLevels">
                         <img id="edc" class="image" src="assets/img/educationImg/edc.png" alt="EDC logo" title="EDC.lk">
                         <div class="thirdDescParent">
-                            <p class="text-Align thirdDesc">Education Development<br>
+                            <p class="text-Align thirdDesc desFonts">Education Development<br>
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Center<br>
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2020 - 2021</p>
                         </div>
@@ -8392,7 +8406,7 @@
 
                     <div class="forthLevel">
                         <div class="forthLevel">
-                            <p class="text-Align forthDesc">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2023 - 2025<br>
+                            <p class="text-Align forthDesc desFonts">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2023 - 2025<br>
                                 Institute Of Software<br>
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Engineering </p>
                         </div>
@@ -8402,7 +8416,7 @@
             </div>
 
             <div id="certificateArea" class="relative">
-                <h1 id="titleCertificate" class="hiddenMainTitle">Certificate</h1>
+                <h1 id="titleCertificate" class="hiddenMainTitle mainTitleFonts">Certificate</h1>
                 <div id="slider" class="slider hidden">
                     <figure>
                         <img src="assets/img/educationImg/certificate/innovestaCertificate.png">
@@ -8415,7 +8429,7 @@
             </div>
 
             <div id="skillsArea">
-                <h1 id="skillTitle" class="hiddenMainTitle">Skills</h1>
+                <h1 id="skillTitle" class="hiddenMainTitle mainTitleFonts">Skills</h1>
                 <div id="imgAndLinesParentDiv">
                     <div id="line" class="lines">
                         <div id="mainLine" class="rightToLeft"></div>
@@ -8440,57 +8454,57 @@
             </div>
 
             <div id="projectArea">
-                <h1 id="projectsTitle" class="hiddenMainTitle">Projects</h1>
+                <h1 id="projectsTitle" class="hiddenMainTitle mainTitleFonts">Projects</h1>
                 <div id="projectImageArea">
                     <a href="https://github.com/LRlayan/NEOChatApplication.git" class="rightToLeft" >
                     <div id="card1" class="card">
-                        <h2>Chat App</h2>
+                        <h2 class="mainTitleFonts">Chat App</h2>
                         <img id="chatApp" src="assets/img/projectImg/ChatApplication.png" alt="chat Application project" title="chat Application">
-                        <p>chat application using<br>network programming<br> and javaFx</p>
+                        <p class="desFonts">chat application using<br>network programming<br> and javaFx</p>
                     </div>
                     </a>
 
                     <a href="https://github.com/LRlayan/connect-four-game.git" class="rightToLeft">
                     <div id="card2" class="card">
-                        <h2>Connect 4 Game</h2>
+                        <h2 class="mainTitleFonts">Connect 4 Game</h2>
                         <img id="connect4Game" src="assets/img/projectImg/Connect4Game.png" alt="connect four games project" title="Connect4 game">
-                        <p>connect 4 game GUI<br> application using java</p>
+                        <p class="desFonts">connect 4 game GUI<br> application using java</p>
                     </div>
                     </a>
 
                     <a href="https://github.com/LRlayan/final_Project_Apply_Layered_Architecture.git" class="rightToLeft">
                     <div id="card3" class="card">
-                        <h2>Burger App</h2>
+                        <h2 class="mainTitleFonts">Burger App</h2>
                         <img id="burgerApp" src="assets/img/projectImg/hotBurgerShop.png" alt="hot burger project" title="hot burger application">
-                        <p>GUI application burger<br> shop using javaFx</p>
+                        <p class="desFonts">GUI application burger<br> shop using javaFx</p>
                     </div>
                     </a>
 
                     <a href="https://github.com/LRlayan/libraryManagementSystem-ORM.git" class="rightToLeft">
                     <div id="card4" class="card">
-                        <h2>Library App</h2>
+                        <h2 class="mainTitleFonts">Library App</h2>
                         <img id="library" src="assets/img/projectImg/ChatApplication.png" alt="chat Application project" title="chat Application">
-                        <p>Library application using<br> hibernate and java</p>
+                        <p class="desFonts">Library application using<br> hibernate and java</p>
                     </div>
                     </a>
 
                     <a href="https://github.com/LRlayan/GroStore_Pos_System.git" class="rightToLeft">
                     <div id="card5" class="card">
-                        <h2>GroStore App</h2>
+                        <h2 class="mainTitleFonts">GroStore App</h2>
                         <img id="GroStore" src="assets/img/projectImg/Connect4Game.png" alt="chat Application project" title="chat Application">
-                        <p>GroStore web pos system<br> using boostrap</p>
+                        <p class="desFonts">GroStore web pos system<br> using boostrap</p>
                     </div>
                     </a>
                 </div>
             </div>
 
             <div id="assignment">
-            <h1 id="mainTitle" class="hiddenMainTitle">Assignment</h1>
+            <h1 id="mainTitle" class="hiddenMainTitle mainTitleFonts">Assignment</h1>
 
                 <div id="assignmentArea">
                     <div class="cards allCards rightToLeft">
                         <div class="mainLine"></div>
-                        <h2 class="assignmentShortTitle">INT</h2>
+                        <h2 class="assignmentShortTitle mainTitleFonts">INT</h2>
                         <a href="intAssignment.html"><div class="subCards ">
                             <div class="line"></div>
                                 <p id="int" class="longText leftLongText">Internet Technologies</p>
@@ -8500,7 +8514,7 @@
 
                     <div class="cards allCards rightToLeft">
                         <div class="mainLine"></div>
-                        <h2 class="assignmentShortTitle">OOP</h2>
+                        <h2 class="assignmentShortTitle mainTitleFonts">OOP</h2>
                         <a href="oopAssignment.html"><div class="subCards ">
                             <div class="line"></div>
                                 <p id="oop" class="longText leftLongText">Object Oriented Programming</p>
@@ -8510,7 +8524,7 @@
 
                     <div class="cards allCards rightToLeft">
                         <div class="mainLine"></div>
-                        <h2 class="assignmentShortTitle">PRF</h2>
+                        <h2 class="assignmentShortTitle mainTitleFonts">PRF</h2>
                         <a href="prfAssignment.html"><div class="subCards ">
                             <div class="line"></div>
                                 <p id="prf" class="longText leftLongText">Programming Fundamental</p>
@@ -8520,7 +8534,7 @@
 
                     <div class="cards allCards rightToLeft">
                         <div class="mainLine"></div>
-                        <h2 class="assignmentShortTitle">DBMS</h2>
+                        <h2 class="assignmentShortTitle mainTitleFonts">DBMS</h2>
                         <a href="DBMSAssignment.html"><div class="subCards ">
                             <div class="line"></div>
                                 <p id="dbms" class="longText leftLongText">Database Management System</p>
@@ -8530,7 +8544,7 @@
 
                     <div class="cards allCards rightToLeft">
                         <div class="mainLine"></div>
-                        <h2 class="assignmentShortTitle">INP</h2>
+                        <h2 class="assignmentShortTitle mainTitleFonts">INP</h2>
                         <a href="intAssignment.html"><div class="subCards ">
                             <div class="line"></div>
                             <p id="inp" class="longText leftLongText">Internet Network Programming</p>
@@ -8540,7 +8554,7 @@
 
                    <div class="cards allCards rightToLeft">
                         <div class="mainLine"></div>
-                        <h2 class="assignmentShortTitle">SWE</h2>
+                        <h2 class="assignmentShortTitle mainTitleFonts">SWE</h2>
                         <a href="sweAssignment.html"><div class="subCards">
                             <div class="line"></div>
                                 <p id="swe" class="longText leftLongText">Software Engineering</p>
@@ -8551,21 +8565,21 @@
             </div>
 
             <div id="activitiesArea">
-                <h1 id="titleActivityArea" class="hiddenMainTitle">Activities</h1>
+                <h1 id="titleActivityArea" class="hiddenMainTitle mainTitleFonts">Activities</h1>
                 <div class="activitiesParent">
 
                     <img id="artImage" class="activityImage hiddenMainTitle" src="assets/img/activities/art.jpg" alt="art Picture" title="art">
                     <div id="artDiv" class="activities hiddenMainTitle"></div>
-                    <h2 id="artTitle" class="hidden">Art</h2>
+                    <h2 id="artTitle" class="hidden mainTitleFonts">Art</h2>
 
                     <img id="photographyImage" class="activityImage rightToLeft" src="assets/img/activities/photography.webp" alt="photography picture" title="photography">
                     <div id="photographyDiv" class="activities rightToLeft"></div>
-                    <h2 id="photographyTitle" class="hidden">Photography</h2>
+                    <h2 id="photographyTitle" class="hidden mainTitleFonts">Photography</h2>
                 </div>
             </div>
 
             <div id="galleryArea">
-                <h1 id="titleGallery" class="hiddenMainTitle">Gallery</h1>
+                <h1 id="titleGallery" class="hiddenMainTitle mainTitleFonts">Gallery</h1>
                 <div class="container-general">
                     <div id ="imagesController" class="gallery-wrap wrap-effect-1">
                         <div class="item hidden"></div>
@@ -8581,23 +8595,23 @@
 
             <div id="footerArea">
                 <div class="firstDiv">
-                    <h1 id="contact" class="footerTitle">Have a any Question? Contact me</h1>
+                    <h1 id="contact" class="footerTitle mainTitleFonts">Have a any Question? Contact me</h1>
                     <div class="contact-wrap">
                         <input class="inputFields" type="email" placeholder="   enter your email email">
                         <input id="nameInput" class="inputFields" type="text" placeholder="   enter your name">
                         <textarea class="textArea inputFields" placeholder="   enter your message"></textarea>
-                        <button class="button" type="submit">Submit</button>
+                        <button class="button headerFonts" type="submit">Submit</button>
                     </div>
 
                     <div id="aboutMe">
-                        <h2 id="aboutMeTitle">About me</h2>
-                        <div class="aboutMeParent hiddenMainTitle">
+                        <h2 id="aboutMeTitle" class="mainTitleFonts">About me</h2>
+                        <div class="aboutMeParent hiddenMainTitle desFonts">
                             <p class="aboutMeDetails">Email : rameshlayan4@gmail.com</p>
                             <p class="aboutMeDetails">Tel : 0765937705 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0757980223</p>
                         </div>
                     </div>
                     <div id="socialMediaParent">
-                        <h2 class="socialMediaTitle">Socia Media</h2>
+                        <h2 class="socialMediaTitle mainTitleFonts">Socia Media</h2>
                         <div class="socialMedia">
                             <a href="https://www.facebook.com/ramesh.layan.7?mibextid=ZbWKwL">
                                 <img id="fb" class="hidden socialMediaPosition" src="assets/img/socialMedia/icons8-facebook-64.png" alt = "facebook" title = "facebook.lk">
@@ -8625,22 +8639,22 @@
                         </div>
                     </div>
                     <div id="lastDiv">
-                        <button id="CVButton" class="button" type="button">Download CV</button>
+                        <button id="CVButton" class="button headerFonts" type="button">Download CV</button>
                         <a href="#likeAndFollow"><img class="upArrow" src="assets/img/footerImg/arrow-up.gif" alt="up-arrow"></a>
                     </div>
                 </div>
 
                 <div class="secondDiv">
                     <div>
-                        <h1 class="text-1 rightToLeft">Thank You</h1>
-                        <h3 class="text-2 hiddenMainTitle">For Your Time and Appreciation</h3>
+                        <h1 class="text-1 rightToLeft mainTitleFonts">Thank You</h1>
+                        <h3 class="text-2 hiddenMainTitle mainTitleFonts">For Your Time and Appreciation</h3>
                     </div>
                 </div>
 
                 <div class="thirdDiv">
                     <div class="wrap-1">
                         <img class="wrap-1Like" src="assets/img/footerImg/likeButtonBlue.png" alt="like Icon" title="like">
-                        <h1 class="wrap1-text">My Personal Website</h1>
+                        <h1 class="wrap1-text mainTitleFonts">My Personal Website</h1>
                     </div>
                     <div class="wrap-2">
                         <div class="likeAndViews">
