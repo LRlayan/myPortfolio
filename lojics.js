@@ -31,5 +31,12 @@
             document.getElementById("followBtn").style.background = "red"
             document.getElementById("followBtn").innerText = "unfollow"
             document.getElementById("followCount").innerText++
+        }else {
+
         }
+    })
+
+    document.getElementById("likes").addEventListener('click' , function (){
+        document.getElementById("likeCount").innerText++
+        // document.getElementById("likes").rotate = 90
     })
