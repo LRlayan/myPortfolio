@@ -29,10 +29,12 @@
     document.getElementById("followBtn").addEventListener('click' , function (){
         if (document.getElementById("followBtn").innerText == "Follow +"){
             document.getElementById("followBtn").style.background = "red"
-            document.getElementById("followBtn").innerText = "unfollow"
+            document.getElementById("followBtn").innerText = "Unfollow"
             document.getElementById("followCount").innerText++
         }else {
-
+            document.getElementById("followCount").innerText--
+            document.getElementById("followBtn").innerText = "Follow +"
+            document.getElementById("followBtn").style.background = "#1E8BFA"
         }
     })
 
