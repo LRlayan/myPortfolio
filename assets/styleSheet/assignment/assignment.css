@@ -1,12 +1,12 @@
-.assignmentParent{
-    display: flex;
+section>div{
+    display: grid;
+    grid-template-columns: repeat(6 , 1fr);
 }
 
 .card{
-    position: relative;
     width: 183px;
     aspect-ratio: 1/1;
-    margin: 15px;
+    margin: 15px auto;
     border: 4px solid #003973;
     border-radius: 10px;
 
@@ -15,13 +15,13 @@
     animation-iteration-count: initial;
 }
 
-.margin-top{
-    margin-top: 15px;
-}
+/*.margin-top{*/
+/*    margin-top: 15px;*/
+/*}*/
 
-.margin-left{
-    margin-left: 15px;
-}
+/*.margin-left{*/
+/*    margin-left: 15px;*/
+/*}*/
 
 .card-detail{
     text-align: center;
