@@ -30,12 +30,19 @@
         /* Styles for Mobile Small (up to 320px) */
         @media all and (max-width: 320px) {
 
-            body{
-                overflow-x: hidden;
+            /*    ---------------------------------------------------------------------------------------------------    */
+            /*  scroll animation  */
+
+            .rightToLeftSm{
+                opacity: 0;
+                filter: blur(0);
+                transform: translateX(-80px);
+                transition: all 1s;
             }
 
-            main{
-                overflow-x: hidden;
+            .show{
+                opacity: 1;
+                transform: translateX(0);
             }
 
             #assignmentArea{
@@ -67,7 +74,7 @@
             }
 
             #header{
-                width:200px;
+                width:457px;
                 height: 60px;
 
                 background-color: #1E8BFA;
@@ -118,8 +125,8 @@
             /*-------------------------------------------------------------------------------------------------------*/
             /*  background image section  */
             #backgroundImg{
-                width: 200px;
-                height: 160px;
+                width: 458px;
+                height: 330px;
             }
 
             #socialMedia{
@@ -196,7 +203,7 @@
             #likeAndFollow{
                 position: relative;
                 top: -19.5rem;
-                left: 15rem;
+                left: 13rem;
                 width: 50px;
             }
 
@@ -233,21 +240,21 @@
 
             #h2Label{
                 position: absolute;
-                left: 2.2rem;
-                top: 12.5rem;
-                width: 220px;
+                left: 18.2rem;
+                top: 9.5rem;
+                width: 150px;
 
-                font-size: 10px;
+                font-size: 15px;
             }
 
             #descP{
                 position: absolute;
                 top: 13rem;
                 padding: 20px 37px 0 8px;
-                font-size: 10px;
-                margin-left: -19px;
+                font-size: 16px;
+                margin-left: -10px;
 
-                width: 160px;
+                width: 388px;
                 text-align: justify;
             }
 
@@ -262,12 +269,12 @@
                 border-radius: 20px;
                 border: 0;
 
-                width: 90px;
-                height: 25px;
+                width: 105px;
+                height: 32px;
 
                 position: absolute;
-                top: 23rem;
-                left: 3.3rem;
+                top: 23.5rem;
+                left: 19.8rem;
             }
 
             /*----------------------------------------------------------------------------------------------------*/
@@ -280,7 +287,7 @@
             #title{
                 position: absolute;
                 top: 200px;
-                left: 30px;
+                left: 150px;
             }
 
             #educationLevels{
@@ -289,9 +296,9 @@
                 background-color: #A2DDFF;
                 position: absolute;
                 top: 18rem;
-                left: 1rem;
+                left: 5.5rem;
 
-                width: 170px;
+                width: 280px;
                 height: 345px;
 
                 border-radius: 20px;
@@ -305,45 +312,46 @@
 
                 border-radius: 100%;
 
-                width: 45px;
+                width: 60px;
                 aspect-ratio: 1/1;
             }
 
             .allLevels{
                 -webkit-text-fill-color: black;
-                font-size: 10px;
+                font-size: 15px;
 
                 width: 315px;
                 height: 10px;
             }
 
             #ariyawansha{
-
+                position: relative;
+                left: 1rem;
             }
 
             #ds{
                 position: relative;
-                top: 5px;
-                left: 84px;
+                top: -17px;
+                left: 158px;
             }
 
             #edc{
                 position: relative;
                 top: 128px;
-                left: -2px;
+                left: 15px;
             }
 
             #ijse{
                 position: relative;
-                top: 94px;
-                left: 84px;
+                top: 70px;
+                left: 154px;
             }
 
             .firstDesc{
                 margin-top: 76px;
                 position: relative;
-                left: 80px;
-                top: -90px;
+                left: 124px;
+                top: -102px;
 
                 width: 150px;
             }
@@ -351,15 +359,15 @@
             .secondDesc{
                 margin-top: 40px;
                 position: relative;
-                left: 15px;
+                left: 39px;
                 top: 58px;
             }
 
             .thirdDesc{
                 margin-top: 76px;
                 position: relative;
-                left: 65px;
-                top: 8px;
+                left: 98px;
+                top: -10px;
 
                 width: 195px;
             }
@@ -367,11 +375,11 @@
             .forthDesc{
                 margin-top: 55px;
                 position: relative;
-                left: 10px;
+                left: 25px;
                 top: 145px;
 
                 width: 180px;
-                font-size: 10px;
+                font-size: 15px;
             }
 
             /*------------------------------------------------------------------------------------------------*/
@@ -387,6 +395,7 @@
             #titleCertificate{
                 position: absolute;
                 top: 0;
+                left: 7.8rem;
             }
 
             main>section>div:nth-child(4)>div>figure>img{
@@ -398,16 +407,16 @@
                 overflow: hidden;
                 position: relative;
                 top: 85px;
-                left: -24px;
+                left: 64px;
 
-                width: 178px;
-                height: 125px;
+                width: 250px;
+                height: 175px;
             }
 
             .slider figure {
                 position: relative;
                 width:170px;
-                height: 125px;
+                height: 175px;
                 margin: 0;
                 left:0;
 
@@ -418,10 +427,10 @@
 
             .quickViewBtn{
                 position: absolute;
-                top: 210px;
-                left: -24px;
+                top: 259px;
+                left: 64px;
 
-                width: 178px;
+                width: 250px;
                 height: 25px;
 
                 -webkit-text-fill-color: #f9f9f9;
@@ -437,7 +446,7 @@
             #imgAndLinesParentDiv{
                 position: relative;
                 top: 18rem;
-                left: -29.2rem;
+                left: -30.2rem;
                 width: 680px;
 
                 transform: rotate(-90deg);
@@ -454,157 +463,94 @@
             #skillTitle{
                 position: absolute;
                 top: 13rem;
-                left: 2rem;
+                left: 9.7rem;
             }
 
             #mainLine{
-                /*background-color: gray;*/
-                /*width: 420px;*/
-                /*height: 7px;*/
-
-                /*border-radius: 10px;*/
-                /*position: absolute;*/
-                /*top: 231px;*/
-                /*left: -3.3rem;*/
                 display: none;
             }
-
-            /*.lines{*/
-            /*    position: relative;*/
-            /*}*/
 
             .subLines{
-                /*background-color: gray;*/
-                /*width: 25px;*/
-                /*height: 8px;*/
-
-                /*border-radius: 10px;*/
-                /*position: relative;*/
-                /*top: 238px;*/
-
-                /*transform: rotate(90deg);*/
                 display: none;
             }
-
-            /*#line1{*/
-            /*    position: absolute;*/
-            /*    top: 13.8rem;*/
-            /*    left: -1.7rem;*/
-            /*}*/
-
-            /*#line2{*/
-            /*    position: absolute;*/
-            /*    top: 13.8rem;*/
-            /*    left: 5.5rem;*/
-            /*}*/
-
-            /*#line3{*/
-            /*    position: absolute;*/
-            /*    top: 13.8rem;*/
-            /*    left: 12.5rem;*/
-            /*}*/
-
-            /*#line4{*/
-            /*    position: absolute;*/
-            /*    top: 13.8rem;*/
-            /*    left: 19.7rem;*/
-            /*}*/
-
-            /*#line5{*/
-            /*    position: absolute;*/
-            /*    top: 15.7rem;*/
-            /*    left:1.8rem;*/
-            /*}*/
-
-            /*#line6{*/
-            /*    position: absolute;*/
-            /*    top: 15.7rem;*/
-            /*    left: 9rem;*/
-            /*}*/
-
-            /*#line7{*/
-            /*    position: absolute;*/
-            /*    top: 15.7rem;*/
-            /*    left: 16rem;*/
-            /*}*/
 
             #skillsIcons{
                 position: relative;
             }
 
             #htmlIcon{
-                width: 64px;
+                width: 84px;
                 aspect-ratio: 1/1;
 
                 position: relative;
-                top: 9.2rem;
+                top: 12.2rem;
                 left: 18.6rem;
 
                 transform: rotate(90deg);
             }
 
             #cssIcon{
-                width: 64px;
+                width: 84px;
                 aspect-ratio: 1/1;
 
                 position: relative;
-                top: 14.8rem;
-                left: 14.4rem;
+                top: 17.8rem;
+                left: 13.2rem;
 
                 transform: rotate(90deg);
             }
 
             #figmaIcon{
-                width: 59px;
+                width: 78px;
                 aspect-ratio: 1/1;
 
                 position: relative;
-                top: 9rem;
-                left: 6rem;
+                top: 23.5rem;
+                left: 7.9rem;
 
                 transform: rotate(90deg);
             }
 
             #javaIcon{
-                width: 77px;
+                width: 97px;
                 aspect-ratio: 1/1;
 
                 position: relative;
-                top: 15.2rem;
-                left: 1.5rem;
+                top: 29.7rem;
+                left: 2.3rem;
 
                 transform: rotate(90deg);
             }
 
             #mySqlIcon{
-                width: 73px;
-                height: 60px;
+                width: 93px;
+                height: 75px;
 
                 position: relative;
-                top: 9.1rem;
-                left: -7.9rem;
+                top: 12rem;
+                left: -9.6rem;
 
                 transform: rotate(90deg);
             }
 
             #linuxIcon{
-                width: 59px;
+                width: 78px;
                 aspect-ratio: 1/1;
 
                 position: relative;
-                top: 14.6rem;
-                left: -12.2rem;
+                top: 17.6rem;
+                left: -15.2rem;
 
                 transform: rotate(90deg);
             }
 
             #githubIcon{
                 position: absolute;
-                top: 9.5rem;
-                left: 3.1rem;
+                top: 23.9rem;
+                left: 10.1rem;
 
-                width: 145px;
-                height: 80px;
+                width: 179px;
+                height: 102px;
 
                 transform: rotate(90deg);
             }
@@ -614,20 +560,20 @@
 
             #projectArea{
                 position: relative;
-                top: 69rem;
-                width: 310px;
+                top: 61rem;
+                width: 340px;
             }
 
             #projectsTitle{
                 position: absolute;
-                left: 50px;
+                left: 10.5rem;
             }
 
             #projectImageArea{
                 position: absolute;
                 top: 6rem;
-                left: 1.5rem;
-                width: 150px;
+                left: 4.5rem;
+                width: 368px;
 
                 display: flex;
             }
@@ -666,7 +612,7 @@
             }
 
             #projectImageArea{
-                max-width: 200px; /* Set the maximum height of the container */
+                max-width: 315px; /* Set the maximum height of the container */
                 overflow-x: auto; /* Enable horizontal scrolling */
             }
 
@@ -683,22 +629,22 @@
 
             #mainTitle{
                 position: relative;
-                top: 95rem;
-                left: 20px;
+                top: 88rem;
+                left: 9rem;
                 width: 200px;
             }
 
             #assignmentArea{
                 position: relative;
-                top: 96rem;
-                left: 22px;
+                top: 90rem;
+                left: 64px;
 
-                width: 200px;
+                width: 350px;
                 display: flex;
             }
 
             #assignmentArea{
-                max-width: 200px;
+                max-width: 320px;
                 overflow-x: auto;
             }
 
@@ -809,7 +755,7 @@
 
             #activitiesArea{
                 position: relative;
-                top: 97rem;
+                top: 92rem;
                 left: 35px;
                 width: 350px;
             }
@@ -817,8 +763,14 @@
             .activitiesParent{
                 position: relative;
                 top: -2rem;
-                left: -23.4rem;
+                left: -21.5rem;
                 width: 350px;
+            }
+
+            #titleActivityArea{
+                position: relative;
+                left: 8rem;
+                width: 200px;
             }
 
             .activities{
@@ -852,8 +804,8 @@
 
             #photographyTitle{
                 position: relative;
-                left: 23rem;
-                top: 12.2rem;
+                left: 35.4rem;
+                top: -1.5rem;
                 width: fit-content;
             }
 
@@ -892,8 +844,8 @@
 
             #photographyImage{
                 position: absolute;
-                top: 270px;
-                left: 22.99rem;
+                top: 55px;
+                left: 34.99rem;
             }
 
             #photographyDiv{
@@ -906,8 +858,8 @@
 
             #photographyDiv{
                 position: absolute;
-                left: 353px;
-                top: 15.99rem;
+                left: 545px;
+                top: 2.5rem;
             }
 
             #photographyDiv:hover{
@@ -919,28 +871,38 @@
             /*  ----------------------------------------------------------------------------------------------------  */
             /*gallery area*/
             #galleryArea{
-                display: none;
+                /*display: none;*/
+                position: relative;
+                top: 95rem;
+                left: 20px;
+                width: 200px;
             }
 
-            /*#imagesController{*/
-            /*    width: 370px;*/
-            /*}*/
+            #titleGallery{
+                position: relative;
+                left: 9.7rem;
+                top: -2rem;
+            }
 
-            /*.container-general .gallery-wrap {*/
-            /*    display: flex;*/
-            /*    height: 18vh;*/
-            /*}*/
+            #imagesController{
+                width: 418px;
+            }
 
-            /*.container-general .gallery-wrap .item {*/
-            /*    flex: 1;*/
-            /*    background-position: center;*/
-            /*    background-size: cover;*/
-            /*    transition: all ease-in .3s*/
-            /*}*/
+            .container-general .gallery-wrap {
+                display: flex;
+                height: 45vh;
+            }
 
-            /*.container-general .gallery-wrap .item:hover {*/
-            /*    flex: 4;*/
-            /*}*/
+            .container-general .gallery-wrap .item {
+                flex: 1;
+                background-position: center;
+                background-size: cover;
+                transition: all ease-in .3s
+            }
+
+            .container-general .gallery-wrap .item:hover {
+                flex: 4;
+            }
 
             /*------------------------------------------------------------------------------------------------------*/
             /*footer*/
@@ -948,48 +910,47 @@
 
             #footerArea{
                 position: relative;
-                top: 110rem;
+                top: 96rem;
                 height: 1000px;
             }
 
             .firstDiv{
                 background-color: #7DBEFF;
-                width: 200px;
+                width: 458px;
                 height: 650px;
             }
 
             .footerTitle{
                 padding-top: 20px;
                 text-align: center;
-                font-size: 12px;
+                font-size: 18px;
             }
 
             .inputFields{
-                width: 150px;
+                width: 245px;
                 height: 25px;
 
                 position: absolute;
-                left: 1.3rem;
+                left: 6.3rem;
                 padding: 5px;
-                font-size: 10px;
+                font-size: 15px;
             }
 
             #nameInput{
                 position: absolute;
-                left: 1.3rem;
-                top: 5.3rem;
+                left: 6.2rem;
+                top: 5.8rem;
             }
 
             .textArea{
                 display: block;
-                width: 150px;
+                width: 247px;
                 height: 200px;
 
                 position: absolute;
-                top: 8rem;
-                left: 0rem;
+                top: 8.3rem;
                 margin: auto;
-                padding: 10px;
+                padding: 3px;
             }
 
             .inputFields{
@@ -1011,20 +972,20 @@
             .button{
                 position: absolute;
                 top: 24rem;
-                left: 0rem;
+                left: 11rem;
             }
 
             #aboutMeTitle{
                 position: absolute;
-                top: 29rem;
-                left: 3rem;
+                top: 27rem;
+                left: 11rem;
                 margin-bottom: 10px;
                 width: 110px;
             }
 
             .aboutMeParent{
                 position: absolute;
-                top: 32rem;
+                top: 30rem;
                 left: 9.4rem;
             }
 
@@ -1037,8 +998,8 @@
             .aboutMeDetails{
                 position: relative;
                 top: 17px;
-                left: -8.5rem;
-                font-size: 12px;
+                left: -3rem;
+                font-size: 17px;
                 width: 300px;
             }
 
@@ -1050,62 +1011,9 @@
               display: none;
             }
 
-            /*.socialMediaTitle{*/
-            /*    position: absolute;*/
-            /*    top: 8.6rem;*/
-            /*    left: 11.4rem;*/
-            /*    font-size: 22px;*/
-            /*}*/
-
-            /*.socialMedia{*/
-            /*    position: absolute;*/
-            /*    left: -2rem;*/
-            /*    top: 12rem;*/
-            /*    width: 400px;*/
-            /*}*/
-
-            /*#fb{*/
-            /*    position: relative;*/
-            /*    top: 2px;*/
-            /*    margin-right: 2px;*/
-
-            /*    width: 70px;*/
-            /*    aspect-ratio: 1/1;*/
-            /*}*/
-
-            /*#ln{*/
-            /*    width: 51px;*/
-            /*    aspect-ratio: 1/1;*/
-            /*    top: -8px;*/
-            /*    left: 18px;*/
-            /*}*/
-
-            /*#wa{*/
-
-            /*}*/
-
-            /*#in{*/
-            /*    left: 31px;*/
-            /*}*/
-
-            /*#tele{*/
-            /*    left: 35px;*/
-            /*}*/
-
-            /*#git{*/
-            /*    width: 55px;*/
-            /*    aspect-ratio: 1/1;*/
-            /*    top: -6px;*/
-            /*    left: 34px;*/
-            /*}*/
-
-            /*.socialMedia a{*/
-            /*    text-decoration: none;*/
-            /*}*/
-
             #lastDiv{
                 position: relative;
-                top: 42rem;
+                top: 40rem;
             }
 
             .upArrow{
@@ -1113,14 +1021,14 @@
                 aspect-ratio: 1/1;
 
                 position: absolute;
-                left: 8.6rem;
+                left: 19.6rem;
                 top: -7.4rem;
             }
 
             #CVButton{
                 position: absolute;
                 top: -7rem;
-                left: -4rem;
+                left: -10rem;
                 font-size: 10px;
             }
 
@@ -1132,15 +1040,17 @@
                 top: -27px;
 
                 background-color: #007EFF;
-                width: 200px;
+                width: 458px;
                 height: 215px;
                 margin: 0;
             }
 
             .text-1{
                 padding-top: 50px;
+                padding-left: 125px;
                 text-align: center;
                 font-size: 30px;
+                width: 200px;
             }
 
             .text-2{
@@ -1154,8 +1064,8 @@
 
             .thirdDiv{
                 background-color: #001B37;
-                width: 200px;
-                height: 200px;
+                width: 458px;
+                height: 204px;
 
                 position: relative;
                 top: -38px;
@@ -1164,7 +1074,7 @@
             .wrap-1{
                 position: absolute;
                 top: 20px;
-                left: 3.8rem;
+                left: 11.8rem;
             }
 
             .wrap-1Like{
@@ -1174,17 +1084,17 @@
 
             .wrap1-text{
                 -webkit-text-fill-color: #f9f9f9;
-                font-size: 15px;
+                font-size: 20px;
 
                 position: absolute;
-                left: -27px;
-                width: 300px;
+                left: -52px;
+                width: 200px;
             }
 
             .wrap-2{
                 position: absolute;
-                top: 8rem;
-                left: 2.5rem;
+                top: 8.4rem;
+                left: 10.8rem;
 
                 height: 10px;
             }
@@ -1227,11 +1137,11 @@
             .developedBy{
                 -webkit-text-fill-color: #f9f9f9;
                 position: relative;
-                left: 8px;
+                left: -8px;
                 top: -16px;
                 margin: 0;
                 padding: 0;
-                font-size: 7px;
+                font-size: 10px;
             }
         }
 
