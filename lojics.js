@@ -23,3 +23,13 @@
 
     const  rightToLeftSm = document.querySelectorAll('.rightToLeftSm');
     rightToLeftSm.forEach((el) => obServer.observe(el))
+
+
+    //follow button logic
+    document.getElementById("followBtn").addEventListener('click' , function (){
+        if (document.getElementById("followBtn").innerText == "Follow +"){
+            document.getElementById("followBtn").style.background = "red"
+            document.getElementById("followBtn").innerText = "unfollow"
+            document.getElementById("followCount").innerText++
+        }
+    })
