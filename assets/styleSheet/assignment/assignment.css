@@ -6,7 +6,7 @@ section>div{
 .card{
     width: 183px;
     aspect-ratio: 1/1;
-    margin: 15px auto;
+    margin: 28px auto;
     border: 4px solid #003973;
     border-radius: 10px;
 
@@ -14,14 +14,6 @@ section>div{
     animation-duration: 2s;
     animation-iteration-count: initial;
 }
-
-/*.margin-top{*/
-/*    margin-top: 15px;*/
-/*}*/
-
-/*.margin-left{*/
-/*    margin-left: 15px;*/
-/*}*/
 
 .card-detail{
     text-align: center;
