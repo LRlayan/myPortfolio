@@ -1238,12 +1238,19 @@
         /* Styles for Mobile Medium (321px to 375px) */
         @media all and (min-width: 321px) and (max-width: 375px) {
 
-            body{
-                overflow-x: hidden;
+            /*    ---------------------------------------------------------------------------------------------------    */
+            /*  scroll animation  */
+
+            .rightToLeftSm{
+                opacity: 0;
+                filter: blur(0);
+                transform: translateX(-80px);
+                transition: all 1s;
             }
 
-            main{
-                overflow-x: hidden;
+            .show{
+                opacity: 1;
+                transform: translateX(0);
             }
 
             #assignmentArea{
@@ -1281,7 +1288,7 @@
             }
 
             #header{
-                width:350px;
+                width:462px;
                 height: 60px;
 
                 background-color: #1E8BFA;
@@ -1343,8 +1350,8 @@
             /*-----------------------------------------------------------------------------------------------------*/
             /*  background image section  */
             #backgroundImg{
-                width: 350px;
-                height: 280px;
+                width: 462px;
+                height: 335px;
             }
 
             .socialMediaPosition{
@@ -1356,7 +1363,7 @@
 
             #socialMedia{
                 position: relative;
-                top: -20.5rem;
+                top: -22.5rem;
                 left: 0vw;
 
                 width: 60px;
@@ -1401,8 +1408,8 @@
 
             #likeAndFollow{
                 position: relative;
-                top: -16rem;
-                left:14rem;
+                top: -19rem;
+                left:21rem;
                 width: 50px;
             }
 
@@ -1439,10 +1446,10 @@
 
             #h2Label{
                 position: absolute;
-                right: 1rem;
+                right: -6rem;
                 top: 4rem;
 
-                font-size: 12px;
+                font-size: 16px;
             }
 
             #descP{
@@ -1452,7 +1459,7 @@
                 font-size: 15px;
                 margin-left: 0px;
 
-                width: 265px;
+                width: 380px;
                 text-align: justify;
             }
 
@@ -1468,24 +1475,24 @@
                 border: 0;
 
                 width: 120px;
-                height: 30px;
+                height: 34px;
 
                 position: absolute;
-                top: 19rem;
-                left: 11.4rem;
+                top: 15rem;
+                left: 18.4rem;
             }
 
             /*----------------------------------------------------------------------------------------------------*/
             /*education area*/
             #educationArea{
                 position: relative;
-                top: -7rem;
+                top: -12rem;
             }
 
             #title{
                 position: absolute;
                 top: 280px;
-                left: 110px;
+                left: 149px;
             }
 
             #educationLevels{
@@ -1494,7 +1501,7 @@
                 background-color: #A2DDFF;
                 position: absolute;
                 top: 24rem;
-                left: 1rem;
+                left: 4.5rem;
 
                 width: 90vw;
                 height: 430px;
@@ -1579,7 +1586,7 @@
 
             .relative{
                 position: relative;
-                top: 46rem;
+                top: 40rem;
                 left: 107px;
 
                 width: 350px;
@@ -1588,6 +1595,7 @@
             #titleCertificate{
                 position: absolute;
                 top: 0;
+                left: 3rem;
             }
 
             main>section>div:nth-child(4)>div>figure>img{
@@ -1599,7 +1607,7 @@
                 overflow: hidden;
                 position: relative;
                 top: 85px;
-                left: -75px;
+                left: -25px;
 
                 width: 285px;
                 height: 200px;
@@ -1620,7 +1628,7 @@
             .quickViewBtn{
                 position: absolute;
                 top: 285px;
-                left: -75px;
+                left: -25px;
 
                 width: 285px;
                 height: 25px;
@@ -1638,7 +1646,7 @@
             #imgAndLinesParentDiv{
                 position: relative;
                 top: 18rem;
-                left: -26.7rem;
+                left: -23.7rem;
                 width: 680px;
 
                 transform: rotate(-90deg);
@@ -1646,7 +1654,7 @@
 
             #skillsArea{
                 position: relative;
-                top: 42rem;
+                top: 38rem;
                 left: 3rem;
 
                 width: 300px;
@@ -1655,7 +1663,7 @@
             #skillTitle{
                 position: absolute;
                 top: 13rem;
-                left: 90px;
+                left: 140px;
             }
 
             #mainLine{
@@ -1813,19 +1821,19 @@
 
             #projectArea{
                 position: relative;
-                top: 83rem;
+                top: 82rem;
                 width: 340px;
             }
 
             #projectsTitle{
                 position: absolute;
-                left: 115px;
+                left: 172px;
             }
 
             #projectImageArea{
                 position: absolute;
                 top: 6rem;
-                left: 1.2rem;
+                left: 4.2rem;
                 width: 340px;
 
                 display: flex;
@@ -1874,14 +1882,14 @@
             #mainTitle{
                 position: relative;
                 top: 110rem;
-                left: 90px;
+                left: 145px;
                 width: 200px;
             }
 
             #assignmentArea{
                 position: relative;
                 top: 113rem;
-                left: 17px;
+                left: 68px;
 
                 width: 400px;
                 display: flex;
@@ -2003,10 +2011,16 @@
                 width: 350px;
             }
 
+            #titleActivityArea{
+                width: 180px;
+                position: relative;
+                left: 4rem;
+            }
+
             .activitiesParent{
                 position: relative;
                 top: -2rem;
-                left: -28.5rem;
+                left: -25.5rem;
                 width: 350px;
             }
 
@@ -2113,8 +2127,13 @@
                 width: 200px;
             }
 
+            #titleGallery{
+                position: relative;
+                left: 3rem;
+            }
+
             #imagesController{
-                width: 290px;
+                width: 403px;
                 position: absolute;
                 left: -6rem;
             }
@@ -2147,7 +2166,7 @@
 
             .firstDiv{
                 background-color: #7DBEFF;
-                width: 350px;
+                width: 462px;
                 height: 850px;
             }
 
@@ -2157,22 +2176,18 @@
                 font-size: 20px;
             }
 
-            .contact-wrap{
-
-            }
-
             .inputFields{
                 width: 280px;
                 height: 35px;
 
                 position: absolute;
-                left: 2rem;
+                left: 5.2rem;
                 padding: 5px;
             }
 
             #nameInput{
                 position: absolute;
-                left: 2rem;
+                left: 5.2rem;
                 top: 7.3rem;
             }
 
@@ -2183,7 +2198,6 @@
 
                 position: absolute;
                 top: 10.4rem;
-                left: 0rem;
                 margin: auto;
                 padding: 10px;
             }
@@ -2207,20 +2221,22 @@
             .button{
                 position: absolute;
                 top: 26rem;
-                left: 0rem;
+                left: 6.5rem;
+                margin: auto;
             }
 
             #aboutMeTitle{
                 position: absolute;
                 top: 29rem;
-                left: 7.8rem;
+                left: 10.8rem;
                 margin-bottom: 10px;
             }
 
             .aboutMeParent{
                 position: absolute;
                 top: 32rem;
-                left: 9.4rem;
+                left: 13rem;
+                width: 150px;
             }
 
             .aboutMeDetails{
@@ -2249,13 +2265,13 @@
             .socialMediaTitle{
                 position: absolute;
                 top: 8.6rem;
-                left: 7.5rem;
+                left: 10.5rem;
                 font-size: 22px;
             }
 
             .socialMedia{
                 position: absolute;
-                left: -1.5rem;
+                left: 1.5rem;
                 top: 12rem;
                 width: 400px;
             }
@@ -2309,14 +2325,14 @@
                 aspect-ratio: 1/1;
 
                 position: absolute;
-                left: 18rem;
+                left: 21.5rem;
                 top: 1.5rem;
             }
 
             #CVButton{
                 position: absolute;
                 top: 2rem;
-                left: -8rem;
+                left: -9rem;
             }
 
             /*-----------------------------------------------------------------------------------------------------------*/
@@ -2327,7 +2343,7 @@
                 top: -27px;
 
                 background-color: #007EFF;
-                width: 350px;
+                width: 462px;
                 height: 215px;
                 margin: 0;
             }
@@ -2336,6 +2352,7 @@
                 padding-top: 50px;
                 text-align: center;
                 font-size: 30px;
+                width: 430px;
             }
 
             .text-2{
@@ -2349,7 +2366,7 @@
 
             .thirdDiv{
                 background-color: #001B37;
-                width: 350px;
+                width: 462px;
                 height: 288px;
 
                 position: relative;
@@ -2359,7 +2376,7 @@
             .wrap-1{
                 position: absolute;
                 top: 20px;
-                left: 6.5rem;
+                left: 10.5rem;
             }
 
             .wrap-1Like{
@@ -2381,7 +2398,7 @@
             .wrap-2{
                 position: absolute;
                 top: 10rem;
-                left: 6rem;
+                left: 10rem;
 
                 height: 100px;
             }
@@ -8641,7 +8658,7 @@
             </div>
 
             <div id="galleryArea">
-                <h1 class="hiddenMainTitle">Gallery</h1>
+                <h1 id="titleGallery" class="hiddenMainTitle">Gallery</h1>
                 <div class="container-general">
                     <div id ="imagesController" class="gallery-wrap wrap-effect-1">
                         <div class="item hidden"></div>
