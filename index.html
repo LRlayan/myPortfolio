@@ -5988,7 +5988,7 @@
                 margin: 20px;
             }
 
-            /*background image*/
+            /*background image--------------------------------------------------------------------------------------*/
 
             #backgroundImageArea{
                 position: relative;
@@ -6000,6 +6000,46 @@
                 height: 980px;
             }
 
+            .followersParent{
+                width: 188px;
+                height: 30px;
+                border-radius: 15px;
+                border: 2px solid #1E8BFA;
+                padding-bottom: 14px;
+                position: relative;
+                right: 70rem;
+                top: 52rem;
+            }
+
+            .followers{
+                -webkit-text-fill-color: black;
+                position: absolute;
+                left: 0;
+                height: 0;
+                font-size: 22px;
+                padding-left: 28px;
+                margin-top: 10px;
+            }
+
+            #followCount{
+                position: relative;
+                top: -3.8rem;
+                left: 6.5rem;
+                font-size: 22px;
+            }
+
+            .followersParent:hover{
+                transition: 0.5s;
+                background: #007EFF;
+            }
+
+            #followCount:hover{
+                -webkit-text-fill-color: #f9f9f9;
+            }
+
+            .followers:hover{
+                -webkit-text-fill-color: #f9f9f9;
+            }
 
             #socialMedia{
                 position: relative;
@@ -7172,6 +7212,22 @@
                 height: 1048px;
             }
 
+            .followers{
+                -webkit-text-fill-color: #f9f9f9;
+                position: relative;
+                right: 77.5rem;
+                top: -6.5rem;
+                height: 0;
+                font-size: 25px;
+            }
+
+            #followCount{
+                position: relative;
+                top: -4.3rem;
+                left: 7rem;
+                font-size: 25px;
+            }
+
             #socialMedia{
                 position: relative;
                 top: -310px;
@@ -7251,6 +7307,7 @@
 
                 position: relative;
                 top: 0;
+                transition: 1s;
             }
 
             #followBtn{
@@ -8266,20 +8323,6 @@
         .wrap-effect-1 .item:last-of-type {
             background-image: url('assets/img/galleryImg/standard/my1.jpg');
         }
-
-        .followers{
-            -webkit-text-fill-color: #f9f9f9;
-            position: relative;
-            right: 76.5rem;
-            top: -6.5rem;
-            height: 0;
-        }
-
-        #followCount{
-            position: relative;
-            top: -3.4rem;
-            left: 5rem;
-        }
     </style>
 </head>
 <body>
@@ -8346,7 +8389,9 @@
                 <div id="likeAndFollow">
                     <button id="followBtn" class="headerFonts">Follow + </button>
                     <img onclick="rotateImage()" id="likes" class="likeIcon" src="assets/img/footerImg/likeButtonBlue.png" alt="like button" title="like icon">
-                    <h3 class="desFonts followers">Followers<p id="followCount">0</p></h3>
+                    <div class="followersParent">
+                        <h3 class="mainTitleFonts followers">Followers<p id="followCount">0</p></h3>
+                    </div>
                 </div>
 
                 <div id="socialMedia" class="hidden">
