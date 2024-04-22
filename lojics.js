@@ -38,7 +38,24 @@
         }
     })
 
-    document.getElementById("likes").addEventListener('click' , function (){
-        document.getElementById("likeCount").innerText++
-        // document.getElementById("likes").rotate = 90
-    })
+    function rotateImage() {
+        const img = document.getElementById('likes');
+        // Get current rotation angle
+        let currentRotation = parseInt(img.style.transform.replace('rotate(', '').replace('deg)', '')) || 0;
+        console.log(currentRotation)
+        // Increment rotation angle by 90 degrees (or any desired amount)
+
+        // Apply rotation to image
+
+
+
+        if (currentRotation == 0){
+            currentRotation -= 180;
+            img.style.transform = `rotate(${currentRotation}deg)`;
+            document.getElementById("likeCount").innerText++
+        }else if (currentRotation == -180){
+            currentRotation += 180;
+            img.style.transform = `rotate(${currentRotation}deg)`;
+            document.getElementById("likeCount").innerText--
+        }
+    }
