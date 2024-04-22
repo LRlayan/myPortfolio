@@ -42,18 +42,15 @@
         const img = document.getElementById('likes');
         // Get current rotation angle
         let currentRotation = parseInt(img.style.transform.replace('rotate(', '').replace('deg)', '')) || 0;
-        console.log(currentRotation)
-        // Increment rotation angle by 90 degrees (or any desired amount)
-
-        // Apply rotation to image
-
-
 
         if (currentRotation == 0){
+            // Increment rotation angle by -180 degrees (or any desired amount)
             currentRotation -= 180;
+            // Apply rotation to image
             img.style.transform = `rotate(${currentRotation}deg)`;
             document.getElementById("likeCount").innerText++
         }else if (currentRotation == -180){
+            // Increment rotation angle by 180 degrees (or any desired amount)
             currentRotation += 180;
             img.style.transform = `rotate(${currentRotation}deg)`;
             document.getElementById("likeCount").innerText--
