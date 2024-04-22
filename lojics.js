@@ -25,7 +25,7 @@
     rightToLeftSm.forEach((el) => obServer.observe(el))
 
 
-    //follow button logic
+    //--------------------------------------------follow button logic-------------------------------------------------
     document.getElementById("followBtn").addEventListener('click' , function (){
         if (document.getElementById("followBtn").innerText == "Follow +"){
             document.getElementById("followBtn").style.background = "red"
@@ -38,6 +38,7 @@
         }
     })
 
+    //--------------------------------------------like button logic-------------------------------------------------
     function rotateImage() {
         const img = document.getElementById('likes');
         // Get current rotation angle
