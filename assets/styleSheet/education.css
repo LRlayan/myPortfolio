@@ -147,6 +147,7 @@ main>section>div:nth-child(4)>div>figure>img{
     border: 0;
     border-radius: 0 0 20px 20px;
     font-weight: normal;
+    cursor: inherit;
 }
 
 @keyframes slider {
