@@ -44,6 +44,7 @@
 .likeIcon{
     width: 45px;
     aspect-ratio: 1/1;
+    cursor: pointer;
 }
 
 #followBtn{
@@ -59,6 +60,7 @@
     background-color: #1E8BFA;
 
     -webkit-text-fill-color: #f9f9f9;
+    cursor: pointer;
 
     animation-name: buttonAnimation;
     animation-iteration-count: infinite;
