@@ -35,6 +35,17 @@ section>div{
     transition: 1s;
 }
 
+.img-parent{
+    margin-left: 43px;
+    margin-top: 54px;
+}
+
+.img{
+    width: 34px;
+    aspect-ratio: 1/1;
+    margin-right: 20px;
+}
+
 @keyframes card-animation {
 
     0%{
