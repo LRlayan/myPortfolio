@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>case6</title>
+    <link rel="stylesheet" href="../../assets/styleSheet/normalize.css">
+    <style>
+        /*sky*/
+        #sky{
+            background-image: url("../../assets/img/Ass04Case01/sky.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            width: 100vw;
+            height: 60vh;
+
+            position: absolute;
+        }
+
+        /*road and city*/
+        main{
+            width: 100vw;
+            height: 100vh;
+            padding: 0;
+            margin: 0;
+            position: absolute;
+            overflow: hidden;
+        }
+
+        main>section{
+            display: flex;
+            width: 100vw;
+            height: 80vh;
+            position: absolute;
+            bottom: 0;
+        }
+
+        .animation{
+            animation: roadCityAnimation 5s infinite ease;
+        }
+
+        .size{
+            width: 100vw;
+            height: 40vh;
+        }
+
+        /*car*/
+        #car{
+            background-image: url("../../assets/img/Ass04Case01/car.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+
+            position: fixed;
+            left: calc(50vw - 125px);
+            bottom: 26%;
+
+            width: 265px;
+            height: 110px;
+        }
+
+        .wheel{
+            background-image: url("../../assets/img/Ass04Case01/wheel.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            position: fixed;
+            bottom: 27%;
+            left: calc(60vw - 76px);
+
+            width: 46px;
+            aspect-ratio: 1/1;
+
+            animation-name: wheel-animation;
+            animation-duration: 5s;
+            animation-timing-function: ease-out ;
+            animation-iteration-count: infinite;
+        }
+
+        #leftWheel{
+            position: fixed;
+            bottom: 27%;
+            left: calc(50vw - 101px);
+        }
+
+        #rightWheel{
+            position: fixed;
+            bottom: 27%;
+            left: calc(60vw - 76px);
+        }
+
+        .road{
+            background-image: url("../../assets/img/Ass04Case01/road.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .city{
+            background-image: url("../../assets/img/Ass04Case01/city.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        @keyframes roadCityAnimation {
+            0%{
+                transform: translateX(-0%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+        @keyframes wheel-animation {
+            0%{
+                transform: rotate(0);
+            }
+            50%{
+                transform: rotate(-360deg);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+<main>
+    <div id="sky"></div>
+    <section>
+        <section class="animation">
+            <div class="city size"></div>
+            <div class="road size"></div>
+        </section>
+        <section class="animation">
+            <div class="city size"></div>
+            <div class="road size"></div>
+        </section>
+        <div id="car"></div>
+        <div id="leftWheel" class="wheel"></div>
+        <div id="rightWheel" class="wheel"></div>
+    </section>
+</main>
+</body>
+</html>

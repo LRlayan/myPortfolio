@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Case01</title>
+    <style>
+        .walkMan{
+            width: 150px;
+            height: 150px;
+            position: relative;
+            top: 7rem;
+        }
+
+        section{
+           position: relative;
+        }
+
+        section>div:nth-child(2){
+            position: absolute;
+            left: 0rem;
+            top: 12.8rem;
+            display: flex;
+        }
+
+        section>div:nth-child(3){
+            display: flex;
+            position: relative;
+            top: 10rem;
+        }
+
+        .text{
+            position: relative;
+            top: 5rem;
+            left: 1rem;
+            margin-right: 138px;
+        }
+
+        .building{
+            position: relative;
+            top: -5rem;
+        }
+
+        section>div:first-child{
+            position: absolute;
+            left: 3rem;
+            top: 7rem;
+        }
+
+        .buttons{
+            width: 100px;
+            height: 50px;
+            background-color: orange;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div>
+            <button class="buttons" id="Start">Start</button>
+            <button class="buttons" id="Stop">Stop</button>
+        </div>
+        <div>
+            <div>
+                <div id="d1" class="text">A</div>
+            </div>
+            <div>
+                <div id="d2" class="text">B</div>
+            </div>
+            <div>
+                <div id="d3" class="text">C</div>
+            </div>
+            <div>
+                <div id="d4" class="text">D</div>
+            </div>
+            <div>
+                <div id="d5" class="text">E</div>
+            </div>
+            <div>
+                <div id="d6" class="text">F</div>
+            </div>
+        </div>
+        <div>
+            <div>
+                <img class="walkMan" src="../../assets/img/Ass04Case01/walk.gif" alt="walk man" title = "walk">
+            </div>
+            <div>
+                <img class="walkMan" src="../../assets/img/Ass04Case01/walk.gif" alt="walk man" title = "walk">
+            </div>
+            <div>
+                <img class="walkMan" src="../../assets/img/Ass04Case01/walk.gif" alt="walk man" title = "walk">
+            </div>
+            <div>
+                <img class="walkMan" src="../../assets/img/Ass04Case01/walk.gif" alt="walk man" title = "walk">
+            </div>
+            <div>
+                <img class="walkMan" src="../../assets/img/Ass04Case01/walk.gif" alt="walk man" title = "walk">
+            </div>
+            <div>
+                <img class="walkMan" src="../../assets/img/Ass04Case01/walk.gif" alt="walk man" title = "walk">
+            </div>
+            <div class="building">
+                <img src="../../assets/img/Ass04Case01/building.gif" alt="building" title="building">
+            </div>
+        </div>
+    </section>
+<script src="../../assets/lib/jquery-3.7.1.min.js"></script>
+<script>
+
+    let ar = ["A","B","C","D","E","F"]
+    let interval = null
+
+    function walkMan(){
+        let remove = ar.pop()
+        ar.unshift(remove)
+
+        $('#d1').text(ar[0])
+        $('#d2').text(ar[1])
+        $('#d3').text(ar[2])
+        $('#d4').text(ar[3])
+        $('#d5').text(ar[4])
+        $('#d6').text(ar[5])
+    }
+
+    $('#Start').on('click', ()=>{
+        interval = setInterval(walkMan,1500)
+    })
+
+    $('#Stop').on('click', ()=>{
+        clearInterval(interval)
+    })
+</script>
+</body>
+</html>

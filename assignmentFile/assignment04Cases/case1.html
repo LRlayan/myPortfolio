@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>case 1</title>
+    <link rel="stylesheet" href="../../assets/styleSheet/normalize.css">
+    <style>
+        main{
+            height: 100vh;
+            width: 100%;
+            background-color: lightcyan;
+        }
+        main>div{
+            height: 100px;
+            width: 500px;
+            background-color: purple;
+            color: white;
+            left: -420px;
+            font-weight: bold;
+            font-size: 18px;
+            font-family: monospace;
+            border-radius: 0px 10px 10px 0px;
+            transition-duration: 2s;
+        }
+        main>div:hover{
+            left: 0;
+        }
+        main>div>h2{
+            position: absolute;
+            top: 16px;
+            left: 180px;
+        }
+        main>div>i{
+            position: absolute;
+            top: 45px;
+            right: 32px;
+        }
+
+        #div1{
+            position: absolute;
+            background-color: purple;
+            top: 50px;
+        }
+
+        #image1{
+            background-image: url("../../assets/img/Ass04Case01/contact.png");
+        }
+
+        #image2{
+            background-image: url("../../assets/img/Ass04Case01/delivery.png");
+        }
+
+        #image3{
+            background-image: url("../../assets/img/Ass04Case01/book.png");
+            background-repeat: no-repeat;
+
+            width: 50px;
+            height: 64px;
+
+            position: absolute;
+            left: 88%;
+            top: 18%;
+        }
+
+        #image4{
+            background-image: url("../../assets/img/Ass04Case01/cart.png");
+            background-repeat: no-repeat;
+
+            width: 50px;
+            height: 80px;
+
+            position: absolute;
+            left: 88%;
+            top: 33%;
+        }
+
+        .position{
+            background-repeat: no-repeat;
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            left: 88%;
+            top: 27%;
+        }
+
+        #div2{
+            position: absolute;
+            top: 200px;
+        }
+        #div3{
+            position: absolute;
+            top: 350px;
+        }
+        #div4{
+            position: absolute;
+            top: 500px;
+        }
+    </style>
+</head>
+<body>
+<main>
+    <div id="div1">
+        <div id="image1" class="position"></div>
+        <h2>Menu One</h2>
+    </div>
+    <div id="div2">
+        <div id="image2" class="position"></div>
+        <h2>Menu Two</h2>
+    </div>
+    <div id="div3">
+        <div id="image3"></div>
+        <h2>Menu Three</h2>
+    </div>
+    <div id="div4">
+        <div id="image4" class="position"></div>
+        <h2>Menu Four</h2>
+    </div>
+</main>
+</body>
+</body>
+</html>

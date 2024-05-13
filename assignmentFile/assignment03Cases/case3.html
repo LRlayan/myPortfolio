@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Case3</title>
+
+    <link rel="stylesheet" href="assets/styleSheet/normalize.css">
+
+    <style>
+
+        section{
+            position: relative;
+            height: 2100px;
+        }
+
+        #center{
+            width: 300px;
+            aspect-ratio: 1/1;
+            position: fixed;
+            left: 0;
+            right: 0;
+            top:0;
+            bottom: 0;
+            margin:  auto;
+
+            border-radius: 300px;
+            box-shadow: 0 0 0 20px red,0 0 0 40px gray;
+            box-sizing: border-box;
+        }
+
+        .move{
+            width: 310px;
+            aspect-ratio: 1/1;
+            position: absolute;
+            margin: auto;
+            border-radius: 310px;
+            color: white;
+        }
+
+        #circle1{
+            top: 10vw;
+            left: 0;
+            right: 0;
+            background-color: purple;
+        }
+
+        #circle2{
+            top: 1000px;
+            left: 0;
+            right: 0;
+            background-color: dodgerblue;
+        }
+
+        #circle3{
+            top: 1580px;
+            left: 0;
+            right: 0;
+            background-color: brown;
+        }
+
+        section>div>h3{
+            width: fit-content;
+            height: fit-content;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            position: absolute;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+<section>
+    <div class="move" id="circle1"><h3>Hello</h3></div>
+    <div class="move" id="circle2"><h3>Welcome to</h3></div>
+    <div class="move" id="circle3"><h3>Institute Of<br> Software Engineering</h3></div>
+    <div id="center"></div>
+</section>
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Case02</title>
+    <style>
+
+        #sec{
+            position: relative;
+            top: 12vw;
+        }
+
+        .size{
+            width: 100px;
+            height: 50px;
+            margin: 15px;
+            border-radius: 10px;
+        }
+
+        .middle{
+            display: flex;
+            margin: auto;
+        }
+
+        .lines{
+            width: 500px;
+            height: 2px;
+            background-color: black;
+            margin-left: 15px;
+        }
+
+        .centerItems{
+            justify-content: center;
+        }
+
+        .position{
+            position: relative;
+            left: 25.7rem;
+        }
+
+        #first{
+            width: 500px;
+        }
+
+        #last{
+            position: relative;
+            left: 50.4rem;
+            width: 500px;
+        }
+
+        .buttons{
+            position: relative;
+            left: 39.7rem;
+        }
+
+        #first-content{
+            background-color: red;
+        }
+
+        #second-content{
+            background-color: green;
+        }
+
+        #third-content{
+            background-color: blue;
+        }
+
+        #forth-content{
+            background-color: yellow;
+        }
+
+        #five-content{
+            background-color: hotpink;
+        }
+
+        #last-content{
+            background-color: orangered;
+        }
+    </style>
+</head>
+<body>
+    <section id="sec">
+        <div class="buttons">
+            <button id="start" >Start</button>
+            <button id="stop">Stop</button>
+        </div>
+
+            <div id="first" class="position centerItems">
+                <div id="first-content" class="size"></div>
+            </div>
+
+            <div class="position lines"></div>
+
+            <div class="middle centerItems">
+                <div id="second-content" class="size"></div>
+                <div id="third-content" class="size"></div>
+                <div id="forth-content" class="size"></div>
+                <div id="five-content" class="size"></div>
+            </div>
+
+            <div class="position lines"></div>
+
+            <div id="last" class="centerItems">
+                <div id="last-content" id="last-content" class="size"></div>
+            </div>
+    </section>
+<script src="../../assets/lib/jquery-3.7.1.min.js"></script>
+<script>
+    let array = ["red","green","blue","yellow","pink","orange"]
+    let myInterval = null;
+    function colors(){
+        let lastElement = array.pop()
+        array.unshift(lastElement)
+
+        $('#first-content').css({background: array[0]})
+        $('#second-content').css({background: array[1]})
+        $('#third-content').css({background: array[2]})
+        $('#forth-content').css({background: array[3]})
+        $('#five-content').css({background: array[4]})
+        $('#last-content').css({background: array[5]})
+    }
+
+    $('#start').on('click',()=>{
+        myInterval = setInterval(colors,1200)
+    })
+
+    $('#stop').on('click' ,() =>{
+        clearInterval(myInterval)
+    })
+</script>
+</body>
+</html>

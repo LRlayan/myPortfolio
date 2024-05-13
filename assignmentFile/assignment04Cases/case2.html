@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>case 2</title>
+    <link rel="stylesheet" href="assets/normalize.css">
+</head>
+<style>
+    body{
+        background-color: dodgerblue;
+    }
+    div{
+        width: 300px;
+        aspect-ratio: 1/1;
+        background-color: gray;
+        border-radius: 100%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    div>h3{
+        color: white;
+        font-family: monospace;
+        font-size: 40px;
+        font-weight: bold;
+
+        position: relative;
+        top: 90px;
+        text-align: center;
+    }
+    div::before{
+        content: "";
+        border: 10px solid white;
+        border-radius: 100%;
+        border-top-color: red;
+
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+    }
+    div:hover::before{
+        rotate: 360deg;
+        transition-duration: 3s;
+    }
+</style>
+<body>
+<div>
+    <h3>RWAD</h3>
+</div>
+</body>
+</html>

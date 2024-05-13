@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Case1</title>
+
+    <link rel="stylesheet" href="assets/styleSheet/normalize.css">
+
+    <style>
+        .rectangle{
+            position: absolute;
+            width: 50%;
+            height: 50%;
+            margin: auto;
+        }
+
+        #rectangle1{
+            background-color: red;
+            top: 0;
+            left: 0;
+        }
+
+        #rectangle2{
+            background-color: green;
+            top: 0;
+            right: 0;
+        }
+
+        #rectangle3{
+            background-color: orange;
+            bottom: 0;
+            left: 0;
+        }
+
+        #rectangle4{
+            background-color: deeppink;
+            bottom: 0;
+            right: 0;
+        }
+
+        .circle{
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            height: 65%;
+            background-color: white;
+            border-radius: 58%;
+            aspect-ratio: 1/1;
+            position: absolute;
+            margin: auto;
+        }
+
+        .redRectangle{
+            background-color: red;
+            height: 41%;
+            width: 41%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+        .container{
+            position: absolute;
+            aspect-ratio: 1/1;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+        #centerSquare{
+            height: 28%;
+            background-color: white;
+        }
+
+        #centerCircle{
+            height: 65%;
+            border-radius: 50%;
+            background-color: red;
+        }
+
+        .whiteCircle{
+            position: absolute;
+            background-color: white;
+            height: 40%;
+            aspect-ratio: 1/1;
+            border-radius: 0 0 880% 0;
+            margin: auto;
+        }
+
+
+        #redSquareCircle{
+            rotate: 0deg;
+            top: 0;
+            left: 0;
+        }
+
+        #greenSquareCircle{
+            rotate:90deg;
+            top: 0;
+            right: 0;
+        }
+
+        #pinkSquareCircle{
+            rotate: 180deg;
+            bottom: 0;
+            right: 0;
+        }
+
+        #orangeSquareCircle{
+            rotate: 270deg;
+            bottom: 0;
+            left: 0;
+        }
+
+        .halfCircle{
+            background-color: white;
+            position: absolute;
+            height: 24%;
+            aspect-ratio: 1/1;
+            border-radius: 0 0 200% 200%;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+
+        #topHalfCircle{
+            rotate: 0;
+            top: -70px;
+        }
+
+        #bottomHalfCircle{
+            rotate: 180deg;
+            bottom: -70px;
+        }
+
+        body{
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+<section>
+    <div class="rectangle" id="rectangle1">
+        <div id="redSquareCircle" class="whiteCircle"></div>
+        <div class="circle">
+            <div class="redRectangle">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="rectangle" id="rectangle2">
+        <div id="greenSquareCircle" class="whiteCircle"></div>
+        <div class="circle">
+            <div class="redRectangle">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="rectangle" id="rectangle3">
+        <div id="orangeSquareCircle" class="whiteCircle"></div>
+        <div class="circle">
+            <div class="redRectangle">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="rectangle" id="rectangle4">
+        <div id="pinkSquareCircle" class="whiteCircle"></div>
+        <div class="circle">
+            <div class="redRectangle">
+
+            </div>
+        </div>
+    </div>
+
+    <div id="centerSquare" class="container">
+        <div id="centerCircle" class="container">
+
+        </div>
+    </div>
+
+    <div id="topHalfCircle" class="halfCircle"></div>
+    <div id="bottomHalfCircle" class="halfCircle"></div>
+</section>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>case3</title>
+    <link rel="stylesheet" href="assets/normalize.css">
+    <style>
+
+        :root{
+            --width:200px;
+            --height:100px;
+        }
+
+        body{
+            margin: 0;
+        }
+
+        section>div{
+            width: var(--width);
+            height: var(--height);
+            background-color: purple;
+            border-radius: 10px;
+            animation-name: animi;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            animation-direction: alternate;
+        }
+
+        @keyframes animi {
+            0%{
+                margin-left: 0;
+            }
+            25%{
+                margin-left: calc(100vw - var(--width));
+                margin-top: 0;
+                background-color: red;
+                transform:rotate(180deg);
+            }
+            50%{
+                transform:rotate(0);
+                margin-left:calc(100vw - var(--width));
+                margin-top: calc(100vh - var(--height));
+                background-color: dodgerblue;
+            }
+            75%{
+                transform: rotate(180deg);
+                margin-top: calc(100vh - var(--height));
+                margin-left: 0;
+                background-color: green;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div></div>
+    </section>
+</body>
+</html>
